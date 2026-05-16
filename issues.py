@@ -13,8 +13,13 @@ def create_github_issue():
     # Separar por tipo
     tier1 = [p for p in papers if p["source_tier"] == 3]
     resto = [p for p in papers if p["source_tier"] < 3]
-    nonweird = [p for p in papers if any(k in ["sesgo","gender bias","latin america","non-weird","intersectional","spanish","decolonial"] for k in p.get("keywords_matched", []))]
+    NONWEIRD_KEYS = {"sesgo", "gender bias", "latin america", "non-weird", 
+                 "intersectional", "spanish", "decolonial", "indigenous",
+                 "feminist ai", "colonial bias", "castellano", "multilingual bias"}
 
+nonweird = [p for p in papers if any(k in NONWEIRD_KEYS for k in p.get("keywords_matched", []))]
+tier1 = [p for p in papers if p["source_tier"] == 3 and p not in nonweird]
+resto = [p for p in papers if p not in nonweird and p not in tier1]
     body = f"## 📚 Papers de la semana — {date}\n\n"
     body += f"**{data['total_found']} papers encontrados** · {len(papers)} en este digest\n\n"
 
