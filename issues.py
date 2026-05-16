@@ -1,7 +1,10 @@
 import json
 import os
 import requests
-from datetime import datetime
+
+NONWEIRD_KEYS = {"sesgo", "gender bias", "latin america", "non-weird",
+                 "intersectional", "spanish", "decolonial", "indigenous",
+                 "feminist ai", "colonial bias", "castellano", "multilingual bias"}
 
 def create_github_issue():
     with open("papers_latest.json") as f:
@@ -9,20 +12,14 @@ def create_github_issue():
 
     papers = data["papers"][:15]
     date = data["date"]
+    repo = os.environ["GITHUB_REPOSITORY"]
 
-    # Separar por tipo
-    tier1 = [p for p in papers if p["source_tier"] == 3]
-    resto = [p for p in papers if p["source_tier"] < 3]
-    NONWEIRD_KEYS = {"sesgo", "gender bias", "latin america", "non-weird", 
-                 "intersectional", "spanish", "decolonial", "indigenous",
-                 "feminist ai", "colonial bias", "castellano", "multilingual bias"}
+    nonweird = [p for p in papers if any(k in NONWEIRD_KEYS for k in p.get("keywords_matched", []))]
+    tier1 = [p for p in papers if p["source_tier"] == 3 and p not in nonweird]
+    resto = [p for p in papers if p not in nonweird and p not in tier1]
 
-nonweird = [p for p in papers if any(k in NONWEIRD_KEYS for k in p.get("keywords_matched", []))]
-tier1 = [p for p in papers if p["source_tier"] == 3 and p not in nonweird]
-resto = [p for p in papers if p not in nonweird and p not in tier1]
     body = f"## 📚 Papers de la semana — {date}\n\n"
-    repo = os.environ['GITHUB_REPOSITORY']
-body += f"\n\n---\n*Generado automáticamente por el scraper · [Ver JSON completo](https://github.com/{repo}/blob/main/papers_latest.json)*\n"
+    body += f"**{data['total_found']} papers encontrados** · {len(papers)} en este digest\n\n"
 
     if nonweird:
         body += "### 🌍 No-WEIRD / Sesgo / Género\n\n"
@@ -48,16 +45,16 @@ body += f"\n\n---\n*Generado automáticamente por el scraper · [Ver JSON comple
                 body += f"{p['abstract'][:200]}...\n\n"
             body += f"`{'` `'.join(p['keywords_matched'][:4])}`\n\n---\n\n"
 
-    body += "### 📋 Resto de papers relevantes\n\n"
-    for p in resto[:8]:
-        body += f"- **[{p['title']}]({p['url']})** · `{p['source']}` · score {p['score']}\n"
-        if p.get("keywords_matched"):
-            body += f"  `{'` `'.join(p['keywords_matched'][:3])}`\n"
+    if resto:
+        body += "### 📋 Resto de papers relevantes\n\n"
+        for p in resto[:8]:
+            body += f"- **[{p['title']}]({p['url']})** · `{p['source']}` · score {p['score']}\n"
+            if p.get("keywords_matched"):
+                body += f"  `{'` `'.join(p['keywords_matched'][:3])}`\n"
 
-    body += f"\n\n---\n*Generado automáticamente por el scraper · [Ver JSON completo](papers_latest.json)*\n"
+    body += f"\n\n---\n*Generado automáticamente por el scraper · [Ver JSON completo](https://github.com/{repo}/blob/main/papers_latest.json)*\n"
     body += "\n**👇 Elige 3-5 papers y escribe aquí tu resumen editorial para la semana**"
 
-    # Labels automáticos
     labels = ["digest"]
     if nonweird:
         labels.append("no-WEIRD")
@@ -65,7 +62,7 @@ body += f"\n\n---\n*Generado automáticamente por el scraper · [Ver JSON comple
         labels.append("tier-1")
 
     resp = requests.post(
-        f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/issues",
+        f"https://api.github.com/repos/{repo}/issues",
         headers={
             "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
             "Accept": "application/vnd.github+json",
