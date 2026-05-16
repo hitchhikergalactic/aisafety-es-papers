@@ -50,12 +50,13 @@ KEYWORDS_SAFETY = [
 ]
 
 KEYWORDS_NONWEIRD = [
-    "non-weird", "global south", "latin america", "spanish language",
-    "multilingual bias", "cultural bias", "indigenous", "decolonial",
-    "feminist ai", "gender bias", "intersectional", "colonial bias",
-    "low-resource language", "spanish evaluation", "sesgo",
-    "habla hispana", "castellano", "língua portuguesa",
-    "racismo", "discriminación", "equidad", "inclusión",
+    "global south", "latin america", "spanish language",
+    "multilingual bias", "cultural bias", "indigenous peoples",
+    "decolonial", "feminist ai", "gender bias in ai",
+    "colonial bias", "low-resource language", "spanish evaluation",
+    "sesgo en ia", "habla hispana", "castellano",
+    "língua portuguesa", "racismo algorítmico",
+    "discriminación algorítmica", "brecha digital de género",
 ]
 
 KEYWORDS_ALL = KEYWORDS_SAFETY + KEYWORDS_NONWEIRD
