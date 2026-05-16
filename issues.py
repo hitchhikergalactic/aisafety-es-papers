@@ -21,7 +21,8 @@ nonweird = [p for p in papers if any(k in NONWEIRD_KEYS for k in p.get("keywords
 tier1 = [p for p in papers if p["source_tier"] == 3 and p not in nonweird]
 resto = [p for p in papers if p not in nonweird and p not in tier1]
     body = f"## 📚 Papers de la semana — {date}\n\n"
-    body += f"**{data['total_found']} papers encontrados** · {len(papers)} en este digest\n\n"
+    repo = os.environ['GITHUB_REPOSITORY']
+body += f"\n\n---\n*Generado automáticamente por el scraper · [Ver JSON completo](https://github.com/{repo}/blob/main/papers_latest.json)*\n"
 
     if nonweird:
         body += "### 🌍 No-WEIRD / Sesgo / Género\n\n"
