@@ -1,0 +1,39 @@
+name: arXiv AI Safety Scraper
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+    - cron: "0 8 * * 4"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install feedparser requests beautifulsoup4 anthropic
+
+      - name: Ejecutar scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scraper.py
+
+      - name: Crear issue semanal
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python issues.py
+
+      - name: Commit papers_latest.json
+        run: |
+          git config user.name "aisafety-bot"
+          git config user.email "bot@aisafety.es"
+          git add papers_latest.json
+          git commit -m "Papers $(date +%Y-%m-%d)" || echo "Sin cambios"
+          git push
