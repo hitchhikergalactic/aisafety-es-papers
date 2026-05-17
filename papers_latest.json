@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16",
+  "date": "2026-05-17",
   "total_found": 221,
   "by_source": {
     "alignment_forum": 10,
@@ -21,20 +21,19 @@
       "url": "https://www.alignmentforum.org/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 10,
+      "score": 9,
       "keywords_matched": [
         "alignment",
         "ai safety",
         "reward hacking",
         "corrigibility",
         "corrigible",
-        "autonomous",
-        "non-weird"
+        "autonomous"
       ]
     },
     {
       "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
-      "abstract": "<h1><span>1) The safe-to-dangerous shift is a fundamental problem for eval realism</span></h1><p><span>Suppose we have a capable and potentially scheming model, and </span><i><span>before </span></i><span>we deploy it, we want some evidence that it won’t do anything catastrophically dangerous </span><i><span>once</span></i><span> we deploy it. A common approach is to use black-box alignment evaluations. However, alignment evaluations are only reassuring to the extent that the model can't reliabl",
+      "abstract": "<h1><span>1) The safe-to-dangerous shift is a fundamental problem for eval realism</span></h1><p><span>Suppose we have a capable and potentially scheming model, and </span><i><span>before </span></i><span>we deploy it, we want some evidence that it won’t do anything catastrophically dangerous </span><i><span>once</span></i><span> we deploy it. A common approach is to use black-box alignment evaluations. However, alignment evaluations are only reassuring to the extent that the model can't reliabl",
       "url": "https://www.alignmentforum.org/posts/tK8vqHDxaRGcysNJQ/the-safe-to-dangerous-shift-is-a-fundamental-problem-for-1",
       "source": "alignment_forum",
       "source_tier": 3,
@@ -75,8 +74,8 @@
       ]
     },
     {
-      "title": "Risk reports need to address deployment-time spread of misalignment",
-      "abstract": "<p><span>Risk reports commonly use pre-deployment alignment assessments to measure misalignment risk from an internally deployed AI. However, an AI that genuinely starts out with largely benign motivations can develop widespread dangerous motivations during deployment. I think this is the most plausible route to consistent adversarial misalignment in the near future. So, AI companies and evaluators should substantively incorporate it into risk analysis and planning.</span></p><p><span>In this po",
+      "title": "Risk reports need to address deployment-time spread of misalignment",
+      "abstract": "<p><span>Risk reports commonly use pre-deployment alignment assessments to measure misalignment risk from an internally deployed AI. However, an AI that genuinely starts out with largely benign motivations can develop widespread dangerous motivations during deployment. I think this is the most plausible route to consistent adversarial misalignment in the near future. So, AI companies and evaluators should substantively incorporate it into risk analysis and planning.</span></p><p><span>In this po",
       "url": "https://www.alignmentforum.org/posts/cNymohcWtGHzW7AjK/risk-reports-need-to-address-deployment-time-spread-of",
       "source": "alignment_forum",
       "source_tier": 3,
