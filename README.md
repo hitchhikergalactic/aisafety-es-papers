@@ -50,7 +50,7 @@ sesgo en español, perspectivas feministas, lenguas indígenas, Global South
 **Safety/Alignment:** alignment, interpretability, mechanistic, scalable oversight, 
 RLHF, reward hacking, corrigibility, deceptive alignment, red teaming, evals...
 
-**No-WEIRD:** latin america, global south, gender bias in ai, multilingual bias, 
+**No-W.E.I.R.D:** Spanish, global south, gender bias in ai, multilingual bias, 
 decolonial, feminist ai, sesgo en ia, habla hispana...
 
 ## Contribuir
