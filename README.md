@@ -2,8 +2,8 @@
 
 Scraper automático de papers sobre seguridad de IA para [aisafety.es](https://aisafety.es).
 
-Cada semana seleccionamos 3-5 papers con criterio editorial y resumen en castellano 
-sobre por qué importan para la re hispanohablante.
+Cada semana selecciono 3-5 papers con criterio editorial y resumen en castellano 
+sobre por qué importan para la red hispanohablante.
 
 ## Qué hace
 
