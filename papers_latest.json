@@ -1,18 +1,18 @@
 {
-  "date": "2026-05-18",
-  "total_found": 274,
+  "date": "2026-05-21",
+  "total_found": 400,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 191,
+    "arxiv": 326,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
     "github_openai": 3,
     "lesswrong": 2,
-    "metr": 13,
+    "metr": 12,
     "openai": 20,
-    "semantic_scholar": 10,
+    "semantic_scholar": 2,
     "uk_dsit": 17
   },
   "papers": [
@@ -30,6 +30,20 @@
         "corrigibility",
         "corrigible",
         "autonomous"
+      ]
+    },
+    {
+      "title": "The Case for Evaluating Model Behaviors",
+      "abstract": "<p><span>Most evaluations of AI systems focus on their capabilities: how good they are at coding tasks, how effectively they can answer complex scientific questions, and so on.</span></p><p><span>From a safety perspective, capability evaluations have a place: by understanding how close we are to different capabilities, and the rate of progress on them, we can forecast when different risks are likely to occur, as well as the broad shape of AI development. These capability evaluations were very us",
+      "url": "https://www.alignmentforum.org/posts/J5KkwYnnaeNX7hL2s/the-case-for-evaluating-model-behaviors",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "reward hacking",
+        "capability evaluation",
+        "evals"
       ]
     },
     {
@@ -58,20 +72,6 @@
         "mechanistic",
         "deceptive alignment",
         "frontier model"
-      ]
-    },
-    {
-      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
-      "abstract": "<p><i><span>We empirically investigate exploration hacking (EH) </span></i><span>—</span><i><span> where models strategically alter their exploration to resist RL training </span></i><span>—</span><i><span> by creating model organisms that resist capability elicitation, evaluating countermeasures, and auditing frontier models for their propensity.</span></i></p><p><b><span>Authors:</span></b><span> Eyon Jang*, Damon Falck*, Joschka Braun*, Nathalie Kirch, Achu Menon, Perusha Moodley, Scott Emmon",
-      "url": "https://www.alignmentforum.org/posts/eeFFpKCDWE9gjfzsk/exploration-hacking-can-llms-learn-to-resist-rl-training-2",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "dangerous capabilities",
-        "frontier model",
-        "agentic"
       ]
     },
     {
@@ -210,6 +210,18 @@
       "type": "github_release"
     },
     {
+      "title": "Frontier Risk Report (February to March 2026)19 May 2026A pilot assessment of rogue deployment risk at frontier AI companies. Starting in February 2026, METR conducted a pilot exercise to assess misalignment risks from AI agents used inside frontier AI developers, with participation from Anthropic, Google, Meta, and OpenAI.Read more",
+      "abstract": "",
+      "url": "https://metr.org/research/blog/2026-05-19-frontier-risk-report/",
+      "source": "metr",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ],
+      "type": "web_page"
+    },
+    {
       "title": "Forecasting the Impacts of AI R&D Acceleration: Results of a Pilot Study20 August 2025AI agents are improving rapidly at autonomous software development and machine learning tasks, and, if recent trends hold, may match human researchers at challenging months-long research projects in under a decade. Some economic models predict that automation of AI research by AI agents could increase the pace of further progress dramatically, with many years of progress at the current rate being compressed into months. AI developers have identified this as a key capability to monitor and prepare for, since the national security implications and societal impacts of such rapid progress could be enormous.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-08-20-forecasting-impacts-of-ai-acceleration/",
@@ -234,27 +246,63 @@
       "type": "web_page"
     },
     {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "abstract": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "abstract": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "url": "https://openai.com/index/ramp",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing OpenAI for Singapore",
+      "abstract": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "abstract": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "abstract": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
       "abstract": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "abstract": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "url": "https://openai.com/index/personal-finance-chatgpt",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How data science teams use Codex",
-      "abstract": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -273,6 +321,24 @@
       "title": "How sales teams use Codex",
       "abstract": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "A new personal finance experience in ChatGPT",
+      "abstract": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How data science teams use Codex",
+      "abstract": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -307,7 +373,7 @@
     },
     {
       "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "abstract": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "abstract": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
       "url": "https://openai.com/index/building-codex-windows-sandbox",
       "source": "openai",
       "source_tier": 3,
@@ -345,60 +411,6 @@
       "title": "What Parameter Golf taught us about AI-assisted research",
       "abstract": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
       "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "abstract": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "url": "https://openai.com/index/autoscout24",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "abstract": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
-      "url": "https://openai.com/signals/research/2026q1-update",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How enterprises are scaling AI",
-      "abstract": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "abstract": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "abstract": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-      "url": "https://openai.com/index/openai-launches-the-deployment-company",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Running Codex safely at OpenAI",
-      "abstract": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-      "url": "https://openai.com/index/running-codex-safely",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -525,20 +537,10 @@
       "type": "web_page"
     },
     {
-      "title": "GPT-5 Evaluation Results7 August 2025We evaluate whether GPT-5 poses significant catastrophic risks via AI self-improvement, rogue replication, or sabotage of AI labs. We conclude that this seems unlikely. However, capability trends continue rapidly, and models display increasing eval awareness.Read more",
+      "title": "change your cookie settings",
       "abstract": "",
-      "url": "https://metr.org/research/evaluations/gpt-5-report/",
-      "source": "metr",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "How Does Time Horizon Vary Across Domains?14 July 2025We build on our time-horizon work and analyze 9 benchmarks for scientific reasoning, math, robotics, computer use, and self-driving in terms of time-horizon trends; we observe generally similar rates of improvement to the 7-month doubling time in our original time-horizon work.Read more",
-      "abstract": "",
-      "url": "https://metr.org/research/blog/2025-07-14-how-does-time-horizon-vary-across-domains/",
-      "source": "metr",
+      "url": "https://www.gov.uk/search/research-and-statistics?keywords=AI+safety/help/cookies",
+      "source": "uk_dsit",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
