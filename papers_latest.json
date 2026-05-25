@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-21",
-  "total_found": 400,
+  "date": "2026-05-25",
+  "total_found": 256,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 326,
+    "arxiv": 174,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,7 +12,7 @@
     "lesswrong": 2,
     "metr": 12,
     "openai": 20,
-    "semantic_scholar": 2,
+    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
@@ -246,9 +246,27 @@
       "type": "web_page"
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "abstract": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "abstract": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "abstract": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "url": "https://openai.com/index/adventhealth",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -258,6 +276,15 @@
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "abstract": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -309,18 +336,18 @@
       "keywords_matched": []
     },
     {
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "abstract": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "url": "https://openai.com/index/databricks",
+      "title": "How sales teams use Codex",
+      "abstract": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "How sales teams use Codex",
-      "abstract": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "abstract": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "url": "https://openai.com/index/databricks",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -336,18 +363,18 @@
       "keywords_matched": []
     },
     {
-      "title": "How data science teams use Codex",
-      "abstract": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "title": "How business operations teams use Codex",
+      "abstract": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "How business operations teams use Codex",
-      "abstract": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "title": "How data science teams use Codex",
+      "abstract": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -384,33 +411,6 @@
       "title": "Our response to the TanStack npm supply chain attack",
       "abstract": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
       "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How finance teams use Codex",
-      "abstract": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-      "url": "https://openai.com/academy/how-finance-teams-use-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "abstract": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "url": "https://openai.com/index/nvidia",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "abstract": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-      "url": "https://openai.com/index/what-parameter-golf-taught-us",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -467,7 +467,7 @@
       "type": "web_page"
     },
     {
-      "title": "MirrorCode: Evidence that AI can already do some weeks-long coding tasks10 April 2026Read more",
+      "title": "MirrorCode: Evidence that AI can already do some weeks-long coding tasks10 April 2026",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-04-10-mirrorcode-preliminary-results/",
       "source": "metr",
