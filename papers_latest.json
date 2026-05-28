@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-25",
-  "total_found": 256,
+  "date": "2026-05-28",
+  "total_found": 404,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 174,
+    "arxiv": 332,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,7 +12,6 @@
     "lesswrong": 2,
     "metr": 12,
     "openai": 20,
-    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
@@ -30,6 +29,21 @@
         "corrigibility",
         "corrigible",
         "autonomous"
+      ]
+    },
+    {
+      "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
+      "abstract": "<p><span>Behavioral evaluations may become worthless, which we think would be a disaster. Smart misaligned models may realize they are being evaluated (\"eval awareness\") and then act to look good to us so we don't realize they're misaligned (\"eval gaming\"). We think </span><i><span>increasing eval cooperativeness</span></i><span> might be a more scalable solution to eval gaming than reducing eval awareness.</span></p><blockquote><p><b><span>Eval cooperativeness:</span></b><span> A situational de",
+      "url": "https://www.alignmentforum.org/posts/j8fkk38B8L7hEcGtg/eval-cooperativeness-may-be-a-scalable-mitigation-for-eval",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "mechanistic",
+        "jailbreak",
+        "evals",
+        "agentic"
       ]
     },
     {
@@ -61,20 +75,6 @@
       ]
     },
     {
-      "title": "Mechanistic estimation for wide random MLPs",
-      "abstract": "<p><em>This post covers joint work with Wilson Wu, George Robinson, Mike Winer, Victor Lecomte and Paul Christiano. Thanks to Geoffrey Irving and Jess Riedel for comments on the post.</em></p> <p>In ARC's latest paper, we study the following problem: given a randomly initialized multilayer perceptron (MLP), produce an estimate for the expected output of the model under Gaussian input. The usual approach to this problem is to sample many possible inputs, run them all through the model, and take t",
-      "url": "https://www.alignmentforum.org/posts/fsG4m6sRMpomd7Rk6/mechanistic-estimation-for-wide-random-mlps",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "mechanistic",
-        "deceptive alignment",
-        "frontier model"
-      ]
-    },
-    {
       "title": "Risk reports need to address deployment-time spread of misalignment",
       "abstract": "<p><span>Risk reports commonly use pre-deployment alignment assessments to measure misalignment risk from an internally deployed AI. However, an AI that genuinely starts out with largely benign motivations can develop widespread dangerous motivations during deployment. I think this is the most plausible route to consistent adversarial misalignment in the near future. So, AI companies and evaluators should substantively incorporate it into risk analysis and planning.</span></p><p><span>In this po",
       "url": "https://www.alignmentforum.org/posts/cNymohcWtGHzW7AjK/risk-reports-need-to-address-deployment-time-spread-of",
@@ -98,32 +98,6 @@
         "alignment",
         "interpretability",
         "agentic"
-      ]
-    },
-    {
-      "title": "[Linkpost] Interpreting Language Model Parameters",
-      "abstract": "<p><span>This is the latest work in our Parameter Decomposition agenda. We introduce a new parameter decomposition method, adVersarial Parameter Decomposition (VPD)</span><span class=\"footnote-reference\" id=\"fnrefesmllzokh3u\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fnesmllzokh3u\">[1]</a></sup></span><span> and decompose the parameters of a small</span><span class=\"footnote-reference\" id=\"fnrefz2czbsm09t\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fnz2czbsm09t\">[2]</a></s",
-      "url": "https://www.alignmentforum.org/posts/eAQZaiC3PcBhS4HjM/linkpost-interpreting-language-model-parameters",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "mechanistic"
-      ]
-    },
-    {
-      "title": "Motivated reasoning, confirmation bias, and AI risk theory",
-      "abstract": "<blockquote><p><span>Of the fifty-odd biases discovered by Kahneman, Tversky, and their successors, forty-nine are cute quirks, and one is destroying civilization. This last one is confirmation bias.</span></p></blockquote><p><span>- From Scott Alexander's</span><a href=\"https://www.astralcodexten.com/p/book-review-the-scout-mindset\"><span> review of Julia Galef's The Scout Mindset</span></a><span>. </span></p><p><span>Alexander goes on to argue that this bias is the source of polarization in so",
-      "url": "https://www.alignmentforum.org/posts/QpgmEhBvJQxAfFMP2/motivated-reasoning-confirmation-bias-and-ai-risk-theory",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "mechanistic",
-        "existential risk"
       ]
     },
     {
@@ -152,9 +126,9 @@
       "type": "web_page"
     },
     {
-      "title": "Clarifying the role of the behavioral selection model",
-      "abstract": "<p><i><span>This is a brief elaboration on </span></i><a href=\"https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1\"><i><span>The behavioral selection model for predicting AI motivations</span></i></a><i><span>, based on some feedback and thoughts I’ve had since publishing. Written quickly in a personal capacity.</span></i></p><p><span>The main focus of this post is clarifying the basic machinery of the behavioral selection model, and c",
-      "url": "https://www.alignmentforum.org/posts/nBjo6yniFjmy2uaYa/clarifying-the-role-of-the-behavioral-selection-model",
+      "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
+      "abstract": "<p><em>This is a somewhat technical note.</em></p> <p>By \"software-only singularity\", I mean that, after full automation of AI R&amp;D, progress gets faster and faster due to smarter AIs driving increasingly fast rates of improvement in algorithms (overcoming diminishing returns), and that this lasts long enough to yield a large amount of progress (e.g. at least 4 years of progress in 1 year). The equivalent statement in jargon is: r is significantly greater than 1 (implying progress is getting ",
+      "url": "https://www.alignmentforum.org/posts/jfwhvd43sbpkGTLyn/full-automation-of-ai-r-and-d-probably-yields-a-large-speed",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
@@ -163,14 +137,25 @@
       ]
     },
     {
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "abstract": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "url": "https://openai.com/index/sea-david-chen",
-      "source": "openai",
+      "title": "Looking for backdoors in Jane Street LLMs",
+      "abstract": "<p><i><span>I am going to talk about my experience in the Jane Street LLM backdoor challenge. I am sharing partial results. I managed to crack some of the models using white-box methods, after the activation/prompting approach didn't pan out. Happy to discuss better or more promising approaches.</span></i></p><h2><span>Introduction</span></h2><p><span>A few months ago a </span><a href=\"https://www.youtube.com/watch?v=n1E9IZfvGMA\" rel=\"noreferrer\"><span>Dwarkesh Patel podcast episode</span></a><s",
+      "url": "https://www.alignmentforum.org/posts/a98MFPmqH54J2ayBn/looking-for-backdoors-in-jane-street-llms-1",
+      "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "agentic"
+        "alignment"
+      ]
+    },
+    {
+      "title": "Clarifying the role of the behavioral selection model",
+      "abstract": "<p><i><span>This is a brief elaboration on </span></i><a href=\"https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1\"><i><span>The behavioral selection model for predicting AI motivations</span></i></a><i><span>, based on some feedback and thoughts I’ve had since publishing. Written quickly in a personal capacity.</span></i></p><p><span>The main focus of this post is clarifying the basic machinery of the behavioral selection model, and c",
+      "url": "https://www.alignmentforum.org/posts/nBjo6yniFjmy2uaYa/clarifying-the-role-of-the-behavioral-selection-model",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
       ]
     },
     {
@@ -246,6 +231,51 @@
       "type": "web_page"
     },
     {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "abstract": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "url": "https://openai.com/index/cisco",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Building self-improving tax agents with Codex",
+      "abstract": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Election information and safeguards in 2026",
+      "abstract": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "url": "https://openai.com/index/election-safeguards-2026",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "abstract": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "url": "https://openai.com/index/warp",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "abstract": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
       "abstract": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
@@ -282,18 +312,18 @@
       "keywords_matched": []
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "abstract": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "url": "https://openai.com/index/ramp",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "abstract": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "url": "https://openai.com/index/ramp",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -336,18 +366,9 @@
       "keywords_matched": []
     },
     {
-      "title": "How sales teams use Codex",
-      "abstract": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "abstract": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "url": "https://openai.com/index/databricks",
+      "title": "How business operations teams use Codex",
+      "abstract": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -363,9 +384,9 @@
       "keywords_matched": []
     },
     {
-      "title": "How business operations teams use Codex",
-      "abstract": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "title": "How sales teams use Codex",
+      "abstract": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -381,36 +402,9 @@
       "keywords_matched": []
     },
     {
-      "title": "Work with Codex from anywhere",
-      "abstract": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "abstract": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "abstract": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
-      "url": "https://openai.com/index/building-codex-windows-sandbox",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Our response to the TanStack npm supply chain attack",
-      "abstract": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
-      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "abstract": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "url": "https://openai.com/index/databricks",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
