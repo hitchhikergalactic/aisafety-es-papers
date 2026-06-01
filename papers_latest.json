@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-28",
-  "total_found": 404,
+  "date": "2026-06-01",
+  "total_found": 305,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 332,
+    "arxiv": 234,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
     "github_openai": 3,
     "lesswrong": 2,
-    "metr": 12,
+    "metr": 11,
     "openai": 20,
     "uk_dsit": 17
   },
@@ -44,6 +44,20 @@
         "jailbreak",
         "evals",
         "agentic"
+      ]
+    },
+    {
+      "title": "Testing Gemini models for scheming tendencies",
+      "abstract": "<p><span>As AI models become increasingly capable and autonomous, keeping them safely aligned with human intentions is critical. Extending our previous work on&nbsp;</span><a href=\"https://deepmindsafetyresearch.medium.com/evaluating-and-monitoring-for-ai-scheming-d3448219a967\" rel=\"noopener\"><span>evaluating scheming capabilities</span></a><span>, we introduce complementary approaches to test whether AI models would sabotage their own safeguards, if given the opportunity.</span></p><p><span>Our",
+      "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "agentic",
+        "autonomous"
       ]
     },
     {
@@ -88,16 +102,15 @@
       ]
     },
     {
-      "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
-      "abstract": "<h1><a href=\"https://transformer-circuits.pub/2026/nla/index.html\" rel=\"noreferrer\"><span>Abstract</span></a></h1><blockquote><p><span>We introduce Natural Language Autoencoders (NLAs), an unsupervised method for generating natural language explanations of LLM activations. An NLA consists of two LLM modules: an activation verbalizer (AV) that maps an activation to a text description and an activation reconstructor (AR) that maps the description back to an activation. We jointly train the AV and ",
-      "url": "https://www.alignmentforum.org/posts/oeYesesaxjzMAktCM/natural-language-autoencoders-produce-unsupervised",
+      "title": "Advice for making robust-to-training model organisms",
+      "abstract": "<img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/6510f425f2daef10a9ee5d131f9fc9b69b959616d15ccc00e8a77b1e816eeda4/tp4y2jyddtwjab3aujnu\" /><p><span>We’d like to develop </span><a href=\"https://www.lesswrong.com/posts/mDcHzdoxB6sh3w2zG/five-approaches-to-evaluating-training-based-control\"><span>training techniques that work when applied to future misaligned AI systems</span></a><span>. One strategy for studying proposed techniques is to test th",
+      "url": "https://www.alignmentforum.org/posts/CmkAxJi83jRv9eXgJ/advice-for-making-robust-to-training-model-organisms-1",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 6,
+      "score": 5,
       "keywords_matched": [
         "alignment",
-        "interpretability",
-        "agentic"
+        "robustness"
       ]
     },
     {
@@ -113,7 +126,7 @@
       ]
     },
     {
-      "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval Integrity14 October 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
+      "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
       "source": "metr",
@@ -148,14 +161,25 @@
       ]
     },
     {
-      "title": "Clarifying the role of the behavioral selection model",
-      "abstract": "<p><i><span>This is a brief elaboration on </span></i><a href=\"https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1\"><i><span>The behavioral selection model for predicting AI motivations</span></i></a><i><span>, based on some feedback and thoughts I’ve had since publishing. Written quickly in a personal capacity.</span></i></p><p><span>The main focus of this post is clarifying the basic machinery of the behavioral selection model, and c",
-      "url": "https://www.alignmentforum.org/posts/nBjo6yniFjmy2uaYa/clarifying-the-role-of-the-behavioral-selection-model",
-      "source": "alignment_forum",
+      "title": "How Endava builds an agentic organization with Codex",
+      "abstract": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "url": "https://openai.com/index/endava",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "alignment"
+        "agentic"
+      ]
+    },
+    {
+      "title": "OpenAI’s Frontier Governance Framework",
+      "abstract": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "ai safety"
       ]
     },
     {
@@ -195,7 +219,7 @@
       "type": "github_release"
     },
     {
-      "title": "Frontier Risk Report (February to March 2026)19 May 2026A pilot assessment of rogue deployment risk at frontier AI companies. Starting in February 2026, METR conducted a pilot exercise to assess misalignment risks from AI agents used inside frontier AI developers, with participation from Anthropic, Google, Meta, and OpenAI.Read more",
+      "title": "Frontier Risk Report (February to March 2026)May 19, 2026A pilot assessment of rogue deployment risk at frontier AI companies. Starting in February 2026, METR conducted a pilot exercise to assess misalignment risks from AI agents used inside frontier AI developers, with participation from Anthropic, Google, Meta, and OpenAI.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-05-19-frontier-risk-report/",
       "source": "metr",
@@ -207,7 +231,7 @@
       "type": "web_page"
     },
     {
-      "title": "Forecasting the Impacts of AI R&D Acceleration: Results of a Pilot Study20 August 2025AI agents are improving rapidly at autonomous software development and machine learning tasks, and, if recent trends hold, may match human researchers at challenging months-long research projects in under a decade. Some economic models predict that automation of AI research by AI agents could increase the pace of further progress dramatically, with many years of progress at the current rate being compressed into months. AI developers have identified this as a key capability to monitor and prepare for, since the national security implications and societal impacts of such rapid progress could be enormous.Read more",
+      "title": "Forecasting the Impacts of AI R&D Acceleration: Results of a Pilot StudyAugust 20, 2025AI agents are improving rapidly at autonomous software development and machine learning tasks, and, if recent trends hold, may match human researchers at challenging months-long research projects in under a decade. Some economic models predict that automation of AI research by AI agents could increase the pace of further progress dramatically, with many years of progress at the current rate being compressed into months. AI developers have identified this as a key capability to monitor and prepare for, since the national security implications and societal impacts of such rapid progress could be enormous.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-08-20-forecasting-impacts-of-ai-acceleration/",
       "source": "metr",
@@ -229,6 +253,51 @@
         "alignment"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "abstract": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "abstract": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "url": "https://openai.com/index/braintrust",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "abstract": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "abstract": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "abstract": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "url": "https://openai.com/index/mufg",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
@@ -312,18 +381,18 @@
       "keywords_matched": []
     },
     {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "abstract": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "url": "https://openai.com/index/ramp",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "abstract": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "url": "https://openai.com/index/ramp",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -342,69 +411,6 @@
       "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
       "abstract": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
       "url": "https://openai.com/index/advancing-content-provenance",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "abstract": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "abstract": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How business operations teams use Codex",
-      "abstract": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "abstract": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "url": "https://openai.com/index/personal-finance-chatgpt",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How sales teams use Codex",
-      "abstract": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How data science teams use Codex",
-      "abstract": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "abstract": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "url": "https://openai.com/index/databricks",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -441,7 +447,7 @@
       "type": "github_release"
     },
     {
-      "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity11 May 2026A survey of 349 technical workers finds a median 1.4–2x self-reported change in value of work due to AI tools, expected to grow over time, though there are reasons to be skeptical of the magnitude.Read more",
+      "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker ProductivityMay 11, 2026A survey of 349 technical workers finds a median 1.4–2x self-reported change in value of work due to AI tools, expected to grow over time, though there are reasons to be skeptical of the magnitude.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-05-11-ai-usage-survey/",
       "source": "metr",
@@ -451,7 +457,7 @@
       "type": "web_page"
     },
     {
-      "title": "Task Substitution and Uplift8 May 2026We distinguish three measures of AI uplift -- on old tasks, on new tasks, and in value -- and show that task substitution can cause these to diverge substantially.Read more",
+      "title": "Task Substitution and UpliftMay 8, 2026We distinguish three measures of AI uplift -- on old tasks, on new tasks, and in value -- and show that task substitution can cause these to diverge substantially.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-05-08-task-substitution-and-uplift/",
       "source": "metr",
@@ -461,7 +467,7 @@
       "type": "web_page"
     },
     {
-      "title": "MirrorCode: Evidence that AI can already do some weeks-long coding tasks10 April 2026",
+      "title": "MirrorCode: Evidence that AI can already do some weeks-long coding tasksApril 10, 2026Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-04-10-mirrorcode-preliminary-results/",
       "source": "metr",
@@ -471,7 +477,7 @@
       "type": "web_page"
     },
     {
-      "title": "We are Changing our Developer Productivity Experiment Design24 February 2026Our second developer productivity study faces selection effects from wider AI adoption, prompting us to redesign our approach.Read more",
+      "title": "We are Changing our Developer Productivity Experiment DesignFebruary 24, 2026Our second developer productivity study faces selection effects from wider AI adoption, prompting us to redesign our approach.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-02-24-uplift-update/",
       "source": "metr",
@@ -481,7 +487,7 @@
       "type": "web_page"
     },
     {
-      "title": "Time Horizon 1.129 January 2026We’re releasing a new version of our time horizon estimates (TH1.1), using more tasks and a new eval infrastructure.Read more",
+      "title": "Time Horizon 1.1January 29, 2026We’re releasing a new version of our time horizon estimates (TH1.1), using more tasks and a new eval infrastructure.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-1-29-time-horizon-1-1/",
       "source": "metr",
@@ -491,7 +497,7 @@
       "type": "web_page"
     },
     {
-      "title": "Early work on monitorability evaluations22 January 2026We show preliminary results on a prototype evaluation that tests monitors' ability to catch AI agents doing side tasks, and AI agents' ability to bypass this monitoring.Read more",
+      "title": "Early work on monitorability evaluationsJanuary 22, 2026We show preliminary results on a prototype evaluation that tests monitors' ability to catch AI agents doing side tasks, and AI agents' ability to bypass this monitoring.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-01-19-early-work-on-monitorability-evaluations/",
       "source": "metr",
@@ -501,7 +507,7 @@
       "type": "web_page"
     },
     {
-      "title": "GPT-5.1-Codex-Max Evaluation Results19 November 2025We evaluate whether GPT-5.1-Codex-Max poses significant catastrophic risks via AI self-improvement or rogue replication. We conclude that this seems unlikely.Read more",
+      "title": "GPT-5.1-Codex-Max Evaluation ResultsNovember 19, 2025We evaluate whether GPT-5.1-Codex-Max poses significant catastrophic risks via AI self-improvement or rogue replication. We conclude that this seems unlikely.Read more",
       "abstract": "",
       "url": "https://metr.org/research/evaluations/gpt-5-1-codex-max-report/",
       "source": "metr",
@@ -511,19 +517,9 @@
       "type": "web_page"
     },
     {
-      "title": "Research Update: Algorithmic vs. Holistic Evaluation13 August 2025Many AI benchmarks use algorithmic scoring to evaluate how well AI systems perform on some set of tasks. However, AI systems often produce code that scores well but isn't production-ready due to issues with test coverage, formatting, and code quality. This helps explain why AI tools show less productivity improvement than expected despite strong performance on coding benchmarks.Read more",
+      "title": "Research Update: Algorithmic vs. Holistic EvaluationAugust 13, 2025Many AI benchmarks use algorithmic scoring to evaluate how well AI systems perform on some set of tasks. However, AI systems often produce code that scores well but isn't production-ready due to issues with test coverage, formatting, and code quality. This helps explain why AI tools show less productivity improvement than expected despite strong performance on coding benchmarks.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-08-12-research-update-towards-reconciling-slowdown-with-time-horizons/",
-      "source": "metr",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "CoT May Be Highly Informative Despite “Unfaithfulness”8 August 2025Recent work from Anthropic and others claims that LLMs' chains of thoughts can be “unfaithful”. These papers make an important point: you can't take everything in the CoT at face value. As a result, people often use these results to conclude the CoT is useless for analyzing and monitoring AIs. Here, instead of asking whether the CoT always contains all information relevant to a model's decision-making in all problems, we ask if it contains enough information to allow developers to monitor models in practice. Our experiments suggest that it might.Read more",
-      "abstract": "",
-      "url": "https://metr.org/research/blog/2025-08-08-cot-may-be-highly-informative-despite-unfaithfulness/",
       "source": "metr",
       "source_tier": 3,
       "score": 3,
@@ -534,6 +530,16 @@
       "title": "change your cookie settings",
       "abstract": "",
       "url": "https://www.gov.uk/search/research-and-statistics?keywords=AI+safety/help/cookies",
+      "source": "uk_dsit",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
+    },
+    {
+      "title": "Skip to main content",
+      "abstract": "",
+      "url": "https://www.gov.uk/search/research-and-statistics?keywords=AI+safety/#content",
       "source": "uk_dsit",
       "source_tier": 3,
       "score": 3,
