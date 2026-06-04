@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-01",
-  "total_found": 305,
+  "date": "2026-06-04",
+  "total_found": 307,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 234,
+    "arxiv": 236,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -15,22 +15,6 @@
     "uk_dsit": 17
   },
   "papers": [
-    {
-      "title": "Empowerment, corrigibility, etc. are simple abstractions (of a messed-up ontology)",
-      "abstract": "<h2><span>1.1 Tl;dr</span></h2><p><span>Alignment is often conceptualized as AIs helping humans achieve their goals: AIs that increase people’s agency and empowerment; AIs that are helpful, corrigible, and/or obedient; AIs that avoid manipulating people. But that last one—manipulation—points to a challenge for all these desiderata: a human’s goals are </span><i><span>themselves</span></i><span> under-determined and manipulable, and it’s awfully hard to pin down a principled distinction between c",
-      "url": "https://www.alignmentforum.org/posts/vzHtHHBJoKATi5SeK/empowerment-corrigibility-etc-are-simple-abstractions-of-a",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 9,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "reward hacking",
-        "corrigibility",
-        "corrigible",
-        "autonomous"
-      ]
-    },
     {
       "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
       "abstract": "<p><span>Behavioral evaluations may become worthless, which we think would be a disaster. Smart misaligned models may realize they are being evaluated (\"eval awareness\") and then act to look good to us so we don't realize they're misaligned (\"eval gaming\"). We think </span><i><span>increasing eval cooperativeness</span></i><span> might be a more scalable solution to eval gaming than reducing eval awareness.</span></p><blockquote><p><b><span>Eval cooperativeness:</span></b><span> A situational de",
@@ -102,6 +86,18 @@
       ]
     },
     {
+      "title": "Announcing the ARC White-Box Estimation Challenge",
+      "abstract": "<p>ARC has teamed up with <a href=\"https://www.aicrowd.com/\">AIcrowd</a> to launch the <a href=\"https://www.aicrowd.com/challenges/white-box-estimation-challenge-2026\"><strong>ARC White-Box Estimation Challenge</strong></a>, a contest to improve upon our estimation algorithms for <a href=\"https://www.alignment.org/blog/mechanistic-estimation-for-wide-random-mlps/\">random MLPs</a>. The warm-up round begins this week, and later rounds will have a total prize pool of at least $100,000.</p> <p>We ar",
+      "url": "https://www.alignmentforum.org/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "mechanistic"
+      ]
+    },
+    {
       "title": "Advice for making robust-to-training model organisms",
       "abstract": "<img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/6510f425f2daef10a9ee5d131f9fc9b69b959616d15ccc00e8a77b1e816eeda4/tp4y2jyddtwjab3aujnu\" /><p><span>We’d like to develop </span><a href=\"https://www.lesswrong.com/posts/mDcHzdoxB6sh3w2zG/five-approaches-to-evaluating-training-based-control\"><span>training techniques that work when applied to future misaligned AI systems</span></a><span>. One strategy for studying proposed techniques is to test th",
       "url": "https://www.alignmentforum.org/posts/CmkAxJi83jRv9eXgJ/advice-for-making-robust-to-training-model-organisms-1",
@@ -158,6 +154,39 @@
       "score": 4,
       "keywords_matched": [
         "alignment"
+      ]
+    },
+    {
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "abstract": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "ai safety"
+      ]
+    },
+    {
+      "title": "Our views on AI policy and political advocacy",
+      "abstract": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
+      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "ai safety"
+      ]
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "abstract": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "frontier model"
       ]
     },
     {
@@ -255,6 +284,87 @@
       "type": "web_page"
     },
     {
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "abstract": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "url": "https://openai.com/index/endava-frontiers",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "abstract": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "abstract": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "url": "https://openai.com/index/wasmer",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "A blueprint for democratic governance of frontier AI",
+      "abstract": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI public policy agenda",
+      "abstract": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "abstract": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "url": "https://openai.com/index/travelers",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Codex for every role, tool, and workflow",
+      "abstract": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Codex is becoming a productivity tool for everyone",
+      "abstract": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "abstract": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Boston Children’s uses AI to unlock new diagnoses",
       "abstract": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "url": "https://openai.com/index/boston-childrens-hospital",
@@ -303,114 +413,6 @@
       "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
       "abstract": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
       "url": "https://openai.com/index/cisco",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Building self-improving tax agents with Codex",
-      "abstract": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Election information and safeguards in 2026",
-      "abstract": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
-      "url": "https://openai.com/index/election-safeguards-2026",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "abstract": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "url": "https://openai.com/index/warp",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "abstract": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "abstract": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Virgin Atlantic ships faster with Codex",
-      "abstract": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "url": "https://openai.com/index/virgin-atlantic",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "AdventHealth advances whole-person care with OpenAI",
-      "abstract": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "url": "https://openai.com/index/adventhealth",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "abstract": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "abstract": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "abstract": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "url": "https://openai.com/index/ramp",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing OpenAI for Singapore",
-      "abstract": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "url": "https://openai.com/index/introducing-openai-for-singapore",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "abstract": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "url": "https://openai.com/index/advancing-content-provenance",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -467,7 +469,7 @@
       "type": "web_page"
     },
     {
-      "title": "MirrorCode: Evidence that AI can already do some weeks-long coding tasksApril 10, 2026Read more",
+      "title": "MirrorCode: Evidence that AI can already do some weeks-long coding tasksApril 10, 2026Early results from MirrorCode benchmark with METR: AI agents can complete weeks-long coding tasks, including reimplementing a 16,000-line codebase.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-04-10-mirrorcode-preliminary-results/",
       "source": "metr",
