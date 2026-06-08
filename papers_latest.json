@@ -1,20 +1,41 @@
 {
-  "date": "2026-06-04",
-  "total_found": 307,
+  "date": "2026-06-08",
+  "total_found": 249,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 236,
+    "arxiv": 179,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
     "github_openai": 3,
-    "lesswrong": 2,
+    "lesswrong": 1,
     "metr": 11,
     "openai": 20,
     "uk_dsit": 17
   },
   "papers": [
+    {
+      "title": "My research: a computational cognitive neuroscience perspective on alignment",
+      "abstract": "<p><span>Note - title edited to be more descriptive.</span><br /><br /><span>This is a summary of the work I've done and work I plan to do, and the theories of change and AI progress that motivate my work. I've been working full-time on alignment for three years and change, and thinking about brainlike AGI and its alignment increasingly often since 2004. </span></p><p><span>Here's the research agenda in one breath: I'm trying to predict what the first transformative AI will be, in enough mechani",
+      "url": "https://www.alignmentforum.org/posts/MuLvZxMcy5WaKJu3H/my-research-a-computational-cognitive-neuroscience",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 14,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "mechanistic",
+        "rlhf",
+        "corrigibility",
+        "existential risk",
+        "constitutional ai",
+        "corrigible",
+        "frontier model",
+        "agentic",
+        "autonomous"
+      ]
+    },
     {
       "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
       "abstract": "<p><span>Behavioral evaluations may become worthless, which we think would be a disaster. Smart misaligned models may realize they are being evaluated (\"eval awareness\") and then act to look good to us so we don't realize they're misaligned (\"eval gaming\"). We think </span><i><span>increasing eval cooperativeness</span></i><span> might be a more scalable solution to eval gaming than reducing eval awareness.</span></p><blockquote><p><b><span>Eval cooperativeness:</span></b><span> A situational de",
@@ -55,20 +76,6 @@
         "alignment",
         "reward hacking",
         "capability evaluation",
-        "evals"
-      ]
-    },
-    {
-      "title": "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness",
-      "abstract": "<h1><span>1) The safe-to-dangerous shift is a fundamental problem for eval realism</span></h1><p><span>Suppose we have a capable and potentially scheming model, and </span><i><span>before </span></i><span>we deploy it, we want some evidence that it won’t do anything catastrophically dangerous </span><i><span>once</span></i><span> we deploy it. A common approach is to use black-box alignment evaluations. However, alignment evaluations are only reassuring to the extent that the model can't reliabl",
-      "url": "https://www.alignmentforum.org/posts/tK8vqHDxaRGcysNJQ/the-safe-to-dangerous-shift-is-a-fundamental-problem-for-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "corrigibility",
-        "deceptive alignment",
         "evals"
       ]
     },
@@ -293,6 +300,24 @@
       "keywords_matched": []
     },
     {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "abstract": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Biodefense in the Intelligence Age",
+      "abstract": "An action plan for AI-powered biological resilience",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Introducing new capabilities to GPT-Rosalind",
       "abstract": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
       "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
@@ -311,18 +336,18 @@
       "keywords_matched": []
     },
     {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "abstract": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "title": "OpenAI public policy agenda",
+      "abstract": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "url": "https://openai.com/index/public-policy-agenda",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "OpenAI public policy agenda",
-      "abstract": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "url": "https://openai.com/index/public-policy-agenda",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "abstract": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -395,24 +420,6 @@
       "title": "A shared playbook for trustworthy third party evaluations",
       "abstract": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
       "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "abstract": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "url": "https://openai.com/index/mufg",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "abstract": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "url": "https://openai.com/index/cisco",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
