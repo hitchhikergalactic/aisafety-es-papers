@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-08",
-  "total_found": 249,
+  "date": "2026-06-11",
+  "total_found": 287,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 179,
+    "arxiv": 207,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,6 +12,7 @@
     "lesswrong": 1,
     "metr": 11,
     "openai": 20,
+    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
@@ -37,6 +38,56 @@
       ]
     },
     {
+      "title": "Models May Behave Worse When Eval Aware",
+      "abstract": "<p><i><span>This is the first in a series of research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas.</span></i></p><h1><span>TL;DR</span></h1><p><span>It's often assumed that models will act more aligned when they can tell they're being evaluated. But we find that Gemini can take “undesired” actions in behavioural evals even when it explicitly reasons that the environments are contrived, and sometimes this reasoning will increase th",
+      "url": "https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 10,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability",
+        "deceptive alignment",
+        "jailbreak",
+        "evals",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Sequent: scale and automation for higher confidence in alignment",
+      "abstract": "<img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1781104966/lexical_client_uploads/fcltdf1kfsafrnjf4epf.png\" /><h1><span>Alignment is not on track</span></h1><p><span>Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver </span><i><span>a priori</span></i><span> confidence, before training ASI, that thin",
+      "url": "https://www.alignmentforum.org/posts/AP7YDke5jjY4v3X9Z/sequent-scale-and-automation-for-higher-confidence-in-1",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 10,
+      "keywords_matched": [
+        "alignment",
+        "mechanistic",
+        "scalable oversight",
+        "rlhf",
+        "frontier model",
+        "agentic",
+        "autonomous"
+      ]
+    },
+    {
+      "title": "A Mike's-Eye View of ARC's Research",
+      "abstract": "<p>Over the past 15 months or so, ARC's technical agenda has developed quite a bit. The advent of the <a href=\"https://www.alignment.org/blog/competing-with-sampling/\">Matching Sampling Principle</a> (MSP), and ideas like it, has begotten a host of concrete technical problems; progress on those problems has given us more philosophical clarity on the big picture, which has led to even more technical progress. The two most recent public discussions of ARC's research (Jacob's <a href=\"https://www.a",
+      "url": "https://www.alignmentforum.org/posts/M2tD23bvQLBqsEpqu/a-mike-s-eye-view-of-arc-s-research",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 9,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "mechanistic",
+        "reward hacking",
+        "corrigibility",
+        "deceptive alignment"
+      ]
+    },
+    {
       "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
       "abstract": "<p><span>Behavioral evaluations may become worthless, which we think would be a disaster. Smart misaligned models may realize they are being evaluated (\"eval awareness\") and then act to look good to us so we don't realize they're misaligned (\"eval gaming\"). We think </span><i><span>increasing eval cooperativeness</span></i><span> might be a more scalable solution to eval gaming than reducing eval awareness.</span></p><blockquote><p><b><span>Eval cooperativeness:</span></b><span> A situational de",
       "url": "https://www.alignmentforum.org/posts/j8fkk38B8L7hEcGtg/eval-cooperativeness-may-be-a-scalable-mitigation-for-eval",
@@ -52,6 +103,20 @@
       ]
     },
     {
+      "title": "Tracing Eval-Awareness Emergence Through Training of OLMo 3",
+      "abstract": "<h2><b><span>TL;DR</span></b></h2><p><span>Recent work from Goodfire &amp; UK AISI –</span><a href=\"https://www.goodfire.ai/research/verbalized-eval-awareness-inflates-measured-safety\"><span> </span><i><span>Verbalized Eval Awareness Inflates Measured Safety</span></i></a><span> – shows that newer open-weight models verbalize evaluation-awareness (VEA) more often, and that this inflates measured safety. Between OLMo-3-32B-Think and OLMo-3</span><b><span>.1</span></b><span>-32B-Think – identical ",
+      "url": "https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "jailbreak",
+        "frontier model",
+        "agentic"
+      ]
+    },
+    {
       "title": "Testing Gemini models for scheming tendencies",
       "abstract": "<p><span>As AI models become increasingly capable and autonomous, keeping them safely aligned with human intentions is critical. Extending our previous work on&nbsp;</span><a href=\"https://deepmindsafetyresearch.medium.com/evaluating-and-monitoring-for-ai-scheming-d3448219a967\" rel=\"noopener\"><span>evaluating scheming capabilities</span></a><span>, we introduce complementary approaches to test whether AI models would sabotage their own safeguards, if given the opportunity.</span></p><p><span>Our",
       "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
@@ -62,33 +127,6 @@
         "alignment",
         "ai safety",
         "agentic",
-        "autonomous"
-      ]
-    },
-    {
-      "title": "The Case for Evaluating Model Behaviors",
-      "abstract": "<p><span>Most evaluations of AI systems focus on their capabilities: how good they are at coding tasks, how effectively they can answer complex scientific questions, and so on.</span></p><p><span>From a safety perspective, capability evaluations have a place: by understanding how close we are to different capabilities, and the rate of progress on them, we can forecast when different risks are likely to occur, as well as the broad shape of AI development. These capability evaluations were very us",
-      "url": "https://www.alignmentforum.org/posts/J5KkwYnnaeNX7hL2s/the-case-for-evaluating-model-behaviors",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "reward hacking",
-        "capability evaluation",
-        "evals"
-      ]
-    },
-    {
-      "title": "Risk reports need to address deployment-time spread of misalignment",
-      "abstract": "<p><span>Risk reports commonly use pre-deployment alignment assessments to measure misalignment risk from an internally deployed AI. However, an AI that genuinely starts out with largely benign motivations can develop widespread dangerous motivations during deployment. I think this is the most plausible route to consistent adversarial misalignment in the near future. So, AI companies and evaluators should substantively incorporate it into risk analysis and planning.</span></p><p><span>In this po",
-      "url": "https://www.alignmentforum.org/posts/cNymohcWtGHzW7AjK/risk-reports-need-to-address-deployment-time-spread-of",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "deceptive alignment",
         "autonomous"
       ]
     },
@@ -117,18 +155,6 @@
       ]
     },
     {
-      "title": "Mechanistic estimation for expectations of random products",
-      "abstract": "<p>We have developed some relatively general methods for <a href=\"https://www.alignment.org/blog/competing-with-sampling/\">mechanistic estimation competitive with sampling</a> by studying problems that are expressible as <em>expectations of random products</em>. This includes several different estimation problems, such as random halfspace intersections, random #3-SAT and random permanents. In this post, we will give a high-level introduction to these methods before sharing some more <a href=\"htt",
-      "url": "https://www.alignmentforum.org/posts/7RyAefESvb6BQ3tMz/mechanistic-estimation-for-expectations-of-random-products",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "mechanistic"
-      ]
-    },
-    {
       "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
@@ -142,80 +168,14 @@
       "type": "web_page"
     },
     {
-      "title": "Full automation of AI R&D probably yields a large speed up even without a software-only singularity",
-      "abstract": "<p><em>This is a somewhat technical note.</em></p> <p>By \"software-only singularity\", I mean that, after full automation of AI R&amp;D, progress gets faster and faster due to smarter AIs driving increasingly fast rates of improvement in algorithms (overcoming diminishing returns), and that this lasts long enough to yield a large amount of progress (e.g. at least 4 years of progress in 1 year). The equivalent statement in jargon is: r is significantly greater than 1 (implying progress is getting ",
-      "url": "https://www.alignmentforum.org/posts/jfwhvd43sbpkGTLyn/full-automation-of-ai-r-and-d-probably-yields-a-large-speed",
+      "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
+      "abstract": "<p><span>I often use what I’ll call the “safety-usefulness tradeoff model”, which is: developers face a tradeoff between \"safety\" and \"usefulness\" of an AI deployment, and the developer has only limited willingness or ability to sacrifice usefulness for the sake of safety. This model assumes that developers choose whether to take safety-relevant actions based on their cost efficiency, i.e., the marginal safety gain relative to the cost. However, that is not necessarily true. In this post, I spel",
+      "url": "https://www.alignmentforum.org/posts/mBsZTZxtjgCdN4CDA/efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
         "alignment"
-      ]
-    },
-    {
-      "title": "Looking for backdoors in Jane Street LLMs",
-      "abstract": "<p><i><span>I am going to talk about my experience in the Jane Street LLM backdoor challenge. I am sharing partial results. I managed to crack some of the models using white-box methods, after the activation/prompting approach didn't pan out. Happy to discuss better or more promising approaches.</span></i></p><h2><span>Introduction</span></h2><p><span>A few months ago a </span><a href=\"https://www.youtube.com/watch?v=n1E9IZfvGMA\" rel=\"noreferrer\"><span>Dwarkesh Patel podcast episode</span></a><s",
-      "url": "https://www.alignmentforum.org/posts/a98MFPmqH54J2ayBn/looking-for-backdoors-in-jane-street-llms-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "abstract": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
-      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "ai safety"
-      ]
-    },
-    {
-      "title": "Our views on AI policy and political advocacy",
-      "abstract": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
-      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "ai safety"
-      ]
-    },
-    {
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "abstract": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "frontier model"
-      ]
-    },
-    {
-      "title": "How Endava builds an agentic organization with Codex",
-      "abstract": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
-      "url": "https://openai.com/index/endava",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "agentic"
-      ]
-    },
-    {
-      "title": "OpenAI’s Frontier Governance Framework",
-      "abstract": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
-      "url": "https://openai.com/index/openai-frontier-governance-framework",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "ai safety"
       ]
     },
     {
@@ -289,6 +249,105 @@
         "alignment"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "abstract": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "abstract": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "abstract": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "abstract": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "abstract": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "url": "https://openai.com/index/lseg",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "abstract": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "url": "https://openai.com/index/nextdoor",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "What Codex unlocks for Notion",
+      "abstract": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "url": "https://openai.com/index/notion",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Industrial policy for the Intelligence Age",
+      "abstract": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "abstract": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Built to benefit everyone: our plan",
+      "abstract": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "abstract": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "How Endava is redesigning software delivery around AI agents",
@@ -366,60 +425,6 @@
       "title": "Codex for every role, tool, and workflow",
       "abstract": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
       "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Codex is becoming a productivity tool for everyone",
-      "abstract": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
-      "url": "https://openai.com/index/codex-for-knowledge-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "abstract": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "url": "https://openai.com/index/stargate-michigan-data-center",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Boston Children’s uses AI to unlock new diagnoses",
-      "abstract": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "url": "https://openai.com/index/boston-childrens-hospital",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "abstract": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "url": "https://openai.com/index/braintrust",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Strengthening societal resilience with Rosalind Biodefense",
-      "abstract": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A shared playbook for trustworthy third party evaluations",
-      "abstract": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
-      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
