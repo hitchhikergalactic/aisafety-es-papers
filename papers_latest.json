@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-11",
-  "total_found": 287,
+  "date": "2026-06-15",
+  "total_found": 231,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 207,
+    "arxiv": 161,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,31 +12,9 @@
     "lesswrong": 1,
     "metr": 11,
     "openai": 20,
-    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
-    {
-      "title": "My research: a computational cognitive neuroscience perspective on alignment",
-      "abstract": "<p><span>Note - title edited to be more descriptive.</span><br /><br /><span>This is a summary of the work I've done and work I plan to do, and the theories of change and AI progress that motivate my work. I've been working full-time on alignment for three years and change, and thinking about brainlike AGI and its alignment increasingly often since 2004. </span></p><p><span>Here's the research agenda in one breath: I'm trying to predict what the first transformative AI will be, in enough mechani",
-      "url": "https://www.alignmentforum.org/posts/MuLvZxMcy5WaKJu3H/my-research-a-computational-cognitive-neuroscience",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 14,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "mechanistic",
-        "rlhf",
-        "corrigibility",
-        "existential risk",
-        "constitutional ai",
-        "corrigible",
-        "frontier model",
-        "agentic",
-        "autonomous"
-      ]
-    },
     {
       "title": "Models May Behave Worse When Eval Aware",
       "abstract": "<p><i><span>This is the first in a series of research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas.</span></i></p><h1><span>TL;DR</span></h1><p><span>It's often assumed that models will act more aligned when they can tell they're being evaluated. But we find that Gemini can take “undesired” actions in behavioural evals even when it explicitly reasons that the environments are contrived, and sometimes this reasoning will increase th",
@@ -88,18 +66,45 @@
       ]
     },
     {
-      "title": "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming",
-      "abstract": "<p><span>Behavioral evaluations may become worthless, which we think would be a disaster. Smart misaligned models may realize they are being evaluated (\"eval awareness\") and then act to look good to us so we don't realize they're misaligned (\"eval gaming\"). We think </span><i><span>increasing eval cooperativeness</span></i><span> might be a more scalable solution to eval gaming than reducing eval awareness.</span></p><blockquote><p><b><span>Eval cooperativeness:</span></b><span> A situational de",
-      "url": "https://www.alignmentforum.org/posts/j8fkk38B8L7hEcGtg/eval-cooperativeness-may-be-a-scalable-mitigation-for-eval",
+      "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
+      "abstract": "<p><i><span>This is the fourth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The third post can be found </span></i><a href=\"https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><br /><span>Since </span><a href=\"https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s",
+      "url": "https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 8,
+      "score": 7,
       "keywords_matched": [
         "alignment",
-        "mechanistic",
-        "jailbreak",
+        "interpretability",
         "evals",
         "agentic"
+      ]
+    },
+    {
+      "title": "SFT Drives Gemini’s Safety Properties",
+      "abstract": "<p><i><span>This is the third in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The second post can be found </span></i><a href=\"https://www.lesswrong.com/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><br /></p><p><span>In this short post, we describe a surprising finding: </span><b><span>most safety relevan",
+      "url": "https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "reward hacking",
+        "evals"
+      ]
+    },
+    {
+      "title": "Building and evaluating model diffing agents",
+      "abstract": "<p><i><span>This is the second in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The first post can be found </span></i><a href=\"https://www.lesswrong.com/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware\"><i><span>here</span></i></a><i><span>.</span></i></p><h1><span>TL;DR</span></h1><ul><li value=\"1\"><span>It is possible to build extremely simple agents that reliably find interesting beh",
+      "url": "https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability",
+        "capability evaluation"
       ]
     },
     {
@@ -117,41 +122,29 @@
       ]
     },
     {
-      "title": "Testing Gemini models for scheming tendencies",
-      "abstract": "<p><span>As AI models become increasingly capable and autonomous, keeping them safely aligned with human intentions is critical. Extending our previous work on&nbsp;</span><a href=\"https://deepmindsafetyresearch.medium.com/evaluating-and-monitoring-for-ai-scheming-d3448219a967\" rel=\"noopener\"><span>evaluating scheming capabilities</span></a><span>, we introduce complementary approaches to test whether AI models would sabotage their own safeguards, if given the opportunity.</span></p><p><span>Our",
-      "url": "https://www.alignmentforum.org/posts/F3sDngvTL9uyfz53k/testing-gemini-models-for-scheming-tendencies",
+      "title": "Can activation verbalizers surface an internal chain of thought?",
+      "abstract": "<p><i><span>We introduce an evaluation for activation verbalizers: can they surface a target model's reasoning as it solves a math problem in a single forward pass? For open-weight NLAs, the answer seems to be: \"possibly, but definitely not reliably\".</span></i></p><p><span>Lots of important capabilities currently require AI models to reason \"out loud\" in a natural-language chain of thought, which means that we can </span><a href=\"https://www.lesswrong.com/posts/7xneDbsgj6yJDJMjK/chain-of-though",
+      "url": "https://www.alignmentforum.org/posts/QQQAcKuWK6k98FivY/can-activation-verbalizers-surface-an-internal-chain-of-1",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 7,
       "keywords_matched": [
         "alignment",
-        "ai safety",
-        "agentic",
+        "interpretability",
+        "robustness",
+        "frontier model"
+      ]
+    },
+    {
+      "title": "Sympathy for both sides of the egregious misalignment debate",
+      "abstract": "<p><span>On one side of this debate is Yudkowsky &amp; Soares, who think that (if AI progress continues) we’re on a direct path to egregiously-misaligned, scheming, out-of-control, rogue superintelligence (ASI), not even </span><a href=\"https://www.lesswrong.com/posts/xvBZPEccSfM8Fsobt/what-are-the-best-arguments-for-against-ais-being-slightly\"><span>slightly nice</span></a><span>, in the absence of yet-to-be-invented breakthrough technical alignment ideas.</span></p><p><span>On the other side o",
+      "url": "https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
         "autonomous"
-      ]
-    },
-    {
-      "title": "Announcing the ARC White-Box Estimation Challenge",
-      "abstract": "<p>ARC has teamed up with <a href=\"https://www.aicrowd.com/\">AIcrowd</a> to launch the <a href=\"https://www.aicrowd.com/challenges/white-box-estimation-challenge-2026\"><strong>ARC White-Box Estimation Challenge</strong></a>, a contest to improve upon our estimation algorithms for <a href=\"https://www.alignment.org/blog/mechanistic-estimation-for-wide-random-mlps/\">random MLPs</a>. The warm-up round begins this week, and later rounds will have a total prize pool of at least $100,000.</p> <p>We ar",
-      "url": "https://www.alignmentforum.org/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "mechanistic"
-      ]
-    },
-    {
-      "title": "Advice for making robust-to-training model organisms",
-      "abstract": "<img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/6510f425f2daef10a9ee5d131f9fc9b69b959616d15ccc00e8a77b1e816eeda4/tp4y2jyddtwjab3aujnu\" /><p><span>We’d like to develop </span><a href=\"https://www.lesswrong.com/posts/mDcHzdoxB6sh3w2zG/five-approaches-to-evaluating-training-based-control\"><span>training techniques that work when applied to future misaligned AI systems</span></a><span>. One strategy for studying proposed techniques is to test th",
-      "url": "https://www.alignmentforum.org/posts/CmkAxJi83jRv9eXgJ/advice-for-making-robust-to-training-model-organisms-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "robustness"
       ]
     },
     {
@@ -251,9 +244,54 @@
       "type": "web_page"
     },
     {
+      "title": "Introducing the OpenAI Partner Network",
+      "abstract": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "abstract": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "abstract": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "url": "https://openai.com/index/preply",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "abstract": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "url": "https://openai.com/index/bbva",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "abstract": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI to acquire Ona",
+      "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -380,51 +418,6 @@
       "title": "Introducing new capabilities to GPT-Rosalind",
       "abstract": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
       "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "abstract": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-      "url": "https://openai.com/index/wasmer",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI public policy agenda",
-      "abstract": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "abstract": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "abstract": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
-      "url": "https://openai.com/index/travelers",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Codex for every role, tool, and workflow",
-      "abstract": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
