@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-15",
-  "total_found": 231,
+  "date": "2026-06-18",
+  "total_found": 324,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 161,
+    "arxiv": 244,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,6 +12,7 @@
     "lesswrong": 1,
     "metr": 11,
     "openai": 20,
+    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
@@ -63,6 +64,21 @@
         "reward hacking",
         "corrigibility",
         "deceptive alignment"
+      ]
+    },
+    {
+      "title": "Synthetic document finetuning for instilling positive traits",
+      "abstract": "<p><i><span>This is the fifth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The fourth post can be found </span></i><a href=\"https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><br /></p><p><i><b><span>TLDR:</span></b></i><i><span> Via adapting the methods of </span></i><a",
+      "url": "https://www.alignmentforum.org/posts/GTYJRLhqztxKF2v5R/synthetic-document-finetuning-for-instilling-positive-traits",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "evals",
+        "frontier model",
+        "agentic"
       ]
     },
     {
@@ -122,17 +138,16 @@
       ]
     },
     {
-      "title": "Can activation verbalizers surface an internal chain of thought?",
-      "abstract": "<p><i><span>We introduce an evaluation for activation verbalizers: can they surface a target model's reasoning as it solves a math problem in a single forward pass? For open-weight NLAs, the answer seems to be: \"possibly, but definitely not reliably\".</span></i></p><p><span>Lots of important capabilities currently require AI models to reason \"out loud\" in a natural-language chain of thought, which means that we can </span><a href=\"https://www.lesswrong.com/posts/7xneDbsgj6yJDJMjK/chain-of-though",
-      "url": "https://www.alignmentforum.org/posts/QQQAcKuWK6k98FivY/can-activation-verbalizers-surface-an-internal-chain-of-1",
+      "title": "Predicting LLM Safety Before Release by Simulating Deployment",
+      "abstract": "<p><a href=\"https://cdn.openai.com/pdf/predicting-llm-safety-before-release-by-simulating-deployment.pdf\"><span>Paper link</span></a></p><p><span>Before releasing a new model, labs need to understand not just what it can do, but how it is likely to behave in real-world use, including where it might introduce new risks. This becomes even more important as capabilities increase. As part of our pre-deployment safety review, we leverage targeted evaluations, red-teaming, and other checks to understa",
+      "url": "https://www.alignmentforum.org/posts/xPXJfgqFTvuJxGZbE/predicting-llm-safety-before-release-by-simulating",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 7,
+      "score": 6,
       "keywords_matched": [
         "alignment",
-        "interpretability",
-        "robustness",
-        "frontier model"
+        "evals",
+        "agentic"
       ]
     },
     {
@@ -161,14 +176,14 @@
       "type": "web_page"
     },
     {
-      "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
-      "abstract": "<p><span>I often use what I’ll call the “safety-usefulness tradeoff model”, which is: developers face a tradeoff between \"safety\" and \"usefulness\" of an AI deployment, and the developer has only limited willingness or ability to sacrifice usefulness for the sake of safety. This model assumes that developers choose whether to take safety-relevant actions based on their cost efficiency, i.e., the marginal safety gain relative to the cost. However, that is not necessarily true. In this post, I spel",
-      "url": "https://www.alignmentforum.org/posts/mBsZTZxtjgCdN4CDA/efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model",
-      "source": "alignment_forum",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "abstract": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "alignment"
+        "autonomous"
       ]
     },
     {
@@ -244,6 +259,24 @@
       "type": "web_page"
     },
     {
+      "title": "Introducing LifeSciBench",
+      "abstract": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "abstract": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "url": "https://openai.com/index/deployment-simulation",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Introducing the OpenAI Partner Network",
       "abstract": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
       "url": "https://openai.com/index/introducing-openai-partner-network",
@@ -271,6 +304,15 @@
       "keywords_matched": []
     },
     {
+      "title": "OpenAI to acquire Ona",
+      "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "BBVA puts AI at the core of banking with OpenAI",
       "abstract": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "url": "https://openai.com/index/bbva",
@@ -283,15 +325,6 @@
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "abstract": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI to acquire Ona",
-      "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -391,33 +424,6 @@
       "title": "How Endava is redesigning software delivery around AI agents",
       "abstract": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
       "url": "https://openai.com/index/endava-frontiers",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "abstract": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Biodefense in the Intelligence Age",
-      "abstract": "An action plan for AI-powered biological resilience",
-      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "abstract": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
