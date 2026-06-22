@@ -1,10 +1,9 @@
 {
-  "date": "2026-06-18",
-  "total_found": 324,
+  "date": "2026-06-22",
+  "total_found": 70,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 244,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,7 +11,6 @@
     "lesswrong": 1,
     "metr": 11,
     "openai": 20,
-    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
@@ -48,22 +46,6 @@
         "frontier model",
         "agentic",
         "autonomous"
-      ]
-    },
-    {
-      "title": "A Mike's-Eye View of ARC's Research",
-      "abstract": "<p>Over the past 15 months or so, ARC's technical agenda has developed quite a bit. The advent of the <a href=\"https://www.alignment.org/blog/competing-with-sampling/\">Matching Sampling Principle</a> (MSP), and ideas like it, has begotten a host of concrete technical problems; progress on those problems has given us more philosophical clarity on the big picture, which has led to even more technical progress. The two most recent public discussions of ARC's research (Jacob's <a href=\"https://www.a",
-      "url": "https://www.alignmentforum.org/posts/M2tD23bvQLBqsEpqu/a-mike-s-eye-view-of-arc-s-research",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 9,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "mechanistic",
-        "reward hacking",
-        "corrigibility",
-        "deceptive alignment"
       ]
     },
     {
@@ -124,17 +106,16 @@
       ]
     },
     {
-      "title": "Tracing Eval-Awareness Emergence Through Training of OLMo 3",
-      "abstract": "<h2><b><span>TL;DR</span></b></h2><p><span>Recent work from Goodfire &amp; UK AISI –</span><a href=\"https://www.goodfire.ai/research/verbalized-eval-awareness-inflates-measured-safety\"><span> </span><i><span>Verbalized Eval Awareness Inflates Measured Safety</span></i></a><span> – shows that newer open-weight models verbalize evaluation-awareness (VEA) more often, and that this inflates measured safety. Between OLMo-3-32B-Think and OLMo-3</span><b><span>.1</span></b><span>-32B-Think – identical ",
-      "url": "https://www.alignmentforum.org/posts/c2tqL9xPbttisAHtt/tracing-eval-awareness-emergence-through-training-of-olmo-3",
+      "title": "How transparent is DiffusionGemma (and why it matters)",
+      "abstract": "<p><span>Authors: Joshua Engels*, Callum McDougall*, Bilal Chughtai*, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue+, João Gabriel Lopes de Oliveira+, Rohin Shah+, Neel Nanda+</span><br /><span>*Primary Contributor</span><br /><span>+Advising</span></p><p><span>Paper here: </span><a href=\"https://arxiv.org/abs/2606.20560\"><span>https://arxiv.org/abs/2606.20560</span></a><br /></p><h1><span>Overview</span></h1><p><span>In ",
+      "url": "https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 7,
+      "score": 6,
       "keywords_matched": [
         "alignment",
-        "jailbreak",
-        "frontier model",
-        "agentic"
+        "ai safety",
+        "interpretability"
       ]
     },
     {
@@ -174,6 +155,17 @@
         "agentic"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "GDM AI Control Roadmap",
+      "abstract": "<p><span>GDM has published an </span><a href=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf\" rel=\"noreferrer\"><span>AI Control Roadmap</span></a><span>! From the executive summary:</span></p><blockquote><p><br /><span>We present the </span><b><span>GDM AI Control Roadmap (v0.1)</span></b><span> – our plan for implementing and adopting internal guardrails designed to catch potential adversarial behaviour by AI agents, e",
+      "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
     },
     {
       "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
@@ -259,6 +251,42 @@
       "type": "web_page"
     },
     {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "abstract": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "abstract": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT",
+      "abstract": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "abstract": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Introducing LifeSciBench",
       "abstract": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
       "url": "https://openai.com/index/introducing-life-sci-bench",
@@ -304,15 +332,6 @@
       "keywords_matched": []
     },
     {
-      "title": "OpenAI to acquire Ona",
-      "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "BBVA puts AI at the core of banking with OpenAI",
       "abstract": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "url": "https://openai.com/index/bbva",
@@ -325,6 +344,15 @@
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "abstract": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI to acquire Ona",
+      "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -388,42 +416,6 @@
       "title": "Industrial policy for the Intelligence Age",
       "abstract": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
       "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Confidential submission of draft S-1 to the SEC",
-      "abstract": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-      "url": "https://openai.com/index/openai-submits-confidential-s-1",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Built to benefit everyone: our plan",
-      "abstract": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing the OpenAI Economic Research Exchange",
-      "abstract": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-      "url": "https://openai.com/index/economic-research-exchange",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "abstract": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "url": "https://openai.com/index/endava-frontiers",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
