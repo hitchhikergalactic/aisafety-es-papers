@@ -1,9 +1,10 @@
 {
-  "date": "2026-06-22",
-  "total_found": 70,
+  "date": "2026-06-25",
+  "total_found": 226,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
+    "arxiv": 156,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -29,23 +30,6 @@
         "jailbreak",
         "evals",
         "agentic"
-      ]
-    },
-    {
-      "title": "Sequent: scale and automation for higher confidence in alignment",
-      "abstract": "<img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1781104966/lexical_client_uploads/fcltdf1kfsafrnjf4epf.png\" /><h1><span>Alignment is not on track</span></h1><p><span>Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver </span><i><span>a priori</span></i><span> confidence, before training ASI, that thin",
-      "url": "https://www.alignmentforum.org/posts/AP7YDke5jjY4v3X9Z/sequent-scale-and-automation-for-higher-confidence-in-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 10,
-      "keywords_matched": [
-        "alignment",
-        "mechanistic",
-        "scalable oversight",
-        "rlhf",
-        "frontier model",
-        "agentic",
-        "autonomous"
       ]
     },
     {
@@ -129,6 +113,18 @@
         "alignment",
         "evals",
         "agentic"
+      ]
+    },
+    {
+      "title": "LLM-Driven Feature Discovery",
+      "abstract": "<p><span>We would often like to get a qualitative sense of a target model’s behaviors in important distributions (e.g. deployment, RL training, or evals). For example, we might want to </span><a href=\"https://alignment.anthropic.com/2026/petri-v2/\"><span>discover novel behaviors</span></a><span>, figure out what causes some target behavior to occur, or find </span><a href=\"https://arxiv.org/abs/2602.05910v1\"><span>surprising correlations</span></a><span> between behaviors.&nbsp;</span></p><p><sp",
+      "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "evals"
       ]
     },
     {
@@ -251,6 +247,78 @@
       "type": "web_page"
     },
     {
+      "title": "How agents are transforming work",
+      "abstract": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "abstract": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Helping build shared standards for advanced AI",
+      "abstract": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "abstract": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Omio is building the future of conversational travel",
+      "abstract": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "url": "https://openai.com/index/omio",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "abstract": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Codex-maxxing for long-running work",
+      "abstract": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
       "abstract": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
@@ -332,24 +400,6 @@
       "keywords_matched": []
     },
     {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "abstract": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "url": "https://openai.com/index/bbva",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "abstract": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "OpenAI to acquire Ona",
       "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
       "url": "https://openai.com/index/openai-to-acquire-ona",
@@ -362,60 +412,6 @@
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "abstract": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "abstract": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "url": "https://openai.com/index/openai-on-oracle-cloud",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "abstract": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
-      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "abstract": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
-      "url": "https://openai.com/index/lseg",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "abstract": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "url": "https://openai.com/index/nextdoor",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "What Codex unlocks for Notion",
-      "abstract": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "url": "https://openai.com/index/notion",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Industrial policy for the Intelligence Age",
-      "abstract": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
