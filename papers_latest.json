@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-25",
-  "total_found": 226,
+  "date": "2026-06-29",
+  "total_found": 209,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 156,
+    "arxiv": 139,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -16,20 +16,21 @@
   },
   "papers": [
     {
-      "title": "Models May Behave Worse When Eval Aware",
-      "abstract": "<p><i><span>This is the first in a series of research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas.</span></i></p><h1><span>TL;DR</span></h1><p><span>It's often assumed that models will act more aligned when they can tell they're being evaluated. But we find that Gemini can take “undesired” actions in behavioural evals even when it explicitly reasons that the environments are contrived, and sometimes this reasoning will increase th",
-      "url": "https://www.alignmentforum.org/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware",
+      "title": "The Case for Model Forensics",
+      "abstract": "<p><i><span>If we had a misalignment warning shot, would we be able to tell?</span></i></p><p><span>Suppose an AI company catches their model taking an egregious action, like deleting oversight code that monitors its actions. Should they sound the alarm? A key piece of evidence to determine what to do next – such as what mitigations to take – is to understand </span><i><span>why </span></i><span>the model took the action. If the model was just confused (e.g. it may have been trying to reduce lat",
+      "url": "https://www.alignmentforum.org/posts/LCGcD28rSMkMTMvBK/the-case-for-model-forensics",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 10,
+      "score": 11,
       "keywords_matched": [
         "alignment",
-        "ai safety",
         "interpretability",
-        "deceptive alignment",
+        "reward hacking",
         "jailbreak",
+        "robustness",
         "evals",
-        "agentic"
+        "agentic",
+        "autonomous"
       ]
     },
     {
@@ -90,6 +91,19 @@
       ]
     },
     {
+      "title": "Deployment Awareness Matters More Than Evaluation Awareness",
+      "abstract": "<h2><span>TL;DR</span></h2><p><a href=\"https://github.com/VojtaKovarik/limitations-of-evaluation/blob/main/projects/lw-sequence/drafts/post-05-deployment-awareness.md#tldr\"></a></p><p><i><span>Evaluation awareness</span></i><span> — an AI recognizing it's being evaluated — is a widely discussed concept in AI safety. But there is a closely related concept that we claim is more important: </span><b><span>deployment awareness</span></b><span>, the AI's ability to recognize when it is </span><i><spa",
+      "url": "https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability"
+      ]
+    },
+    {
       "title": "How transparent is DiffusionGemma (and why it matters)",
       "abstract": "<p><span>Authors: Joshua Engels*, Callum McDougall*, Bilal Chughtai*, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue+, João Gabriel Lopes de Oliveira+, Rohin Shah+, Neel Nanda+</span><br /><span>*Primary Contributor</span><br /><span>+Advising</span></p><p><span>Paper here: </span><a href=\"https://arxiv.org/abs/2606.20560\"><span>https://arxiv.org/abs/2606.20560</span></a><br /></p><h1><span>Overview</span></h1><p><span>In ",
       "url": "https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
@@ -125,18 +139,6 @@
       "keywords_matched": [
         "alignment",
         "evals"
-      ]
-    },
-    {
-      "title": "Sympathy for both sides of the egregious misalignment debate",
-      "abstract": "<p><span>On one side of this debate is Yudkowsky &amp; Soares, who think that (if AI progress continues) we’re on a direct path to egregiously-misaligned, scheming, out-of-control, rogue superintelligence (ASI), not even </span><a href=\"https://www.lesswrong.com/posts/xvBZPEccSfM8Fsobt/what-are-the-best-arguments-for-against-ais-being-slightly\"><span>slightly nice</span></a><span>, in the absence of yet-to-be-invented breakthrough technical alignment ideas.</span></p><p><span>On the other side o",
-      "url": "https://www.alignmentforum.org/posts/DZaZ3fqHnvfLCftPu/sympathy-for-both-sides-of-the-egregious-misalignment-debate",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "autonomous"
       ]
     },
     {
@@ -247,6 +249,33 @@
       "type": "web_page"
     },
     {
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "abstract": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "abstract": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "abstract": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "How agents are transforming work",
       "abstract": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
       "url": "https://openai.com/index/how-agents-are-transforming-work",
@@ -292,18 +321,18 @@
       "keywords_matched": []
     },
     {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "url": "https://openai.com/index/patch-the-planet",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "abstract": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "abstract": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "url": "https://openai.com/index/patch-the-planet",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -385,33 +414,6 @@
       "title": "New OpenAI Academy courses for the next era of work",
       "abstract": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
       "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Preply combines AI and human tutors to personalize learning",
-      "abstract": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
-      "url": "https://openai.com/index/preply",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI to acquire Ona",
-      "abstract": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "abstract": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
