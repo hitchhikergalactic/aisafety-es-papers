@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-29",
-  "total_found": 209,
+  "date": "2026-07-02",
+  "total_found": 245,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 139,
+    "arxiv": 175,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -35,7 +35,7 @@
     },
     {
       "title": "Synthetic document finetuning for instilling positive traits",
-      "abstract": "<p><i><span>This is the fifth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The fourth post can be found </span></i><a href=\"https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><br /></p><p><i><b><span>TLDR:</span></b></i><i><span> Via adapting the methods of </span></i><a",
+      "abstract": "<p><i><span>This is the fifth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The fourth post can be found </span></i><a href=\"https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><i><span>Thanks to Chloe Li for feedback on this post!</span></i></p><p><br /></p><p><i><b><span",
       "url": "https://www.alignmentforum.org/posts/GTYJRLhqztxKF2v5R/synthetic-document-finetuning-for-instilling-positive-traits",
       "source": "alignment_forum",
       "source_tier": 3,
@@ -249,6 +249,42 @@
       "type": "web_page"
     },
     {
+      "title": "How ChatGPT adoption has expanded",
+      "abstract": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Inside Genebench-Pro",
+      "abstract": "",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "abstract": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "abstract": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Mapping Europe’s AI Workforce Opportunity",
       "abstract": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
@@ -321,18 +357,18 @@
       "keywords_matched": []
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "abstract": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "url": "https://openai.com/index/patch-the-planet",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "url": "https://openai.com/index/patch-the-planet",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "abstract": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -378,42 +414,6 @@
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "abstract": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing LifeSciBench",
-      "abstract": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "abstract": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "url": "https://openai.com/index/deployment-simulation",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing the OpenAI Partner Network",
-      "abstract": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "New OpenAI Academy courses for the next era of work",
-      "abstract": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
