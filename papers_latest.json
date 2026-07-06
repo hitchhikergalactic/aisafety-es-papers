@@ -1,10 +1,9 @@
 {
-  "date": "2026-07-02",
-  "total_found": 245,
+  "date": "2026-07-06",
+  "total_found": 70,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 175,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -77,20 +76,6 @@
       ]
     },
     {
-      "title": "Building and evaluating model diffing agents",
-      "abstract": "<p><i><span>This is the second in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The first post can be found </span></i><a href=\"https://www.lesswrong.com/posts/aTcsN5ZZDnMFJvRiG/models-may-behave-worse-when-eval-aware\"><i><span>here</span></i></a><i><span>.</span></i></p><h1><span>TL;DR</span></h1><ul><li value=\"1\"><span>It is possible to build extremely simple agents that reliably find interesting beh",
-      "url": "https://www.alignmentforum.org/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "interpretability",
-        "capability evaluation"
-      ]
-    },
-    {
       "title": "Deployment Awareness Matters More Than Evaluation Awareness",
       "abstract": "<h2><span>TL;DR</span></h2><p><a href=\"https://github.com/VojtaKovarik/limitations-of-evaluation/blob/main/projects/lw-sequence/drafts/post-05-deployment-awareness.md#tldr\"></a></p><p><i><span>Evaluation awareness</span></i><span> — an AI recognizing it's being evaluated — is a widely discussed concept in AI safety. But there is a closely related concept that we claim is more important: </span><b><span>deployment awareness</span></b><span>, the AI's ability to recognize when it is </span><i><spa",
       "url": "https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
@@ -153,6 +138,17 @@
         "agentic"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Pragmatic FDT, and predictors as game theory",
+      "abstract": "<p>Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has <a href=\"https://benthams.substack.com/p/functional-decision-theory-not-even\">published a case</a> against FDT (<a href=\"https://arxiv.org/abs/1710.05060\">functional decision theory</a>), contrasting rationalist enthusiasm with academic scepticism: \"<em>Academic decision theorists don't like the theory. The number of academic decision theorists who adopt it could be counted o",
+      "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
     },
     {
       "title": "GDM AI Control Roadmap",
