@@ -1,9 +1,10 @@
 {
-  "date": "2026-07-06",
-  "total_found": 70,
+  "date": "2026-07-09",
+  "total_found": 201,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
+    "arxiv": 131,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -33,46 +34,19 @@
       ]
     },
     {
-      "title": "Synthetic document finetuning for instilling positive traits",
-      "abstract": "<p><i><span>This is the fifth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The fourth post can be found </span></i><a href=\"https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><i><span>Thanks to Chloe Li for feedback on this post!</span></i></p><p><br /></p><p><i><b><span",
-      "url": "https://www.alignmentforum.org/posts/GTYJRLhqztxKF2v5R/synthetic-document-finetuning-for-instilling-positive-traits",
+      "title": "Notes on technical alignment via human-like social drives",
+      "abstract": "<h1><span>1. Frontmatter</span></h1><h2><span>1.1 Backstory for this post</span></h2><p><span>As discussed in </span><a href=\"https://www.lesswrong.com/s/HzcM2dkCq7fwXBej8\"><span>Intro to Brain-Like-AGI Safety</span></a><span>, I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating human innate social and moral drives as a possible jumping-off point for our technical alignment approach.</span></p><p><span>After all, if it’s ",
+      "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 8,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "evals",
-        "frontier model",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Why Do Naive SFT Filters For Safety Properties Fail?",
-      "abstract": "<p><i><span>This is the fourth in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The third post can be found </span></i><a href=\"https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><br /><span>Since </span><a href=\"https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s",
-      "url": "https://www.alignmentforum.org/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "evals",
-        "agentic"
-      ]
-    },
-    {
-      "title": "SFT Drives Gemini’s Safety Properties",
-      "abstract": "<p><i><span>This is the third in a series of informal research updates from the Google DeepMind Language Model Interpretability team, in interpretability and adjacent areas. The second post can be found </span></i><a href=\"https://www.lesswrong.com/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents\" rel=\"noreferrer\"><i><span>here</span></i></a><i><span>.</span></i></p><p><br /></p><p><span>In this short post, we describe a surprising finding: </span><b><span>most safety relevan",
-      "url": "https://www.alignmentforum.org/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
+      "score": 9,
       "keywords_matched": [
         "alignment",
         "interpretability",
         "reward hacking",
-        "evals"
+        "corrigibility",
+        "corrigible",
+        "autonomous"
       ]
     },
     {
@@ -112,6 +86,30 @@
         "alignment",
         "evals",
         "agentic"
+      ]
+    },
+    {
+      "title": "Announcing our $160M grant from Coefficient Giving",
+      "abstract": "<p><span>We are excited to announce that </span><b><span>Resolution (</span></b><a href=\"https://resolution.org/post/rebrand\" rel=\"noreferrer\"><b><span>fka Sequent</span></b></a><b><span>) has a $160M grant from Coefficient Giving (cG) </span></b><span>to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to accelerate progress towards higher-confidence alignment, or to find evidence and obstacles showing why alignment is hard.</span><br /><br />",
+      "url": "https://www.alignmentforum.org/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "ai safety"
+      ]
+    },
+    {
+      "title": "Data filtering works a lot worse than you would expect",
+      "abstract": "<p><i><span>This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase.  </span></i></p><p><i><span>J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provided guidance and feedback throughout. </span></i></p><p><a href=\"https://x.com/dohunchris/status/2074568613043060738\" rel=\"noreferrer\"><span>Tweet Thread</span></a></p><h1><b><span>TLDR</span></b></h1><ul><li value=\"1\"><span>Models can acqui",
+      "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "evals"
       ]
     },
     {
@@ -159,17 +157,6 @@
       "score": 4,
       "keywords_matched": [
         "alignment"
-      ]
-    },
-    {
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "abstract": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "autonomous"
       ]
     },
     {
@@ -245,9 +232,72 @@
       "type": "web_page"
     },
     {
+      "title": "Our approach to government and national security partnerships",
+      "abstract": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "abstract": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Helping K–12 educators build practical AI skills",
+      "abstract": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "abstract": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "abstract": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "abstract": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "url": "https://openai.com/index/mufg",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "How ChatGPT adoption has expanded",
       "abstract": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "abstract": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -266,15 +316,6 @@
       "title": "Introducing GeneBench-Pro",
       "abstract": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
       "url": "https://openai.com/index/introducing-genebench-pro",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "abstract": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -353,15 +394,6 @@
       "keywords_matched": []
     },
     {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "url": "https://openai.com/index/patch-the-planet",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "Daybreak: Tools for securing every organization in the world",
       "abstract": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
       "url": "https://openai.com/index/daybreak-securing-the-world",
@@ -371,45 +403,9 @@
       "keywords_matched": []
     },
     {
-      "title": "Codex-maxxing for long-running work",
-      "abstract": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-      "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "abstract": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "abstract": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Improving health intelligence in ChatGPT",
-      "abstract": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "abstract": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "url": "https://openai.com/index/patch-the-planet",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
