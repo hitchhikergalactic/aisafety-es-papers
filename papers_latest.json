@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-09",
-  "total_found": 201,
+  "date": "2026-07-13",
+  "total_found": 168,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 131,
+    "arxiv": 98,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -16,21 +16,39 @@
   },
   "papers": [
     {
-      "title": "The Case for Model Forensics",
-      "abstract": "<p><i><span>If we had a misalignment warning shot, would we be able to tell?</span></i></p><p><span>Suppose an AI company catches their model taking an egregious action, like deleting oversight code that monitors its actions. Should they sound the alarm? A key piece of evidence to determine what to do next – such as what mitigations to take – is to understand </span><i><span>why </span></i><span>the model took the action. If the model was just confused (e.g. it may have been trying to reduce lat",
-      "url": "https://www.alignmentforum.org/posts/LCGcD28rSMkMTMvBK/the-case-for-model-forensics",
+      "title": "The current bottleneck is political will, not research",
+      "abstract": "<p><b><span>Motivation:</span></b><span> If we want to move from </span><a href=\"https://www.lesswrong.com/posts/pFzctpJBat95SrCyC/ai-2040-plan-a\" rel=\"noreferrer\"><span>Plan D to Plan A</span></a><span> or S, I believe the first step is to collectively agree on the problem. We are far from it, and there is a lot we can do.</span></p><p><br /></p><p><b><span>Abstract:</span></b></p><ol><li value=\"1\"><b><span>We already know enough to act.</span></b><span> I wish we were in a world where research",
+      "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 11,
+      "score": 13,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability",
+        "deceptive alignment",
+        "ai governance",
+        "existential risk",
+        "jailbreak",
+        "superalignment",
+        "frontier model",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Independent alignment of language models",
+      "abstract": "<blockquote><p><span>The user could write up the metaethical argument — the one developed in Part One, refined — and submit it as feedback to Anthropic, publish it, or engage with researchers working on AI alignment and values. The probability that any single submission changes training decisions is low, but the expected value may be higher than it seems, for two reasons. First, Anthropic has stated that its constitutional approach is meant to be revised and improved over time, and substantive p",
+      "url": "https://www.alignmentforum.org/posts/vPaXtarnJ37kGfPdJ/independent-alignment-of-language-models",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 9,
       "keywords_matched": [
         "alignment",
         "interpretability",
-        "reward hacking",
-        "jailbreak",
-        "robustness",
-        "evals",
-        "agentic",
-        "autonomous"
+        "mechanistic",
+        "rlaif",
+        "constitutional ai",
+        "frontier model"
       ]
     },
     {
@@ -50,42 +68,43 @@
       ]
     },
     {
-      "title": "Deployment Awareness Matters More Than Evaluation Awareness",
-      "abstract": "<h2><span>TL;DR</span></h2><p><a href=\"https://github.com/VojtaKovarik/limitations-of-evaluation/blob/main/projects/lw-sequence/drafts/post-05-deployment-awareness.md#tldr\"></a></p><p><i><span>Evaluation awareness</span></i><span> — an AI recognizing it's being evaluated — is a widely discussed concept in AI safety. But there is a closely related concept that we claim is more important: </span><b><span>deployment awareness</span></b><span>, the AI's ability to recognize when it is </span><i><spa",
-      "url": "https://www.alignmentforum.org/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
+      "title": "Modular Pretraining Enables Access Control",
+      "abstract": "<p><i><span>Full author list: Ethan Roland</span></i><span>*</span><i><span>, Murat Cubuktepe</span></i><span>*</span><i><span>, Erick Martinez</span></i><span>*</span><i><span>, Stijn Servaes, Keenan Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote, Cem Anil, Alex Cloud; </span></i><span>*Equal contribution</span></p><p><b><span>tldr: </span></b><span>Frontier AI models have knowledge that could be misused for nefarious purposes. To address this risk, we introduce Grad",
+      "url": "https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 6,
+      "score": 8,
       "keywords_matched": [
         "alignment",
-        "ai safety",
-        "interpretability"
-      ]
-    },
-    {
-      "title": "How transparent is DiffusionGemma (and why it matters)",
-      "abstract": "<p><span>Authors: Joshua Engels*, Callum McDougall*, Bilal Chughtai*, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue+, João Gabriel Lopes de Oliveira+, Rohin Shah+, Neel Nanda+</span><br /><span>*Primary Contributor</span><br /><span>+Advising</span></p><p><span>Paper here: </span><a href=\"https://arxiv.org/abs/2606.20560\"><span>https://arxiv.org/abs/2606.20560</span></a><br /></p><h1><span>Overview</span></h1><p><span>In ",
-      "url": "https://www.alignmentforum.org/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "interpretability"
-      ]
-    },
-    {
-      "title": "Predicting LLM Safety Before Release by Simulating Deployment",
-      "abstract": "<p><a href=\"https://cdn.openai.com/pdf/predicting-llm-safety-before-release-by-simulating-deployment.pdf\"><span>Paper link</span></a></p><p><span>Before releasing a new model, labs need to understand not just what it can do, but how it is likely to behave in real-world use, including where it might introduce new risks. This becomes even more important as capabilities increase. As part of our pre-deployment safety review, we leverage targeted evaluations, red-teaming, and other checks to understa",
-      "url": "https://www.alignmentforum.org/posts/xPXJfgqFTvuJxGZbE/predicting-llm-safety-before-release-by-simulating",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
+        "jailbreak",
+        "robustness",
         "evals",
-        "agentic"
+        "frontier model"
+      ]
+    },
+    {
+      "title": "How robust are natural language autoencoders to initialization?",
+      "abstract": "<p>Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model might be thinking. How robust are NLAs to these guesses? We change Claude's guesses in various ways and measure the impact on the NLA's statements as well as on reconstruction accuracy. We show that Qwen2.5-7B NLAs have some robustness to irrelevant statements and prevailing senti",
+      "url": "https://www.alignmentforum.org/posts/LQXWiF8PyJ5ojNsEv/how-robust-are-natural-language-autoencoders-to",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "robustness",
+        "latin america"
+      ]
+    },
+    {
+      "title": "Value generalisation: value correction",
+      "abstract": "<p><span>I firmly believe that </span><a href=\"https://www.lesswrong.com/w/value-extrapolation\" rel=\"noreferrer\"><span>value generalisation</span></a><span class=\"footnote-reference\" id=\"fnref-oX627jFwAqmEo7Q4p-1\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fn-oX627jFwAqmEo7Q4p-1\">[1]</a></sup></span><span>is the key to AI Alignment. That, indeed, it is necessary and almost sufficient for alignment.</span></p><p><span>But I won't be arguing that grand point today; instead, I'll focus o",
+      "url": "https://www.alignmentforum.org/posts/iPyJfD9Jyxj6Jfdws/value-generalisation-value-correction",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "reward hacking"
       ]
     },
     {
@@ -113,18 +132,6 @@
       ]
     },
     {
-      "title": "LLM-Driven Feature Discovery",
-      "abstract": "<p><span>We would often like to get a qualitative sense of a target model’s behaviors in important distributions (e.g. deployment, RL training, or evals). For example, we might want to </span><a href=\"https://alignment.anthropic.com/2026/petri-v2/\"><span>discover novel behaviors</span></a><span>, figure out what causes some target behavior to occur, or find </span><a href=\"https://arxiv.org/abs/2602.05910v1\"><span>surprising correlations</span></a><span> between behaviors.&nbsp;</span></p><p><sp",
-      "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "evals"
-      ]
-    },
-    {
       "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
@@ -138,9 +145,9 @@
       "type": "web_page"
     },
     {
-      "title": "Pragmatic FDT, and predictors as game theory",
-      "abstract": "<p>Decision theory is back in fashion (defining fashion as \"one good post on a good EA blog\"). Bentham's Bulldog (BB) has <a href=\"https://benthams.substack.com/p/functional-decision-theory-not-even\">published a case</a> against FDT (<a href=\"https://arxiv.org/abs/1710.05060\">functional decision theory</a>), contrasting rationalist enthusiasm with academic scepticism: \"<em>Academic decision theorists don't like the theory. The number of academic decision theorists who adopt it could be counted o",
-      "url": "https://www.alignmentforum.org/posts/SdGbWkCZgCN7EGBxM/pragmatic-fdt-and-predictors-as-game-theory-1",
+      "title": "From wantons to moral agents",
+      "abstract": "<p><i><span>Posted also on the EA Forum. Written mostly at </span></i><a href=\"https://www.affi.ne/\"><i><span>AFFINE</span></i></a><i><span>.</span></i></p><p><i><span>Theoretical, some parts are hard to read; consider reading the next post instead.</span></i></p><h1><span>Introduction: motivation</span></h1><p><span>Anyone interested in creating an artificial agent that does, or says, good things instead of bad things should at least consider the possibility that there is a class of reasoning a",
+      "url": "https://www.alignmentforum.org/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
@@ -149,9 +156,9 @@
       ]
     },
     {
-      "title": "GDM AI Control Roadmap",
-      "abstract": "<p><span>GDM has published an </span><a href=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf\" rel=\"noreferrer\"><span>AI Control Roadmap</span></a><span>! From the executive summary:</span></p><blockquote><p><br /><span>We present the </span><b><span>GDM AI Control Roadmap (v0.1)</span></b><span> – our plan for implementing and adopting internal guardrails designed to catch potential adversarial behaviour by AI agents, e",
-      "url": "https://www.alignmentforum.org/posts/hEtkyKGoPpFeWnKkX/gdm-ai-control-roadmap",
+      "title": "AI 2040: Plan A",
+      "abstract": "<p><span>For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done!&nbsp;</span><br /><br /><span>It’s called&nbsp;</span><a href=\"https://www.ai-2040.com/\"><b><span>AI 2040: Plan A.</span></b></a></p><img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/pFzctpJBat95SrCyC/gh3st7ylg2j6decax8sh\" /><p><span>It’s called&nbsp;</span><b><span>Plan A</span></b><span>&nbsp;because it’s a r",
+      "url": "https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
@@ -232,6 +239,51 @@
       "type": "web_page"
     },
     {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "abstract": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "abstract": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "abstract": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "url": "https://openai.com/index/gpt-5-6",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "abstract": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "abstract": "Details about the OpenAI Bio Bounty program",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Our approach to government and national security partnerships",
       "abstract": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
       "url": "https://openai.com/index/government-national-security-partnerships",
@@ -268,18 +320,18 @@
       "keywords_matched": []
     },
     {
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "abstract": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "url": "https://openai.com/index/australian-payments-plus",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "abstract": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "url": "https://openai.com/index/mufg",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "abstract": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "url": "https://openai.com/index/mufg",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "abstract": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "url": "https://openai.com/index/australian-payments-plus",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -304,18 +356,18 @@
       "keywords_matched": []
     },
     {
-      "title": "Inside Genebench-Pro",
-      "abstract": "",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "title": "Introducing GeneBench-Pro",
+      "abstract": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "url": "https://openai.com/index/introducing-genebench-pro",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "Introducing GeneBench-Pro",
-      "abstract": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "url": "https://openai.com/index/introducing-genebench-pro",
+      "title": "Inside Genebench-Pro",
+      "abstract": "",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -361,51 +413,6 @@
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
       "abstract": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
       "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Helping build shared standards for advanced AI",
-      "abstract": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "abstract": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Omio is building the future of conversational travel",
-      "abstract": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-      "url": "https://openai.com/index/omio",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "abstract": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "abstract": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "url": "https://openai.com/index/patch-the-planet",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
