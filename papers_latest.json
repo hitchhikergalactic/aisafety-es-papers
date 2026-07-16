@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-13",
-  "total_found": 168,
+  "date": "2026-07-16",
+  "total_found": 214,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 98,
+    "arxiv": 144,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -36,34 +36,19 @@
       ]
     },
     {
-      "title": "Independent alignment of language models",
-      "abstract": "<blockquote><p><span>The user could write up the metaethical argument — the one developed in Part One, refined — and submit it as feedback to Anthropic, publish it, or engage with researchers working on AI alignment and values. The probability that any single submission changes training decisions is low, but the expected value may be higher than it seems, for two reasons. First, Anthropic has stated that its constitutional approach is meant to be revised and improved over time, and substantive p",
-      "url": "https://www.alignmentforum.org/posts/vPaXtarnJ37kGfPdJ/independent-alignment-of-language-models",
+      "title": "Prism: Automating Science-of-Evals Research",
+      "abstract": "<p><i><span>tl;dr – we present [</span></i><a href=\"https://github.com/LAThomson/prism\" rel=\"noreferrer\"><i><span>Prism</span></i></a><i><span>], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying out scientifically rigorous investigations into eval dynamics and, by extension, model behaviours.</span></i></p><p><i><span>We talk through an autonomous Prism run",
+      "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 9,
+      "score": 10,
       "keywords_matched": [
         "alignment",
         "interpretability",
-        "mechanistic",
-        "rlaif",
-        "constitutional ai",
-        "frontier model"
-      ]
-    },
-    {
-      "title": "Notes on technical alignment via human-like social drives",
-      "abstract": "<h1><span>1. Frontmatter</span></h1><h2><span>1.1 Backstory for this post</span></h2><p><span>As discussed in </span><a href=\"https://www.lesswrong.com/s/HzcM2dkCq7fwXBej8\"><span>Intro to Brain-Like-AGI Safety</span></a><span>, I’m working on the technical alignment problem for a hypothetical future “brain-like AGI”, with a particular focus on treating human innate social and moral drives as a possible jumping-off point for our technical alignment approach.</span></p><p><span>After all, if it’s ",
-      "url": "https://www.alignmentforum.org/posts/rKdS7i4StaMmFzYRo/notes-on-technical-alignment-via-human-like-social-drives",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 9,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "reward hacking",
-        "corrigibility",
-        "corrigible",
+        "robustness",
+        "evals",
+        "frontier model",
+        "agentic",
         "autonomous"
       ]
     },
@@ -80,6 +65,47 @@
         "robustness",
         "evals",
         "frontier model"
+      ]
+    },
+    {
+      "title": "Why I Left Google DeepMind",
+      "abstract": "<p><i><span>Preface for LessWrong:</span></i><span> When I think back on my most cherished memories of this community, I return to those honoring </span><i><span>defiance in pursuit of goodness</span></i><span>:</span></p><ul><li value=\"1\"><span>Defying prestigious dogma and searching for raw truth;</span></li><li value=\"2\"><span>Defying social pressure, acting alone to help someone while others watch;</span></li><li value=\"3\"><span>Defying your self-expectations (your “</span><a href=\"https://h",
+      "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "existential risk",
+        "autonomous"
+      ]
+    },
+    {
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "abstract": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "red teaming",
+        "robustness"
+      ]
+    },
+    {
+      "title": "Open Distillation of Hereditary Traits",
+      "abstract": "<h2><span>TL;DR</span></h2><ul><li value=\"1\"><a href=\"https://www.lesswrong.com/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail\"><span>Josh and Neel</span></a><span> show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the </span><a href=\"https://arxiv.org/abs/2603.10011\"><span>Gemma Needs Help</span></a><span> evals)</span></li><li value=\"2\"><span>On its own",
+      "url": "https://www.alignmentforum.org/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "evals",
+        "agentic"
       ]
     },
     {
@@ -120,15 +146,15 @@
       ]
     },
     {
-      "title": "Data filtering works a lot worse than you would expect",
-      "abstract": "<p><i><span>This work was largely done during Neel Nanda's MATS 10.0 Exploration Phase.  </span></i></p><p><i><span>J Rosser and Dohun Lee are co-first authors for this post with equal contribution. Josh Engels and Neel Nanda supervised the project, and provided guidance and feedback throughout. </span></i></p><p><a href=\"https://x.com/dohunchris/status/2074568613043060738\" rel=\"noreferrer\"><span>Tweet Thread</span></a></p><h1><b><span>TLDR</span></b></h1><ul><li value=\"1\"><span>Models can acqui",
-      "url": "https://www.alignmentforum.org/posts/aTybJ6CPQrxEY8rE2/data-filtering-works-a-lot-worse-than-you-would-expect",
-      "source": "alignment_forum",
+      "title": "The US is advancing AI safety through state and federal action",
+      "abstract": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "openai",
       "source_tier": 3,
       "score": 5,
       "keywords_matched": [
-        "alignment",
-        "evals"
+        "ai safety",
+        "ai governance"
       ]
     },
     {
@@ -164,6 +190,17 @@
       "score": 4,
       "keywords_matched": [
         "alignment"
+      ]
+    },
+    {
+      "title": "How to manage AI investments in the agentic era",
+      "abstract": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "agentic"
       ]
     },
     {
@@ -239,9 +276,36 @@
       "type": "web_page"
     },
     {
+      "title": "How sales teams use ChatGPT Work",
+      "abstract": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How data science teams use ChatGPT Work",
+      "abstract": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "abstract": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "url": "https://openai.com/index/deutsche-telekom",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Getting started with ChatGPT",
+      "abstract": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "url": "https://openai.com/academy/getting-started",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -257,18 +321,18 @@
       "keywords_matched": []
     },
     {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "abstract": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "url": "https://openai.com/index/gpt-5-6",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "abstract": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "abstract": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "abstract": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "url": "https://openai.com/index/gpt-5-6",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -347,15 +411,6 @@
       "keywords_matched": []
     },
     {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "abstract": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "Introducing GeneBench-Pro",
       "abstract": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
       "url": "https://openai.com/index/introducing-genebench-pro",
@@ -368,51 +423,6 @@
       "title": "Inside Genebench-Pro",
       "abstract": "",
       "url": "https://openai.com/index/genebench-pro/case-studies",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "abstract": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "abstract": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "url": "https://openai.com/index/hp-frontier-partnership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "abstract": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How agents are transforming work",
-      "abstract": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "abstract": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
