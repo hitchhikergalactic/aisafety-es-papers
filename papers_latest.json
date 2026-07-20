@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-16",
-  "total_found": 214,
+  "date": "2026-07-20",
+  "total_found": 185,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 144,
+    "arxiv": 115,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -36,6 +36,24 @@
       ]
     },
     {
+      "title": "Announcing the Corrigibility Research Fund",
+      "abstract": "<p><b><span>TLDR:</span></b><span> I'm managing a new fund, housed at Lightcone Infrastructure, that will award </span><b><span>at least $200,000 in grants and prizes for corrigibility research in 2026</span></b><span>. Roughly half will go to traditional grants (first application deadline </span><b><span>August 23rd</span></b><span>) and half for prizes recognizing excellent work done this year. If you have interest in working on corrigibility, now is a good time to start! </span><b><span>Apply",
+      "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 11,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability",
+        "corrigibility",
+        "robustness",
+        "corrigible",
+        "evals",
+        "frontier model"
+      ]
+    },
+    {
       "title": "Prism: Automating Science-of-Evals Research",
       "abstract": "<p><i><span>tl;dr – we present [</span></i><a href=\"https://github.com/LAThomson/prism\" rel=\"noreferrer\"><i><span>Prism</span></i></a><i><span>], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying out scientifically rigorous investigations into eval dynamics and, by extension, model behaviours.</span></i></p><p><i><span>We talk through an autonomous Prism run",
       "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
@@ -50,21 +68,6 @@
         "frontier model",
         "agentic",
         "autonomous"
-      ]
-    },
-    {
-      "title": "Modular Pretraining Enables Access Control",
-      "abstract": "<p><i><span>Full author list: Ethan Roland</span></i><span>*</span><i><span>, Murat Cubuktepe</span></i><span>*</span><i><span>, Erick Martinez</span></i><span>*</span><i><span>, Stijn Servaes, Keenan Pepper, Mike Vaiana, Diogo Schwerz de Lucena, Judd Rosenblatt, Addie Foote, Cem Anil, Alex Cloud; </span></i><span>*Equal contribution</span></p><p><b><span>tldr: </span></b><span>Frontier AI models have knowledge that could be misused for nefarious purposes. To address this risk, we introduce Grad",
-      "url": "https://www.alignmentforum.org/posts/43vKjWuH4goLwrFHA/modular-pretraining-enables-access-control",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 8,
-      "keywords_matched": [
-        "alignment",
-        "jailbreak",
-        "robustness",
-        "evals",
-        "frontier model"
       ]
     },
     {
@@ -109,16 +112,39 @@
       ]
     },
     {
-      "title": "How robust are natural language autoencoders to initialization?",
-      "abstract": "<p>Natural language autoencoders are meant to take in an LLM's activation vector and describe in plain text what the model is thinking. However, its training data collection involves asking Claude to guess what a model might be thinking. How robust are NLAs to these guesses? We change Claude's guesses in various ways and measure the impact on the NLA's statements as well as on reconstruction accuracy. We show that Qwen2.5-7B NLAs have some robustness to irrelevant statements and prevailing senti",
-      "url": "https://www.alignmentforum.org/posts/LQXWiF8PyJ5ojNsEv/how-robust-are-natural-language-autoencoders-to",
+      "title": "A Red Line and Oversight Framework for Government AI Contracts",
+      "abstract": "<p><a href=\"https://www.lesswrong.com/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind\"><span>My post on leaving Google DeepMind</span></a><span> tells a story. In contrast, this Framework is a question of mechanism design and negotiation posture. I quite enjoyed optimizing this Framework against its organizational and practical constraints. The </span><a href=\"https://www.lesswrong.com/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind#Criteria_for_a_contract\"><span>original considerations we",
+      "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 6,
+      "score": 5,
       "keywords_matched": [
         "alignment",
-        "robustness",
-        "latin america"
+        "autonomous"
+      ]
+    },
+    {
+      "title": "Endogenous Alignment",
+      "abstract": "<p><span>Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, and much else. We do this primarily via exogenous methods, using a combination of punishments and rewards, that molds their behavior by encouraging good behaviors and discouraging bad ones.</span></p><p><span>Such operant conditioning works because children have many inst",
+      "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "rlhf"
+      ]
+    },
+    {
+      "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
+      "abstract": "<p><span>A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the probability of misaligned AI takeover. Perhaps instead we should measure capabilities by explicitly instructing the AI to predict a specified person’s judgment on this kind of question.</span></p><p><i><span>(This quick document is aimed at people interested in benchmarking b",
+      "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "frontier model"
       ]
     },
     {
@@ -131,18 +157,6 @@
       "keywords_matched": [
         "alignment",
         "reward hacking"
-      ]
-    },
-    {
-      "title": "Announcing our $160M grant from Coefficient Giving",
-      "abstract": "<p><span>We are excited to announce that </span><b><span>Resolution (</span></b><a href=\"https://resolution.org/post/rebrand\" rel=\"noreferrer\"><b><span>fka Sequent</span></b></a><b><span>) has a $160M grant from Coefficient Giving (cG) </span></b><span>to put rigorous alignment research on a (closer to) even footing with the frontier labs. We will use it to accelerate progress towards higher-confidence alignment, or to find evidence and obstacles showing why alignment is hard.</span><br /><br />",
-      "url": "https://www.alignmentforum.org/posts/HDKQNqiR2gtfMiWsn/announcing-our-usd160m-grant-from-coefficient-giving",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "ai safety"
       ]
     },
     {
@@ -182,14 +196,14 @@
       ]
     },
     {
-      "title": "AI 2040: Plan A",
-      "abstract": "<p><span>For the past year, we at the AI Futures Project have been sinking most of our time into our next big scenario. Now it’s done!&nbsp;</span><br /><br /><span>It’s called&nbsp;</span><a href=\"https://www.ai-2040.com/\"><b><span>AI 2040: Plan A.</span></b></a></p><img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/pFzctpJBat95SrCyC/gh3st7ylg2j6decax8sh\" /><p><span>It’s called&nbsp;</span><b><span>Plan A</span></b><span>&nbsp;because it’s a r",
-      "url": "https://www.alignmentforum.org/posts/pFzctpJBat95SrCyC/ai-2040-plan-a",
-      "source": "alignment_forum",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "abstract": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "url": "https://openai.com/index/cars24",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "alignment"
+        "agentic"
       ]
     },
     {
@@ -276,6 +290,24 @@
       "type": "web_page"
     },
     {
+      "title": "A scorecard for the AI age",
+      "abstract": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Why teens deserve access to safe AI",
+      "abstract": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "How sales teams use ChatGPT Work",
       "abstract": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
@@ -321,9 +353,9 @@
       "keywords_matched": []
     },
     {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "abstract": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "abstract": "Details about the OpenAI Bio Bounty program",
+      "url": "https://openai.com/index/bio-bug-bounty",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -339,9 +371,9 @@
       "keywords_matched": []
     },
     {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "abstract": "Details about the OpenAI Bio Bounty program",
-      "url": "https://openai.com/index/bio-bug-bounty",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "abstract": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -396,33 +428,6 @@
       "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
       "abstract": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
       "url": "https://openai.com/index/australian-payments-plus",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How ChatGPT adoption has expanded",
-      "abstract": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing GeneBench-Pro",
-      "abstract": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Inside Genebench-Pro",
-      "abstract": "",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
