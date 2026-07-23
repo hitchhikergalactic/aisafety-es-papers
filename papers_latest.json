@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-20",
-  "total_found": 185,
+  "date": "2026-07-23",
+  "total_found": 263,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 115,
+    "arxiv": 193,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -15,26 +15,6 @@
     "uk_dsit": 17
   },
   "papers": [
-    {
-      "title": "The current bottleneck is political will, not research",
-      "abstract": "<p><b><span>Motivation:</span></b><span> If we want to move from </span><a href=\"https://www.lesswrong.com/posts/pFzctpJBat95SrCyC/ai-2040-plan-a\" rel=\"noreferrer\"><span>Plan D to Plan A</span></a><span> or S, I believe the first step is to collectively agree on the problem. We are far from it, and there is a lot we can do.</span></p><p><br /></p><p><b><span>Abstract:</span></b></p><ol><li value=\"1\"><b><span>We already know enough to act.</span></b><span> I wish we were in a world where research",
-      "url": "https://www.alignmentforum.org/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 13,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "interpretability",
-        "deceptive alignment",
-        "ai governance",
-        "existential risk",
-        "jailbreak",
-        "superalignment",
-        "frontier model",
-        "agentic"
-      ]
-    },
     {
       "title": "Announcing the Corrigibility Research Fund",
       "abstract": "<p><b><span>TLDR:</span></b><span> I'm managing a new fund, housed at Lightcone Infrastructure, that will award </span><b><span>at least $200,000 in grants and prizes for corrigibility research in 2026</span></b><span>. Roughly half will go to traditional grants (first application deadline </span><b><span>August 23rd</span></b><span>) and half for prizes recognizing excellent work done this year. If you have interest in working on corrigibility, now is a good time to start! </span><b><span>Apply",
@@ -99,6 +79,19 @@
       ]
     },
     {
+      "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
+      "abstract": "<h2><i><span>TL;DR</span></i></h2><p><i><span>We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it away makes the model answer \"a boiled egg every morning is hard to beat\" with nutrition facts instead of catching the pun. On LCM problems, \"gcd\" fires, pointing at the product/GCD algorithm: swapping the GCD vector from 9 to 3 makes the m",
+      "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "evals"
+      ]
+    },
+    {
       "title": "Open Distillation of Hereditary Traits",
       "abstract": "<h2><span>TL;DR</span></h2><ul><li value=\"1\"><a href=\"https://www.lesswrong.com/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail\"><span>Josh and Neel</span></a><span> show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the </span><a href=\"https://arxiv.org/abs/2603.10011\"><span>Gemma Needs Help</span></a><span> evals)</span></li><li value=\"2\"><span>On its own",
       "url": "https://www.alignmentforum.org/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
@@ -109,6 +102,18 @@
         "alignment",
         "evals",
         "agentic"
+      ]
+    },
+    {
+      "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
+      "abstract": "<p><span>OpenAI models recently </span><a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"><span>broke through a series of security boundaries and into Hugging Face servers in order to cheat on a cyber eval</span></a><span>. A lot of people thought it was scary because it was a clear example of AI overreaching to do something strongly unwanted</span><span class=\"footnote-reference\" id=\"fnrefshy6ep0woi\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fnshy6ep",
+      "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "ai safety"
       ]
     },
     {
@@ -148,18 +153,6 @@
       ]
     },
     {
-      "title": "Value generalisation: value correction",
-      "abstract": "<p><span>I firmly believe that </span><a href=\"https://www.lesswrong.com/w/value-extrapolation\" rel=\"noreferrer\"><span>value generalisation</span></a><span class=\"footnote-reference\" id=\"fnref-oX627jFwAqmEo7Q4p-1\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fn-oX627jFwAqmEo7Q4p-1\">[1]</a></sup></span><span>is the key to AI Alignment. That, indeed, it is necessary and almost sufficient for alignment.</span></p><p><span>But I won't be arguing that grand point today; instead, I'll focus o",
-      "url": "https://www.alignmentforum.org/posts/iPyJfD9Jyxj6Jfdws/value-generalisation-value-correction",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "reward hacking"
-      ]
-    },
-    {
       "title": "The US is advancing AI safety through state and federal action",
       "abstract": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
@@ -185,10 +178,21 @@
       "type": "web_page"
     },
     {
-      "title": "From wantons to moral agents",
-      "abstract": "<p><i><span>Posted also on the EA Forum. Written mostly at </span></i><a href=\"https://www.affi.ne/\"><i><span>AFFINE</span></i></a><i><span>.</span></i></p><p><i><span>Theoretical, some parts are hard to read; consider reading the next post instead.</span></i></p><h1><span>Introduction: motivation</span></h1><p><span>Anyone interested in creating an artificial agent that does, or says, good things instead of bad things should at least consider the possibility that there is a class of reasoning a",
-      "url": "https://www.alignmentforum.org/posts/Z8kLbceGBMWB5HGfn/from-wantons-to-moral-agents",
+      "title": "[Paper] Stringological sequence prediction II",
+      "abstract": "<p><b><span>Abstract:</span></b><span> </span><i><span>In a previous paper, we began the study of sequence prediction algorithms adapted to stringological word complexity measures. One measure we considered was left-to-right (most-significant-digit-first) automaticity. Here, we show a statistically and computationally efficient algorithm adapted to the \"dual\" right-to-left (least-significant-digit-first) automaticity, which turns out to be substantially different for our purpose. We also demonst",
+      "url": "https://www.alignmentforum.org/posts/TTei7oq9ndjJFgnsT/paper-stringological-sequence-prediction-ii",
       "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
+    },
+    {
+      "title": "Safety and alignment in an era of long-horizon models",
+      "abstract": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
@@ -290,6 +294,78 @@
       "type": "web_page"
     },
     {
+      "title": "Building AI infrastructure with the Effingham County community",
+      "abstract": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How news organizations are using AI to advance their vital missions",
+      "abstract": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Advancing the next era of national science",
+      "abstract": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing OpenAI Presence",
+      "abstract": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "abstract": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "url": "https://openai.com/index/ntt-data",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing the ChatGPT for small business program",
+      "abstract": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "abstract": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "abstract": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "A scorecard for the AI age",
       "abstract": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
       "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
@@ -308,18 +384,18 @@
       "keywords_matched": []
     },
     {
-      "title": "How sales teams use ChatGPT Work",
-      "abstract": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "title": "How data science teams use ChatGPT Work",
+      "abstract": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "How data science teams use ChatGPT Work",
-      "abstract": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "title": "How sales teams use ChatGPT Work",
+      "abstract": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -347,87 +423,6 @@
       "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
       "abstract": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "abstract": "Details about the OpenAI Bio Bounty program",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "abstract": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "url": "https://openai.com/index/gpt-5-6",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "abstract": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Our approach to government and national security partnerships",
-      "abstract": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Separating signal from noise in coding evaluations",
-      "abstract": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Helping K–12 educators build practical AI skills",
-      "abstract": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-      "url": "https://openai.com/index/k-12-educators-practical-skills",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing GPT-Live",
-      "abstract": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-      "url": "https://openai.com/index/introducing-gpt-live",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "abstract": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "url": "https://openai.com/index/mufg",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "abstract": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "url": "https://openai.com/index/australian-payments-plus",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -462,6 +457,16 @@
       "score": 3,
       "keywords_matched": [],
       "type": "github_release"
+    },
+    {
+      "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPTJuly 21, 2026We propose a measure of an AI agent’s optimization ability with an \"expenditure horizon.\" We give an empirical illustration from the NanoGPT speedrun.Read more",
+      "abstract": "",
+      "url": "https://metr.org/research/blog/2026-07-21-expenditure-horizon/",
+      "source": "metr",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
     },
     {
       "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker ProductivityMay 11, 2026A survey of 349 technical workers finds a median 1.4–2x self-reported change in value of work due to AI tools, expected to grow over time, though there are reasons to be skeptical of the magnitude.Read more",
@@ -527,16 +532,6 @@
       "title": "GPT-5.1-Codex-Max Evaluation ResultsNovember 19, 2025We evaluate whether GPT-5.1-Codex-Max poses significant catastrophic risks via AI self-improvement or rogue replication. We conclude that this seems unlikely.Read more",
       "abstract": "",
       "url": "https://metr.org/research/evaluations/gpt-5-1-codex-max-report/",
-      "source": "metr",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "Research Update: Algorithmic vs. Holistic EvaluationAugust 13, 2025Many AI benchmarks use algorithmic scoring to evaluate how well AI systems perform on some set of tasks. However, AI systems often produce code that scores well but isn't production-ready due to issues with test coverage, formatting, and code quality. This helps explain why AI tools show less productivity improvement than expected despite strong performance on coding benchmarks.Read more",
-      "abstract": "",
-      "url": "https://metr.org/research/blog/2025-08-12-research-update-towards-reconciling-slowdown-with-time-horizons/",
       "source": "metr",
       "source_tier": 3,
       "score": 3,
