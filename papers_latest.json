@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-23",
-  "total_found": 263,
+  "date": "2026-07-27",
+  "total_found": 171,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 193,
+    "arxiv": 101,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -31,23 +31,6 @@
         "corrigible",
         "evals",
         "frontier model"
-      ]
-    },
-    {
-      "title": "Prism: Automating Science-of-Evals Research",
-      "abstract": "<p><i><span>tl;dr – we present [</span></i><a href=\"https://github.com/LAThomson/prism\" rel=\"noreferrer\"><i><span>Prism</span></i></a><i><span>], a scaffold for automating science-of-evals research: work that makes the evaluation the primary object of study. The scaffold provides Claude Code with sub-agents and resources for carrying out scientifically rigorous investigations into eval dynamics and, by extension, model behaviours.</span></i></p><p><i><span>We talk through an autonomous Prism run",
-      "url": "https://www.alignmentforum.org/posts/wq5PfGiHvnx6XipDi/prism-automating-science-of-evals-research",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 10,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "robustness",
-        "evals",
-        "frontier model",
-        "agentic",
-        "autonomous"
       ]
     },
     {
@@ -79,6 +62,19 @@
       ]
     },
     {
+      "title": "The Long (Self-)Correction",
+      "abstract": "<p>I propose the <strong>Long Self-Correction</strong><span class=\"footnote-reference\" id=\"fnreftj56y6nstrq\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fntj56y6nstrq\">[1]</a></sup></span> as an alternative name/idea/concept to AI Pause and Long Reflection.</p><p>Problem with <strong>AI Pause</strong>: Pause until when, and for what purpose? Presumably to make AI (that we'll build later) safer, but the deeper problem is that <i>humans</i> aren't safe, and can't safely serve as builders",
+      "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "corrigible"
+      ]
+    },
+    {
       "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
       "abstract": "<h2><i><span>TL;DR</span></i></h2><p><i><span>We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it away makes the model answer \"a boiled egg every morning is hard to beat\" with nutrition facts instead of catching the pun. On LCM problems, \"gcd\" fires, pointing at the product/GCD algorithm: swapping the GCD vector from 9 to 3 makes the m",
       "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
@@ -89,19 +85,6 @@
         "alignment",
         "interpretability",
         "evals"
-      ]
-    },
-    {
-      "title": "Open Distillation of Hereditary Traits",
-      "abstract": "<h2><span>TL;DR</span></h2><ul><li value=\"1\"><a href=\"https://www.lesswrong.com/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail\"><span>Josh and Neel</span></a><span> show that distillation from a teacher model to a base pretrained student model transfers some of the teacher model’s traits (such as displaying negative emotion in the </span><a href=\"https://arxiv.org/abs/2603.10011\"><span>Gemma Needs Help</span></a><span> evals)</span></li><li value=\"2\"><span>On its own",
-      "url": "https://www.alignmentforum.org/posts/WpYFAmJDH3zuAq2ha/open-distillation-of-hereditary-traits-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "evals",
-        "agentic"
       ]
     },
     {
@@ -176,6 +159,17 @@
         "agentic"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Challenge: Hand coding weights for efficient sequence memorisation",
+      "abstract": "<p><span>We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy</span><span class=\"footnote-reference\" id=\"fnref-jXdzaFrLEj5wYD5bh-1\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fn-jXdzaFrLEj5wYD5bh-1\">[1]</a></sup></span><span>scales roughly linearly with the models' parameter count</span><span class=\"footnote-reference\" id=\"fnref-jXdzaFrLEj5wYD5bh-2\"><sup><a href=",
+      "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
     },
     {
       "title": "[Paper] Stringological sequence prediction II",
@@ -282,16 +276,22 @@
       "type": "web_page"
     },
     {
-      "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
-      "abstract": "",
-      "url": "https://apolloresearch.ai/research/",
-      "source": "apollo_research",
+      "title": "How AI is expanding what people do at work",
+      "abstract": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "openai",
       "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ],
-      "type": "web_page"
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Launching Health in ChatGPT",
+      "abstract": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "Building AI infrastructure with the Effingham County community",
@@ -384,9 +384,9 @@
       "keywords_matched": []
     },
     {
-      "title": "How data science teams use ChatGPT Work",
-      "abstract": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "title": "How Codex became a collaborator for OpenAI’s creative team",
+      "abstract": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+      "url": "https://openai.com/index/codex-collaborator-creative-team",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -402,27 +402,9 @@
       "keywords_matched": []
     },
     {
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "abstract": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Getting started with ChatGPT",
-      "abstract": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "url": "https://openai.com/academy/getting-started",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "abstract": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title": "How data science teams use ChatGPT Work",
+      "abstract": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -533,6 +515,16 @@
       "abstract": "",
       "url": "https://metr.org/research/evaluations/gpt-5-1-codex-max-report/",
       "source": "metr",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
+    },
+    {
+      "title": "Measuring Reward-Seeking via Contrastive Belief Updates",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/",
+      "source": "apollo_research",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
