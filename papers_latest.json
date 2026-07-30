@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-27",
-  "total_found": 171,
+  "date": "2026-07-30",
+  "total_found": 216,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 101,
+    "arxiv": 146,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -16,49 +16,17 @@
   },
   "papers": [
     {
-      "title": "Announcing the Corrigibility Research Fund",
-      "abstract": "<p><b><span>TLDR:</span></b><span> I'm managing a new fund, housed at Lightcone Infrastructure, that will award </span><b><span>at least $200,000 in grants and prizes for corrigibility research in 2026</span></b><span>. Roughly half will go to traditional grants (first application deadline </span><b><span>August 23rd</span></b><span>) and half for prizes recognizing excellent work done this year. If you have interest in working on corrigibility, now is a good time to start! </span><b><span>Apply",
-      "url": "https://www.alignmentforum.org/posts/FBqe5dt8ZjaHN4Xj9/announcing-the-corrigibility-research-fund",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 11,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "interpretability",
-        "corrigibility",
-        "robustness",
-        "corrigible",
-        "evals",
-        "frontier model"
-      ]
-    },
-    {
-      "title": "Why I Left Google DeepMind",
-      "abstract": "<p><i><span>Preface for LessWrong:</span></i><span> When I think back on my most cherished memories of this community, I return to those honoring </span><i><span>defiance in pursuit of goodness</span></i><span>:</span></p><ul><li value=\"1\"><span>Defying prestigious dogma and searching for raw truth;</span></li><li value=\"2\"><span>Defying social pressure, acting alone to help someone while others watch;</span></li><li value=\"3\"><span>Defying your self-expectations (your “</span><a href=\"https://h",
-      "url": "https://www.alignmentforum.org/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
+      "title": "RL & search is a terrifying way to build AGI (an FAQ)",
+      "abstract": "<img alt=\"image.png\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1785163427/lexical_client_uploads/rnu8mopa9uxne4ev57so.png\" /><h2><b><span>Q1:</span></b><span> What are you saying?</span></h2><p><b><span>A:</span></b><span> My claim here is that if you build </span><a href=\"https://www.lesswrong.com/posts/nQH2GhkmSmHoCAN8R/what-do-i-mean-by-artificial-general-intelligence\"><span>artificial general intelligence (AGI)</span></a><span> via any algorithm that’s choosing actions via ",
+      "url": "https://www.alignmentforum.org/posts/KHyBocZncAmtu4Jbc/rl-and-search-is-a-terrifying-way-to-build-agi-an-faq",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 7,
       "keywords_matched": [
         "alignment",
-        "ai safety",
-        "existential risk",
+        "goal misgeneralization",
+        "jailbreak",
         "autonomous"
-      ]
-    },
-    {
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "abstract": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "red teaming",
-        "robustness"
       ]
     },
     {
@@ -75,16 +43,27 @@
       ]
     },
     {
-      "title": "Towards surfacing model algorithms with meta-tokens in the J-Space",
-      "abstract": "<h2><i><span>TL;DR</span></i></h2><p><i><span>We used J-lens on Qwen3.6-27B to find “meta-tokens”: tokens that surface non-obvious computation in the model. When the model reads ambiguous text, 什么意思 (\"what does this mean\") fires in the J-space, and steering it away makes the model answer \"a boiled egg every morning is hard to beat\" with nutrition facts instead of catching the pun. On LCM problems, \"gcd\" fires, pointing at the product/GCD algorithm: swapping the GCD vector from 9 to 3 makes the m",
-      "url": "https://www.alignmentforum.org/posts/6ek6n7yZ5DzfarJHy/towards-surfacing-model-algorithms-with-meta-tokens-in-the-j",
+      "title": "Value Generalisation 3: Pre-aligned AIs",
+      "abstract": "<p><span>When we get explicit strong generalisation to work (see </span><a href=\"https://www.lesswrong.com/posts/58zFSWp8Tmxij6ckK/value-generalisation-i-an-r-and-d-program\"><span>the first post</span></a><span> on the matter and </span><a href=\"https://www.lesswrong.com/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities\" rel=\"noreferrer\"><span>the second</span></a><span>) my dream would be to create pre-aligned generalising AIs.</span></p><p><span>Think about the u",
+      "url": "https://www.alignmentforum.org/posts/uMKGaEKRDpoqnZyBh/value-generalisation-3-pre-aligned-ais",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 6,
+      "score": 5,
       "keywords_matched": [
         "alignment",
-        "interpretability",
-        "evals"
+        "interpretability"
+      ]
+    },
+    {
+      "title": "Value Generalisation 1: a Research and Deployment Program",
+      "abstract": "<p><span>I’m looking for people, advice, critiques, and funding to build a research program on value generalisation – the ability of an AI to correctly extend human values and preferences to situations neither it nor we have seen before. My ongoing research has become convinced that this is necessary if we want to get aligned AIs that operate in the human interest.</span></p><p><span>This would be a focused research organisation or a commercial venture. I’m leaning towards commercial, because al",
+      "url": "https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "autonomous"
       ]
     },
     {
@@ -97,42 +76,6 @@
       "keywords_matched": [
         "alignment",
         "ai safety"
-      ]
-    },
-    {
-      "title": "A Red Line and Oversight Framework for Government AI Contracts",
-      "abstract": "<p><a href=\"https://www.lesswrong.com/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind\"><span>My post on leaving Google DeepMind</span></a><span> tells a story. In contrast, this Framework is a question of mechanism design and negotiation posture. I quite enjoyed optimizing this Framework against its organizational and practical constraints. The </span><a href=\"https://www.lesswrong.com/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind#Criteria_for_a_contract\"><span>original considerations we",
-      "url": "https://www.alignmentforum.org/posts/CCt9oy8axcdvaGcPE/a-red-line-and-oversight-framework-for-government-ai",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "autonomous"
-      ]
-    },
-    {
-      "title": "Endogenous Alignment",
-      "abstract": "<p><span>Starting when children are fairly young, usually around 1 year of age, we adults begin the work of aligning them to our values. We teach them to say “please”, not to hit, to ask for what they want instead of screaming, and much else. We do this primarily via exogenous methods, using a combination of punishments and rewards, that molds their behavior by encouraging good behaviors and discouraging bad ones.</span></p><p><span>Such operant conditioning works because children have many inst",
-      "url": "https://www.alignmentforum.org/posts/xWZpwPPp5nR9rZq3x/endogenous-alignment",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "rlhf"
-      ]
-    },
-    {
-      "title": "Should we benchmark conceptual capabilities using judgment prediction tasks?",
-      "abstract": "<p><span>A bunch of conceptual reasoning tasks involve very subjective judgments, which makes them poorly suited for benchmarking AI capabilities. For example, it seems unreasonable to benchmark how well AIs can predict the probability of misaligned AI takeover. Perhaps instead we should measure capabilities by explicitly instructing the AI to predict a specified person’s judgment on this kind of question.</span></p><p><i><span>(This quick document is aimed at people interested in benchmarking b",
-      "url": "https://www.alignmentforum.org/posts/5kEezahvkEiQuWEfx/should-we-benchmark-conceptual-capabilities-using-judgment",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "frontier model"
       ]
     },
     {
@@ -161,6 +104,39 @@
       "type": "web_page"
     },
     {
+      "title": "Imprecise beliefs: a tiny introduction",
+      "abstract": "<p><i><span>Richard Ngo challenged me to set a time box and write down as many of the most important features of my formal epistemology as I can in one sitting. Here goes.</span></i></p><hr /><h1><span>Motivation: Where probability distributions fail...</span></h1><h2><span>...to express beliefs</span></h2><ul><li value=\"1\"><span>There is no probability distribution over </span><span class=\"math-tex\"></span><span> that says “</span><span class=\"math-tex\"></span><span>”. That is a support conditi",
+      "url": "https://www.alignmentforum.org/posts/e7Pd4Q9TF7jFdmPgz/imprecise-beliefs-a-tiny-introduction",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
+    },
+    {
+      "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
+      "abstract": "<h1><span>A human superpower hidden from even ourselves</span></h1><p><span>I though GPT 3.5 was on the verge of Artificial General Intelligence (AGI). It certainly seemed that way – it could combine and extend ideas in ways that were far beyond narrow rigid computing. Sure, it had some flaws, but with its general capabilities and humans working tirelessly on improving the model, these flaws would soon be resolved and a full AGI would be born.</span></p><p><span>It didn’t turn out that way. We a",
+      "url": "https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
+    },
+    {
+      "title": "Research directions in condensation: varieties of objectivity",
+      "abstract": "<p><span>This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into conceptual parts; some of the existing work on it is presented in the paper (</span><a href=\"https://openreview.net/forum?id=HwKFJ3odui#discussion\" rel=\"noreferrer\"><span>Eisenstat 2025</span></a><span>). This sequence will draw from that paper the definitions of </span><i",
+      "url": "https://www.alignmentforum.org/posts/89GJeixwhFHLWxNbX/research-directions-in-condensation-varieties-of-objectivity",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
+    },
+    {
       "title": "Challenge: Hand coding weights for efficient sequence memorisation",
       "abstract": "<p><span>We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy</span><span class=\"footnote-reference\" id=\"fnref-jXdzaFrLEj5wYD5bh-1\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fn-jXdzaFrLEj5wYD5bh-1\">[1]</a></sup></span><span>scales roughly linearly with the models' parameter count</span><span class=\"footnote-reference\" id=\"fnref-jXdzaFrLEj5wYD5bh-2\"><sup><a href=",
       "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
@@ -183,6 +159,28 @@
       ]
     },
     {
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "abstract": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "agentic"
+      ]
+    },
+    {
+      "title": "Scientific computing in the age of agentic AI",
+      "abstract": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "agentic"
+      ]
+    },
+    {
       "title": "Safety and alignment in an era of long-horizon models",
       "abstract": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
@@ -197,17 +195,6 @@
       "title": "How Cars24 scales conversations and builds faster with OpenAI",
       "abstract": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
       "url": "https://openai.com/index/cars24",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "agentic"
-      ]
-    },
-    {
-      "title": "How to manage AI investments in the agentic era",
-      "abstract": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
@@ -274,6 +261,24 @@
         "autonomous"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "abstract": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "abstract": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "How AI is expanding what people do at work",
@@ -387,24 +392,6 @@
       "title": "How Codex became a collaborator for OpenAI’s creative team",
       "abstract": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
       "url": "https://openai.com/index/codex-collaborator-creative-team",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How sales teams use ChatGPT Work",
-      "abstract": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How data science teams use ChatGPT Work",
-      "abstract": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
