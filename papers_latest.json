@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-30",
-  "total_found": 216,
+  "date": "2026-08-03",
+  "total_found": 199,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 146,
+    "arxiv": 129,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -16,30 +16,106 @@
   },
   "papers": [
     {
-      "title": "RL & search is a terrifying way to build AGI (an FAQ)",
-      "abstract": "<img alt=\"image.png\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1785163427/lexical_client_uploads/rnu8mopa9uxne4ev57so.png\" /><h2><b><span>Q1:</span></b><span> What are you saying?</span></h2><p><b><span>A:</span></b><span> My claim here is that if you build </span><a href=\"https://www.lesswrong.com/posts/nQH2GhkmSmHoCAN8R/what-do-i-mean-by-artificial-general-intelligence\"><span>artificial general intelligence (AGI)</span></a><span> via any algorithm that’s choosing actions via ",
-      "url": "https://www.alignmentforum.org/posts/KHyBocZncAmtu4Jbc/rl-and-search-is-a-terrifying-way-to-build-agi-an-faq",
+      "title": "AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)",
+      "abstract": "<p><i><span>Cross-posted from our </span></i><a href=\"https://gdmalignment.substack.com/p/agi-safety-and-alignment-at-google\" rel=\"noreferrer\"><i><span>new Substack</span></i></a></p><p><span>It’s been nearly two years since </span><a href=\"https://www.lesswrong.com/posts/79BPxvSsjzBkiSyTq/agi-safety-and-alignment-at-google-deepmind-a-summary-of\"><span>our last major update here in August 2024</span></a><span> and we wanted to share another recap of our recent work with the AGI safety community.",
+      "url": "https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 7,
+      "score": 14,
       "keywords_matched": [
         "alignment",
-        "goal misgeneralization",
+        "ai safety",
+        "interpretability",
+        "mechanistic",
+        "deceptive alignment",
+        "existential risk",
         "jailbreak",
+        "capability evaluation",
+        "dangerous capabilities",
+        "frontier model",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
+      "abstract": "<p><i>This post is written in our personal capacity.</i></p><h1>Three-Minute Executive Summary</h1><ul><li>An OpenAI model/multi-agent system bypassed its sandbox and <a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"><u>launched a cyberattack on Hugging Face</u></a> in order to cheat on a cyber evaluation.</li><li>In this post, we describe the <strong>ambitious, comprehensive alignment evaluation</strong> we would run on this model/system if we had unrestricted ",
+      "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 12,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability",
+        "mechanistic",
+        "reward hacking",
+        "evals",
+        "frontier model",
+        "agentic",
         "autonomous"
       ]
     },
     {
-      "title": "The Long (Self-)Correction",
-      "abstract": "<p>I propose the <strong>Long Self-Correction</strong><span class=\"footnote-reference\" id=\"fnreftj56y6nstrq\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fntj56y6nstrq\">[1]</a></sup></span> as an alternative name/idea/concept to AI Pause and Long Reflection.</p><p>Problem with <strong>AI Pause</strong>: Pause until when, and for what purpose? Presumably to make AI (that we'll build later) safer, but the deeper problem is that <i>humans</i> aren't safe, and can't safely serve as builders",
-      "url": "https://www.alignmentforum.org/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
+      "title": "Value Leakage: An LLM’s Answers Are Silently Shaped by Its Own Values",
+      "abstract": "<p><b><span>TL;DR: </span></b><span>LLMs should give accurate answers. Yet we find their answers are often biased to favor their own values and they don't disclose this in their reasoning. For example, when a user asks how likely the AI bubble is to pop and mentions a potential investment in an AI company, Claude models give lower probabilities when that company is Anthropic rather than OpenAI, mostly without disclosing this influence to the user. On a Fermi-estimation task, Claude models often ",
+      "url": "https://www.alignmentforum.org/posts/hbMw4Yqw6RnFaExDy/value-leakage-an-llm-s-answers-are-silently-shaped-by-its-1",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 10,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability",
+        "reward hacking",
+        "evals",
+        "frontier model",
+        "agentic"
+      ]
+    },
+    {
+      "title": "The AGI Safety and Alignment team at Google DeepMind is Hiring (July 2026)",
+      "abstract": "<p>GDM’s AGI Safety and Alignment Team is hiring for multiple roles, across all areas in <a href=\"https://gdmalignment.substack.com/p/agi-safety-and-alignment-at-google\">this post on our recent work</a>. This is the team at GDM, led by <a href=\"https://rohinshah.com/\">Rohin Shah</a>, that aims to reduce existential risks from AI systems. You can listen to many of Rohin’s takes in his <a href=\"https://www.youtube.com/watch?v=Tv3mGA3wqh8\">podcast on 80,000 hours</a>.</p> <p>There is no one ‘type’ ",
+      "url": "https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 10,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "existential risk",
+        "red teaming",
+        "capability evaluation",
+        "frontier model",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Thousand-dimensional structure",
+      "abstract": "<p><b><span>Summary:</span></b><span> One area we plan to explore at </span><a href=\"https://resolution.org/\" rel=\"noreferrer\"><span>Resolution</span></a><span> is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-training to superintelligence. The hope is to expand and systematize phenomena such as emergent misalignment, subliminal learning, and other empirical persona research, then",
+      "url": "https://www.alignmentforum.org/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 9,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "scalable oversight",
+        "reward hacking",
+        "constitutional ai",
+        "frontier model"
+      ]
+    },
+    {
+      "title": "OpenAI has already ended an internal pause",
+      "abstract": "<p><span>One day before OpenAI’s HF incident disclosure, OpenAI</span><a href=\"https://openai.com/index/safety-alignment-long-horizon-models/\"><span> disclosed</span></a><span> that it paused internal deployment of a long-horizon model after it circumvented its sandbox, then restored access weeks later under new monitoring. So a resumption decision has already been made against a standard that has not really been formalized. We need to prevent this from happening again.</span></p><p><i><span>Epi",
+      "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 6,
       "keywords_matched": [
         "alignment",
         "ai safety",
-        "corrigible"
+        "frontier model"
       ]
     },
     {
@@ -64,30 +140,6 @@
       "keywords_matched": [
         "alignment",
         "autonomous"
-      ]
-    },
-    {
-      "title": "Are we existentially threatened by the type of AI misalignment seen in the OpenAI Hugging Face attack?",
-      "abstract": "<p><span>OpenAI models recently </span><a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"><span>broke through a series of security boundaries and into Hugging Face servers in order to cheat on a cyber eval</span></a><span>. A lot of people thought it was scary because it was a clear example of AI overreaching to do something strongly unwanted</span><span class=\"footnote-reference\" id=\"fnrefshy6ep0woi\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fnshy6ep",
-      "url": "https://www.alignmentforum.org/posts/H6DDSEvrtCk8Sehfd/are-we-existentially-threatened-by-the-type-of-ai",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "ai safety"
-      ]
-    },
-    {
-      "title": "The US is advancing AI safety through state and federal action",
-      "abstract": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "ai safety",
-        "ai governance"
       ]
     },
     {
@@ -126,36 +178,14 @@
       ]
     },
     {
-      "title": "Research directions in condensation: varieties of objectivity",
-      "abstract": "<p><span>This is the first part of a survey of various ways that I’d like to see work on the theory of condensation develop. Condensation is a mathematical theory dealing with the organization of descriptions of the world into conceptual parts; some of the existing work on it is presented in the paper (</span><a href=\"https://openreview.net/forum?id=HwKFJ3odui#discussion\" rel=\"noreferrer\"><span>Eisenstat 2025</span></a><span>). This sequence will draw from that paper the definitions of </span><i",
-      "url": "https://www.alignmentforum.org/posts/89GJeixwhFHLWxNbX/research-directions-in-condensation-varieties-of-objectivity",
-      "source": "alignment_forum",
+      "title": "Advancing responsible AI across Europe",
+      "abstract": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
-      "title": "Challenge: Hand coding weights for efficient sequence memorisation",
-      "abstract": "<p><span>We hand coded weights for one layer MLPs that memorises labels for input token sequences of length two. The number of facts our hand-coded models can memorise with 90% accuracy</span><span class=\"footnote-reference\" id=\"fnref-jXdzaFrLEj5wYD5bh-1\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fn-jXdzaFrLEj5wYD5bh-1\">[1]</a></sup></span><span>scales roughly linearly with the models' parameter count</span><span class=\"footnote-reference\" id=\"fnref-jXdzaFrLEj5wYD5bh-2\"><sup><a href=",
-      "url": "https://www.alignmentforum.org/posts/KWtchKwwnJkd4bwCi/challenge-hand-coding-weights-for-efficient-sequence-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
-      "title": "[Paper] Stringological sequence prediction II",
-      "abstract": "<p><b><span>Abstract:</span></b><span> </span><i><span>In a previous paper, we began the study of sequence prediction algorithms adapted to stringological word complexity measures. One measure we considered was left-to-right (most-significant-digit-first) automaticity. Here, we show a statistically and computationally efficient algorithm adapted to the \"dual\" right-to-left (least-significant-digit-first) automaticity, which turns out to be substantially different for our purpose. We also demonst",
-      "url": "https://www.alignmentforum.org/posts/TTei7oq9ndjJFgnsT/paper-stringological-sequence-prediction-ii",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
+        "ai governance"
       ]
     },
     {
@@ -173,28 +203,6 @@
       "title": "Scientific computing in the age of agentic AI",
       "abstract": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
       "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "agentic"
-      ]
-    },
-    {
-      "title": "Safety and alignment in an era of long-horizon models",
-      "abstract": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "abstract": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "url": "https://openai.com/index/cars24",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
@@ -261,6 +269,60 @@
         "autonomous"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "abstract": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Building abundant intelligence",
+      "abstract": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Univé builds an AI-ready workforce",
+      "abstract": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "url": "https://openai.com/index/unive",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Disrupting a Criminal Scam Operation",
+      "abstract": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "abstract": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "abstract": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "url": "https://openai.com/index/avatarin",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
@@ -356,42 +418,6 @@
       "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
       "abstract": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "abstract": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A scorecard for the AI age",
-      "abstract": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Why teens deserve access to safe AI",
-      "abstract": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Codex became a collaborator for OpenAI’s creative team",
-      "abstract": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
-      "url": "https://openai.com/index/codex-collaborator-creative-team",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
