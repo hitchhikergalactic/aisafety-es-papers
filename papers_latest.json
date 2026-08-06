@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-03",
-  "total_found": 199,
+  "date": "2026-08-06",
+  "total_found": 273,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 1,
-    "arxiv": 129,
+    "arxiv": 203,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -38,7 +38,7 @@
     },
     {
       "title": "Concrete Evaluations to Investigate the OpenAI Model That Hacked Hugging Face",
-      "abstract": "<p><i>This post is written in our personal capacity.</i></p><h1>Three-Minute Executive Summary</h1><ul><li>An OpenAI model/multi-agent system bypassed its sandbox and <a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"><u>launched a cyberattack on Hugging Face</u></a> in order to cheat on a cyber evaluation.</li><li>In this post, we describe the <strong>ambitious, comprehensive alignment evaluation</strong> we would run on this model/system if we had unrestricted ",
+      "abstract": "<h1>Three-Minute Executive Summary</h1><ul><li>An OpenAI model/multi-agent system bypassed its sandbox and <a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"><u>launched a cyberattack on Hugging Face</u></a> in order to cheat on a cyber evaluation.</li><li>In this post, we describe the <strong>ambitious, comprehensive alignment evaluation</strong> we would run on this model/system if we had unrestricted access to OpenAI.<ul><li>These experiments could also help u",
       "url": "https://www.alignmentforum.org/posts/aCdhjy7Rps3BEhiSj/concrete-evaluations-to-investigate-the-openai-model-that",
       "source": "alignment_forum",
       "source_tier": 3,
@@ -106,6 +106,20 @@
       ]
     },
     {
+      "title": "Returning to ARC",
+      "abstract": "<p><span>I've returned to the </span><a href=\"https://www.alignment.org/\" rel=\"noreferrer\"><span>Alignment Research Center</span></a><span> (ARC) as executive director. My main focus for the next six months will be driving forward ARC's research agenda—building techniques to find mechanistic explanations for neural network behavior and then using those explanations to detect and address misalignment. I think this is an ambitious bet that attacks the core difficulties in alignment head-on and I'm",
+      "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "interpretability",
+        "mechanistic"
+      ]
+    },
+    {
       "title": "OpenAI has already ended an internal pause",
       "abstract": "<p><span>One day before OpenAI’s HF incident disclosure, OpenAI</span><a href=\"https://openai.com/index/safety-alignment-long-horizon-models/\"><span> disclosed</span></a><span> that it paused internal deployment of a long-horizon model after it circumvented its sandbox, then restored access weeks later under new monitoring. So a resumption decision has already been made against a standard that has not really been formalized. We need to prevent this from happening again.</span></p><p><i><span>Epi",
       "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
@@ -128,18 +142,6 @@
       "keywords_matched": [
         "alignment",
         "interpretability"
-      ]
-    },
-    {
-      "title": "Value Generalisation 1: a Research and Deployment Program",
-      "abstract": "<p><span>I’m looking for people, advice, critiques, and funding to build a research program on value generalisation – the ability of an AI to correctly extend human values and preferences to situations neither it nor we have seen before. My ongoing research has become convinced that this is necessary if we want to get aligned AIs that operate in the human interest.</span></p><p><span>This would be a focused research organisation or a commercial venture. I’m leaning towards commercial, because al",
-      "url": "https://www.alignmentforum.org/posts/58zFSWp8Tmxij6ckK/value-generalisation-1-a-research-and-deployment-program",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "autonomous"
       ]
     },
     {
@@ -271,6 +273,51 @@
       "type": "web_page"
     },
     {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "abstract": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "abstract": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "abstract": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "abstract": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "abstract": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "url": "https://openai.com/index/circles",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Ten advances in mathematics and theoretical computer science",
       "abstract": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
       "url": "https://openai.com/index/ten-advances-in-mathematics",
@@ -373,51 +420,6 @@
       "title": "How news organizations are using AI to advance their vital missions",
       "abstract": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
       "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Advancing the next era of national science",
-      "abstract": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing OpenAI Presence",
-      "abstract": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "abstract": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "url": "https://openai.com/index/ntt-data",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing the ChatGPT for small business program",
-      "abstract": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "abstract": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
