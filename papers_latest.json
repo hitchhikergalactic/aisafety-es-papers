@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-06",
-  "total_found": 273,
+  "date": "2026-08-10",
+  "total_found": 232,
   "by_source": {
     "alignment_forum": 10,
-    "apollo_research": 1,
-    "arxiv": 203,
+    "apollo_research": 12,
+    "arxiv": 151,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -34,6 +34,26 @@
         "dangerous capabilities",
         "frontier model",
         "agentic"
+      ]
+    },
+    {
+      "title": "User awareness in frontier models",
+      "abstract": "<p><i><span>Cross-posted on </span></i><a href=\"https://transluce.org/user-awareness\" rel=\"noreferrer\"><i><span>Transluce blog</span></i></a><i><span>. This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt.</span></i></p><p><span>Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code place the user's e-mail address directly in the model's context, and models can even identify some authors from writing style alone. We stud",
+      "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 13,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "reward hacking",
+        "jailbreak",
+        "robustness",
+        "capability evaluation",
+        "evals",
+        "frontier model",
+        "agentic",
+        "autonomous"
       ]
     },
     {
@@ -106,6 +126,21 @@
       ]
     },
     {
+      "title": "Why do models task game?",
+      "abstract": "<h2><span>TL;DR</span></h2><p><span>How can we study misalignment with today's models as proxies? They're clearly not paperclip maximizers, but they also often do things the user doesn't want. A strong contender for a real misaligned propensity is task gaming: taking actions that don't complete a task but superficially seem like they do, such as hardcoding tests or falsely claiming a task is fully complete. But maybe task gaming is just a crude heuristic, or the model mistakenly trying to achiev",
+      "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "reward hacking",
+        "evals",
+        "agentic",
+        "autonomous"
+      ]
+    },
+    {
       "title": "Returning to ARC",
       "abstract": "<p><span>I've returned to the </span><a href=\"https://www.alignment.org/\" rel=\"noreferrer\"><span>Alignment Research Center</span></a><span> (ARC) as executive director. My main focus for the next six months will be driving forward ARC's research agenda—building techniques to find mechanistic explanations for neural network behavior and then using those explanations to detect and address misalignment. I think this is an ambitious bet that attacks the core difficulties in alignment head-on and I'm",
       "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
@@ -133,18 +168,6 @@
       ]
     },
     {
-      "title": "Value Generalisation 3: Pre-aligned AIs",
-      "abstract": "<p><span>When we get explicit strong generalisation to work (see </span><a href=\"https://www.lesswrong.com/posts/58zFSWp8Tmxij6ckK/value-generalisation-i-an-r-and-d-program\"><span>the first post</span></a><span> on the matter and </span><a href=\"https://www.lesswrong.com/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities\" rel=\"noreferrer\"><span>the second</span></a><span>) my dream would be to create pre-aligned generalising AIs.</span></p><p><span>Think about the u",
-      "url": "https://www.alignmentforum.org/posts/uMKGaEKRDpoqnZyBh/value-generalisation-3-pre-aligned-ais",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "interpretability"
-      ]
-    },
-    {
       "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
@@ -158,20 +181,22 @@
       "type": "web_page"
     },
     {
+      "title": "Interpretability in Parameter Space: Minimizing Mechanistic Description Length with Attribution-based Parameter Decomposition",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/science/interpretability-in-parameter-space-minimizing-mechanistic-description-length-with-attribution-based-parameter-decomposition",
+      "source": "apollo_research",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "interpretability",
+        "mechanistic"
+      ],
+      "type": "web_page"
+    },
+    {
       "title": "Imprecise beliefs: a tiny introduction",
       "abstract": "<p><i><span>Richard Ngo challenged me to set a time box and write down as many of the most important features of my formal epistemology as I can in one sitting. Here goes.</span></i></p><hr /><h1><span>Motivation: Where probability distributions fail...</span></h1><h2><span>...to express beliefs</span></h2><ul><li value=\"1\"><span>There is no probability distribution over </span><span class=\"math-tex\"></span><span> that says “</span><span class=\"math-tex\"></span><span>”. That is a support conditi",
       "url": "https://www.alignmentforum.org/posts/e7Pd4Q9TF7jFdmPgz/imprecise-beliefs-a-tiny-introduction",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
-      "title": "Value Generalisation 2: The Missing Hole in AIs’ abilities",
-      "abstract": "<h1><span>A human superpower hidden from even ourselves</span></h1><p><span>I though GPT 3.5 was on the verge of Artificial General Intelligence (AGI). It certainly seemed that way – it could combine and extend ideas in ways that were far beyond narrow rigid computing. Sure, it had some flaws, but with its general capabilities and humans working tirelessly on improving the model, these flaws would soon be resolved and a full AGI would be born.</span></p><p><span>It didn’t turn out that way. We a",
-      "url": "https://www.alignmentforum.org/posts/TZgezuYjkfMQxyqJC/value-generalisation-2-the-missing-hole-in-ais-abilities",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
@@ -194,17 +219,6 @@
       "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
       "abstract": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
       "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "agentic"
-      ]
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "abstract": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
@@ -271,6 +285,99 @@
         "autonomous"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/science/stress-testing-deliberative-alignment-for-anti-scheming-training",
+      "source": "apollo_research",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ],
+      "type": "web_page"
+    },
+    {
+      "title": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/science/chain-of-thought-monitorability-a-new-and-fragile-opportunity-for-ai-safety",
+      "source": "apollo_research",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "ai safety"
+      ],
+      "type": "web_page"
+    },
+    {
+      "title": "Research Note: Our scheming precursor evals had limited predictive power for our in-context scheming evals",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/science/research-note-our-scheming-precursor-evals-had-limited-predictive-power-for-our-in-context-scheming-evals",
+      "source": "apollo_research",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "evals"
+      ],
+      "type": "web_page"
+    },
+    {
+      "title": "Claude Sonnet 3.7 (often) knows when it’s in alignment evaluations",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/science/claude-sonnet-37-often-knows-when-its-in-alignment-evaluations",
+      "source": "apollo_research",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ],
+      "type": "web_page"
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "abstract": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "abstract": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "abstract": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "abstract": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "abstract": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "Third-party cyber evaluations involving OpenAI models",
@@ -390,42 +497,6 @@
       "keywords_matched": []
     },
     {
-      "title": "How AI is expanding what people do at work",
-      "abstract": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Launching Health in ChatGPT",
-      "abstract": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-      "url": "https://openai.com/index/health-in-chatgpt",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Building AI infrastructure with the Effingham County community",
-      "abstract": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How news organizations are using AI to advance their vital missions",
-      "abstract": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "[METR/task-standard] 0.3.0",
       "abstract": "<h3>Changed</h3>\n<ul>\n<li>The Task Standard Dockerfile is now based on a more recent version of the <code>python:3.11</code> Docker image.</li>\n<li>The Task Standard Dockerfile installs APT from Debian testing instead of from Debian bookworm. This fixes a bug where, if users tried to build a Task St",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.3.0",
@@ -510,56 +581,6 @@
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-1-29-time-horizon-1-1/",
       "source": "metr",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "Early work on monitorability evaluationsJanuary 22, 2026We show preliminary results on a prototype evaluation that tests monitors' ability to catch AI agents doing side tasks, and AI agents' ability to bypass this monitoring.Read more",
-      "abstract": "",
-      "url": "https://metr.org/research/blog/2026-01-19-early-work-on-monitorability-evaluations/",
-      "source": "metr",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "GPT-5.1-Codex-Max Evaluation ResultsNovember 19, 2025We evaluate whether GPT-5.1-Codex-Max poses significant catastrophic risks via AI self-improvement or rogue replication. We conclude that this seems unlikely.Read more",
-      "abstract": "",
-      "url": "https://metr.org/research/evaluations/gpt-5-1-codex-max-report/",
-      "source": "metr",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "Measuring Reward-Seeking via Contrastive Belief Updates",
-      "abstract": "",
-      "url": "https://apolloresearch.ai/research/",
-      "source": "apollo_research",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "change your cookie settings",
-      "abstract": "",
-      "url": "https://www.gov.uk/search/research-and-statistics?keywords=AI+safety/help/cookies",
-      "source": "uk_dsit",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "Skip to main content",
-      "abstract": "",
-      "url": "https://www.gov.uk/search/research-and-statistics?keywords=AI+safety/#content",
-      "source": "uk_dsit",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
