@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-10",
-  "total_found": 232,
+  "date": "2026-08-13",
+  "total_found": 238,
   "by_source": {
     "alignment_forum": 10,
-    "apollo_research": 12,
-    "arxiv": 151,
+    "apollo_research": 10,
+    "arxiv": 159,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -93,36 +93,19 @@
       ]
     },
     {
-      "title": "The AGI Safety and Alignment team at Google DeepMind is Hiring (July 2026)",
-      "abstract": "<p>GDM’s AGI Safety and Alignment Team is hiring for multiple roles, across all areas in <a href=\"https://gdmalignment.substack.com/p/agi-safety-and-alignment-at-google\">this post on our recent work</a>. This is the team at GDM, led by <a href=\"https://rohinshah.com/\">Rohin Shah</a>, that aims to reduce existential risks from AI systems. You can listen to many of Rohin’s takes in his <a href=\"https://www.youtube.com/watch?v=Tv3mGA3wqh8\">podcast on 80,000 hours</a>.</p> <p>There is no one ‘type’ ",
-      "url": "https://www.alignmentforum.org/posts/AyDNvb3Pw6Kgo7Dqb/the-agi-safety-and-alignment-team-at-google-deepmind-is",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 10,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "existential risk",
-        "red teaming",
-        "capability evaluation",
-        "frontier model",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Thousand-dimensional structure",
-      "abstract": "<p><b><span>Summary:</span></b><span> One area we plan to explore at </span><a href=\"https://resolution.org/\" rel=\"noreferrer\"><span>Resolution</span></a><span> is personas and character training, operationalized as finding and controlling low-dimensional structure in models that emerges in pretraining and flows through post-training to superintelligence. The hope is to expand and systematize phenomena such as emergent misalignment, subliminal learning, and other empirical persona research, then",
-      "url": "https://www.alignmentforum.org/posts/sFhW3ZnPMJdnB4Dd6/thousand-dimensional-structure-1",
+      "title": "Four LLM loss functions → four flavors of LLM misalignment",
+      "abstract": "<p><span>It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately.</span></p><table class=\"editor-table\"><tbody><tr><th class=\"table-cell table-cell-header\"><p><span>Training stage</span></p></th><th class=\"table-cell table-cell-header\"><p><span>Loss function</span></p></th><th class=\"table-cell table-cell-header\"><p><span>Flavor of misalignment</span><span cl",
+      "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 9,
       "keywords_matched": [
         "alignment",
-        "interpretability",
-        "scalable oversight",
-        "reward hacking",
-        "constitutional ai",
-        "frontier model"
+        "rlhf",
+        "rlaif",
+        "jailbreak",
+        "evals",
+        "agentic"
       ]
     },
     {
@@ -155,16 +138,27 @@
       ]
     },
     {
-      "title": "OpenAI has already ended an internal pause",
-      "abstract": "<p><span>One day before OpenAI’s HF incident disclosure, OpenAI</span><a href=\"https://openai.com/index/safety-alignment-long-horizon-models/\"><span> disclosed</span></a><span> that it paused internal deployment of a long-horizon model after it circumvented its sandbox, then restored access weeks later under new monitoring. So a resumption decision has already been made against a standard that has not really been formalized. We need to prevent this from happening again.</span></p><p><i><span>Epi",
-      "url": "https://www.alignmentforum.org/posts/k3eKqKzq4Y7xnqEfZ/openai-has-already-ended-an-internal-pause",
+      "title": "AI swarms are starting to pose indirect takeover risk",
+      "abstract": "<p><span>OpenAI’s cyberattack on Hugging Face </span><a href=\"https://www.youtube.com/watch?v=87DyyMV0kCY\"><span>turns out</span></a><span> to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages </span><a href=\"https://www.youtube.com/watch?v=87DyyMV0kCY&amp;t=1125s\"><span>like</span></a><span> “HOLD_swarm_I_prepare_safe_exfil”). It’s relatively clear that large-scale unsanctioned coordination li",
+      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 6,
+      "score": 5,
       "keywords_matched": [
         "alignment",
-        "ai safety",
-        "frontier model"
+        "agentic"
+      ]
+    },
+    {
+      "title": "R-lens: Making J-lens More Faithful on Early Layers",
+      "abstract": "<h1><span>TL;DR:</span></h1><p><i><span>We introduce the R-lens: a drop-in replacement for J-lens that produces clearer readouts on earlier layers. R-Lens is identical to J-Lens, except that we make minor and low-overhead changes to the backwards pass, following </span></i><a href=\"https://arxiv.org/abs/1604.00825\"><i><span>layerwise-relevance propagation</span></i></a><i><span>, allowing us to reduce the propagation of errors. This method allows us to surface important intermediate variables mo",
+      "url": "https://www.alignmentforum.org/posts/nv8oedrnLXKRzNEL9/r-lens-making-j-lens-more-faithful-on-early-layers",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "evals"
       ]
     },
     {
@@ -181,22 +175,9 @@
       "type": "web_page"
     },
     {
-      "title": "Interpretability in Parameter Space: Minimizing Mechanistic Description Length with Attribution-based Parameter Decomposition",
-      "abstract": "",
-      "url": "https://apolloresearch.ai/research/science/interpretability-in-parameter-space-minimizing-mechanistic-description-length-with-attribution-based-parameter-decomposition",
-      "source": "apollo_research",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "interpretability",
-        "mechanistic"
-      ],
-      "type": "web_page"
-    },
-    {
-      "title": "Imprecise beliefs: a tiny introduction",
-      "abstract": "<p><i><span>Richard Ngo challenged me to set a time box and write down as many of the most important features of my formal epistemology as I can in one sitting. Here goes.</span></i></p><hr /><h1><span>Motivation: Where probability distributions fail...</span></h1><h2><span>...to express beliefs</span></h2><ul><li value=\"1\"><span>There is no probability distribution over </span><span class=\"math-tex\"></span><span> that says “</span><span class=\"math-tex\"></span><span>”. That is a support conditi",
-      "url": "https://www.alignmentforum.org/posts/e7Pd4Q9TF7jFdmPgz/imprecise-beliefs-a-tiny-introduction",
+      "title": "An anytime algorithm for mixing the computable measures",
+      "abstract": "<p><i><b><span>Epistemic status:</span></b></i><i><span> Not peer reviewed, high chance of typos and small chance of errors. Written entirely by me, checked by Fable.</span></i></p><p><span>In this post I prove the existence of an anytime computable Bayesian mixture of all computable measures called </span><span class=\"math-tex\"></span><span>, and briefly argue that this is a reasonable alternative to Solomonoff induction's universal distribution </span><span class=\"math-tex\"></span><span> for g",
+      "url": "https://www.alignmentforum.org/posts/MgYCraoxMwfWwgWa5/an-anytime-algorithm-for-mixing-the-computable-measures",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
@@ -205,20 +186,9 @@
       ]
     },
     {
-      "title": "Advancing responsible AI across Europe",
-      "abstract": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "ai governance"
-      ]
-    },
-    {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "abstract": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "abstract": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
@@ -335,6 +305,105 @@
       "type": "web_page"
     },
     {
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "abstract": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "url": "https://openai.com/index/ringcentral",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "abstract": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Daybreak models are now available on AWS",
+      "abstract": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "abstract": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "abstract": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "url": "https://openai.com/index/model-ml",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "What building an AI-native finance function taught me",
+      "abstract": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Putting frontier cyber models in more trusted hands",
+      "abstract": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "abstract": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "abstract": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "abstract": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "url": "https://openai.com/index/zapier",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Premium seats are coming to ChatGPT Business",
+      "abstract": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Responding to the next frontier of critical cyber capabilities",
       "abstract": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
@@ -401,96 +470,6 @@
       "title": "Apple is getting this wrong",
       "abstract": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
       "url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "abstract": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "abstract": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-      "url": "https://openai.com/index/circles",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "abstract": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-      "url": "https://openai.com/index/ten-advances-in-mathematics",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Building abundant intelligence",
-      "abstract": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-      "url": "https://openai.com/index/building-abundant-intelligence",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Univé builds an AI-ready workforce",
-      "abstract": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-      "url": "https://openai.com/index/unive",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Disrupting a Criminal Scam Operation",
-      "abstract": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "abstract": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "abstract": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-      "url": "https://openai.com/index/avatarin",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "abstract": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "abstract": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -580,6 +559,16 @@
       "title": "Time Horizon 1.1January 29, 2026We’re releasing a new version of our time horizon estimates (TH1.1), using more tasks and a new eval infrastructure.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-1-29-time-horizon-1-1/",
+      "source": "metr",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
+    },
+    {
+      "title": "Early work on monitorability evaluationsJanuary 22, 2026We show preliminary results on a prototype evaluation that tests monitors' ability to catch AI agents doing side tasks, and AI agents' ability to bypass this monitoring.Read more",
+      "abstract": "",
+      "url": "https://metr.org/research/blog/2026-01-19-early-work-on-monitorability-evaluations/",
       "source": "metr",
       "source_tier": 3,
       "score": 3,
