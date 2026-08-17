@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-13",
-  "total_found": 238,
+  "date": "2026-08-17",
+  "total_found": 199,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 10,
-    "arxiv": 159,
+    "arxiv": 120,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -15,27 +15,6 @@
     "uk_dsit": 17
   },
   "papers": [
-    {
-      "title": "AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)",
-      "abstract": "<p><i><span>Cross-posted from our </span></i><a href=\"https://gdmalignment.substack.com/p/agi-safety-and-alignment-at-google\" rel=\"noreferrer\"><i><span>new Substack</span></i></a></p><p><span>It’s been nearly two years since </span><a href=\"https://www.lesswrong.com/posts/79BPxvSsjzBkiSyTq/agi-safety-and-alignment-at-google-deepmind-a-summary-of\"><span>our last major update here in August 2024</span></a><span> and we wanted to share another recap of our recent work with the AGI safety community.",
-      "url": "https://www.alignmentforum.org/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 14,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "interpretability",
-        "mechanistic",
-        "deceptive alignment",
-        "existential risk",
-        "jailbreak",
-        "capability evaluation",
-        "dangerous capabilities",
-        "frontier model",
-        "agentic"
-      ]
-    },
     {
       "title": "User awareness in frontier models",
       "abstract": "<p><i><span>Cross-posted on </span></i><a href=\"https://transluce.org/user-awareness\" rel=\"noreferrer\"><i><span>Transluce blog</span></i></a><i><span>. This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt.</span></i></p><p><span>Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code place the user's e-mail address directly in the model's context, and models can even identify some authors from writing style alone. We stud",
@@ -125,7 +104,7 @@
     },
     {
       "title": "Returning to ARC",
-      "abstract": "<p><span>I've returned to the </span><a href=\"https://www.alignment.org/\" rel=\"noreferrer\"><span>Alignment Research Center</span></a><span> (ARC) as executive director. My main focus for the next six months will be driving forward ARC's research agenda—building techniques to find mechanistic explanations for neural network behavior and then using those explanations to detect and address misalignment. I think this is an ambitious bet that attacks the core difficulties in alignment head-on and I'm",
+      "abstract": "<p><span>I've returned to the </span><a href=\"https://www.alignment.org/\" rel=\"noreferrer\"><span>Alignment Research Center</span></a><span> (ARC) as executive director. My main focus will be driving forward ARC's research agenda—building techniques to find mechanistic explanations for neural network behavior and then using those explanations to detect and address misalignment. I think this is an ambitious bet that attacks the core difficulties in alignment head-on and I'm excited about our chanc",
       "url": "https://www.alignmentforum.org/posts/vLFh8HP3hyNy9MCwe/returning-to-arc",
       "source": "alignment_forum",
       "source_tier": 3,
@@ -135,6 +114,19 @@
         "ai safety",
         "interpretability",
         "mechanistic"
+      ]
+    },
+    {
+      "title": "Does DiffusionGemma do latent reasoning?",
+      "abstract": "<h2>TL;DR</h2> <p>Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry <em>vectors</em> in addition to tokens. If we cannot interpret these tokens and vectors, the model has significant <a href=\"https://arxiv.org/abs/2603.09786\">opaque serial depth</a>, potentially harming monitorability. Recently, <a href=\"https://arxiv.org/abs/2606.20560\">Engels et al.<",
+      "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "autonomous"
       ]
     },
     {
@@ -305,6 +297,33 @@
       "type": "web_page"
     },
     {
+      "title": "The builder’s guide to GPT‑5.6",
+      "abstract": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "abstract": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "abstract": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "How RingCentral builds AI-native work from engineering to ops",
       "abstract": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
       "url": "https://openai.com/index/ringcentral",
@@ -377,6 +396,15 @@
       "keywords_matched": []
     },
     {
+      "title": "Premium seats are coming to ChatGPT Business",
+      "abstract": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
       "abstract": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
@@ -389,15 +417,6 @@
       "title": "How Zapier transformed core marketing processes with ChatGPT Work",
       "abstract": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
       "url": "https://openai.com/index/zapier",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Premium seats are coming to ChatGPT Business",
-      "abstract": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -443,33 +462,6 @@
       "title": "From asking to doing: How the world is putting ChatGPT to work",
       "abstract": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "abstract": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "New ways to learn and teach with ChatGPT Work and Codex",
-      "abstract": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Apple is getting this wrong",
-      "abstract": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
