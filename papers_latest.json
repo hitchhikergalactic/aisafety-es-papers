@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-20",
-  "total_found": 242,
+  "date": "2026-08-24",
+  "total_found": 224,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 10,
-    "arxiv": 163,
+    "arxiv": 145,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -173,7 +173,7 @@
     },
     {
       "title": "An anytime algorithm for mixing the computable measures",
-      "abstract": "<p><i><b><span>Epistemic status:</span></b></i><i><span> Not peer reviewed, high chance of typos and small chance of errors. Written entirely by me, checked by Fable.</span></i></p><p><span>In this post I prove the existence of an anytime computable Bayesian mixture of all computable measures called </span><span class=\"math-tex\"></span><span>, and briefly argue that this is a reasonable alternative to Solomonoff induction's universal distribution </span><span class=\"math-tex\"></span><span> for g",
+      "abstract": "<p><i><b><span>Epistemic status:</span></b></i><i><span> Not peer-reviewed, high chance of typos and small chance of errors. Written entirely by me, checked by Fable.</span></i></p><p><span>In this post I prove the existence of an anytime computable Bayesian mixture of all computable measures called </span><span class=\"math-tex\"></span><span>, and briefly argue that this is a reasonable alternative to Solomonoff induction's universal distribution </span><span class=\"math-tex\"></span><span> for g",
       "url": "https://www.alignmentforum.org/posts/MgYCraoxMwfWwgWa5/an-anytime-algorithm-for-mixing-the-computable-measures",
       "source": "alignment_forum",
       "source_tier": 3,
@@ -313,6 +313,24 @@
       "type": "web_page"
     },
     {
+      "title": "Introducing AI Futures",
+      "abstract": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "abstract": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "url": "https://openai.com/index/stampli",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Replit expands access to software creation with GPT-5.6 Luna",
       "abstract": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
       "url": "https://openai.com/index/replit",
@@ -442,24 +460,6 @@
       "title": "Testing ads in ChatGPT",
       "abstract": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Daybreak models are now available on AWS",
-      "abstract": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "abstract": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
