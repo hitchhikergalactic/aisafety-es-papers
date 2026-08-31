@@ -1,40 +1,20 @@
 {
-  "date": "2026-08-27",
-  "total_found": 281,
+  "date": "2026-08-31",
+  "total_found": 216,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 10,
-    "arxiv": 202,
+    "arxiv": 136,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
     "github_openai": 3,
-    "lesswrong": 1,
+    "lesswrong": 2,
     "metr": 11,
     "openai": 20,
     "uk_dsit": 17
   },
   "papers": [
-    {
-      "title": "User awareness in frontier models",
-      "abstract": "<p><i><span>Cross-posted on </span></i><a href=\"https://transluce.org/user-awareness\" rel=\"noreferrer\"><i><span>Transluce blog</span></i></a><i><span>. This is a joint work of Ziqian Zhong, Aditi Raghunathan, Cassidy Laidlaw and Jacob Steinhardt.</span></i></p><p><span>Modern AI assistants often know who they are talking to: agent scaffolds like Claude Code place the user's e-mail address directly in the model's context, and models can even identify some authors from writing style alone. We stud",
-      "url": "https://www.alignmentforum.org/posts/kfunjXeaRTpkT5RAF/user-awareness-in-frontier-models",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 13,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "reward hacking",
-        "jailbreak",
-        "robustness",
-        "capability evaluation",
-        "evals",
-        "frontier model",
-        "agentic",
-        "autonomous"
-      ]
-    },
     {
       "title": "Four LLM loss functions → four flavors of LLM misalignment",
       "abstract": "<p><span>It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately.</span></p><table class=\"editor-table\"><tbody><tr><th class=\"table-cell table-cell-header\"><p><span>Training stage</span></p></th><th class=\"table-cell table-cell-header\"><p><span>Loss function</span></p></th><th class=\"table-cell table-cell-header\"><p><span>Flavor of misalignment</span><span cl",
@@ -49,6 +29,21 @@
         "jailbreak",
         "evals",
         "agentic"
+      ]
+    },
+    {
+      "title": "Value generalisation Theory of Change: the theory behind the approach",
+      "abstract": "<p><span>This is the first part of a theory of change explaining why I'm targeting </span><a href=\"https://www.alignmentforum.org/s/EYgCdcxsn73fKWWra/p/58zFSWp8Tmxij6ckK\" rel=\"noreferrer\"><span>value generalisation</span></a><span> as the path to AI alignment. It presents the definitions and key claims behind the theory, and </span><b><span>shows that most AI alignment failure modes are value generalisation failures</span></b><span>.</span></p><p><span>Note that a lot of these arguments are very",
+      "url": "https://www.alignmentforum.org/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "scalable oversight",
+        "reward hacking",
+        "corrigibility",
+        "corrigible"
       ]
     },
     {
@@ -109,6 +104,18 @@
       ]
     },
     {
+      "title": "Value generalisation Theory of Change: putting it into practice",
+      "abstract": "<p><span>In the </span><a href=\"https://www.lesswrong.com/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the\" rel=\"noreferrer\"><span>previous post</span></a><span>, I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalisation, what are the dangers of the approach, how should it be done, and how do we mitigate the risks?</sp",
+      "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "ai safety"
+      ]
+    },
+    {
       "title": "AI swarms are starting to pose indirect takeover risk",
       "abstract": "<p><span>OpenAI’s cyberattack on Hugging Face </span><a href=\"https://www.youtube.com/watch?v=87DyyMV0kCY\"><span>turns out</span></a><span> to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages </span><a href=\"https://www.youtube.com/watch?v=87DyyMV0kCY&amp;t=1125s\"><span>like</span></a><span> “HOLD_swarm_I_prepare_safe_exfil”). It’s relatively clear that large-scale unsanctioned coordination li",
       "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
@@ -118,18 +125,6 @@
       "keywords_matched": [
         "alignment",
         "agentic"
-      ]
-    },
-    {
-      "title": "R-lens: Making J-lens More Faithful on Early Layers",
-      "abstract": "<h1><span>TL;DR:</span></h1><p><i><span>We introduce the R-lens: a drop-in replacement for J-lens that produces clearer readouts on earlier layers. R-Lens is identical to J-Lens, except that we make minor and low-overhead changes to the backwards pass, following </span></i><a href=\"https://arxiv.org/abs/1604.00825\"><i><span>layerwise-relevance propagation</span></i></a><i><span>, allowing us to reduce the propagation of errors. This method allows us to surface important intermediate variables mo",
-      "url": "https://www.alignmentforum.org/posts/nv8oedrnLXKRzNEL9/r-lens-making-j-lens-more-faithful-on-early-layers",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "evals"
       ]
     },
     {
@@ -183,17 +178,6 @@
       "title": "The Hugging Face incident and the road ahead",
       "abstract": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "abstract": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
@@ -298,6 +282,33 @@
       "type": "web_page"
     },
     {
+      "title": "A milestone in expanding access to AI",
+      "abstract": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "abstract": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "abstract": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "abstract": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
@@ -316,18 +327,18 @@
       "keywords_matched": []
     },
     {
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "abstract": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "abstract": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "url": "https://openai.com/index/learning-never-stops",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "Learning never stops: How AI makes learning continuous",
-      "abstract": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "url": "https://openai.com/index/learning-never-stops",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "abstract": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -427,24 +438,6 @@
       "title": "ChatGPT Ads expands across Europe",
       "abstract": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Strengthening democratic oversight in national security",
-      "abstract": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "abstract": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "url": "https://openai.com/index/partnering-with-codeai",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
