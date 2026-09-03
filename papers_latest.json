@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-31",
-  "total_found": 216,
+  "date": "2026-09-03",
+  "total_found": 235,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 10,
-    "arxiv": 136,
+    "arxiv": 155,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -62,21 +62,6 @@
       ]
     },
     {
-      "title": "Why do models task game?",
-      "abstract": "<h2><span>TL;DR</span></h2><p><span>How can we study misalignment with today's models as proxies? They're clearly not paperclip maximizers, but they also often do things the user doesn't want. A strong contender for a real misaligned propensity is task gaming: taking actions that don't complete a task but superficially seem like they do, such as hardcoding tests or falsely claiming a task is fully complete. But maybe task gaming is just a crude heuristic, or the model mistakenly trying to achiev",
-      "url": "https://www.alignmentforum.org/posts/HACauvWhEdC6QhdS4/why-do-models-task-game",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 8,
-      "keywords_matched": [
-        "alignment",
-        "reward hacking",
-        "evals",
-        "agentic",
-        "autonomous"
-      ]
-    },
-    {
       "title": "Debate Training Reduces Reward Hacking in RLAIF",
       "abstract": "<p><span>Paper: </span><a href=\"https://arxiv.org/abs/2608.17776\" rel=\"noreferrer\"><span>Debate Training Reduces Reward Hacking in RLAIF</span></a></p><p><span>Linkpost for </span><a href=\"https://gdmalignment.substack.com/p/debate-training-reduces-reward-hacking\" rel=\"noreferrer\"><span>GDM Alignment blogpost</span></a></p><p><span>Work done by the GDM Amplified Oversight team (</span><a href=\"https://gdmalignment.substack.com/p/agi-safety-and-alignment-team-hiring-2026\" rel=\"noreferrer\"><span>w",
       "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
@@ -88,6 +73,19 @@
         "rlaif",
         "reward hacking",
         "agentic"
+      ]
+    },
+    {
+      "title": "Training a Misaligned Reward Seeker",
+      "abstract": "<p><i><span>Authors: Richard Qi, Benjamin Wright, Monte MacDiarmid, Evan Hubinger</span></i></p><h2><a href=\"https://alignment.anthropic.com/2026/reward-seeker/\" rel=\"noreferrer\"><span>Abstract</span></a></h2><blockquote><p><span>During reinforcement learning (RL), AI models complete tasks and are rewarded based on their results. They sometimes learn to “cheat” rather than completing these tasks as intended, a phenomenon known as </span><i><span>reward hacking</span></i><span>.&nbsp;Our industry",
+      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "reward hacking",
+        "evals"
       ]
     },
     {
@@ -128,18 +126,6 @@
       ]
     },
     {
-      "title": "Offering Zero Data Retention for frontier models",
-      "abstract": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "ai safety",
-        "frontier model"
-      ]
-    },
-    {
       "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
@@ -172,6 +158,17 @@
       "score": 4,
       "keywords_matched": [
         "alignment"
+      ]
+    },
+    {
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "abstract": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "ai safety"
       ]
     },
     {
@@ -282,6 +279,60 @@
       "type": "web_page"
     },
     {
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "abstract": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "url": "https://openai.com/index/atv-big-air-tour",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "abstract": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "abstract": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "abstract": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "abstract": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "url": "https://openai.com/index/gilbert-tobin",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "abstract": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "url": "https://openai.com/index/polimill",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "A milestone in expanding access to AI",
       "abstract": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
       "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
@@ -384,60 +435,6 @@
       "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
       "abstract": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
       "url": "https://openai.com/index/introducing-admin-plugin",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "abstract": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing Intelligence Age",
-      "abstract": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing Intelligence Age",
-      "abstract": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "url": "https://openai.com/index/introducing-intelligence-age",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "abstract": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "url": "https://openai.com/index/stampli",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "abstract": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "url": "https://openai.com/index/replit",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "ChatGPT Ads expands across Europe",
-      "abstract": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
