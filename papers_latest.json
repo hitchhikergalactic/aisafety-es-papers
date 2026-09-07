@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-03",
-  "total_found": 235,
+  "date": "2026-09-07",
+  "total_found": 239,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 10,
-    "arxiv": 155,
+    "arxiv": 149,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,23 +12,28 @@
     "lesswrong": 2,
     "metr": 11,
     "openai": 20,
+    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
     {
-      "title": "Four LLM loss functions → four flavors of LLM misalignment",
-      "abstract": "<p><span>It seems to me that, for every loss function that we use to train LLMs, we get a very distinct flavor of LLM misalignment. Here’s the summary table, and then we’ll go through the rows separately.</span></p><table class=\"editor-table\"><tbody><tr><th class=\"table-cell table-cell-header\"><p><span>Training stage</span></p></th><th class=\"table-cell table-cell-header\"><p><span>Loss function</span></p></th><th class=\"table-cell table-cell-header\"><p><span>Flavor of misalignment</span><span cl",
-      "url": "https://www.alignmentforum.org/posts/GRmvZsHXH4vaijPMv/four-llm-loss-functions-four-flavors-of-llm-misalignment",
+      "title": "The Alignment Journal: Organization, Personnel, and Scope",
+      "abstract": "<p><i><span>[Cross-posted from the </span></i><a href=\"https://blog.alignmentjournal.org/scope-and-personnel/\" rel=\"noreferrer\"><i><span>Alignment Journal's blog</span></i></a><i><span>]</span></i></p><p><span>The </span><i><span>Alignment Journal</span></i><span> is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a reviewer, </span><b><span>make an account</span></b><span> on our </span><a href=\"http",
+      "url": "https://www.alignmentforum.org/posts/9vm2wtAtb34pEkjje/the-alignment-journal-organization-personnel-and-scope",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 9,
+      "score": 13,
       "keywords_matched": [
         "alignment",
+        "ai safety",
+        "interpretability",
+        "scalable oversight",
         "rlhf",
-        "rlaif",
-        "jailbreak",
-        "evals",
-        "agentic"
+        "reward hacking",
+        "deceptive alignment",
+        "ai governance",
+        "robustness",
+        "capability evaluation"
       ]
     },
     {
@@ -172,17 +177,6 @@
       ]
     },
     {
-      "title": "The Hugging Face incident and the road ahead",
-      "abstract": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
       "title": "[openai/evals] Release 3.0.1 (#1525)",
       "abstract": "<p>Release 3.0.1</p>",
       "url": "https://github.com/openai/evals/releases/tag/3.0.1",
@@ -279,6 +273,78 @@
       "type": "web_page"
     },
     {
+      "title": "Supporting independent journalism in Ukraine",
+      "abstract": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "An Alien Mind",
+      "abstract": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "abstract": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "abstract": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "abstract": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "abstract": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "abstract": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Safety overview: GPT-6 Astra",
+      "abstract": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
       "abstract": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
       "url": "https://openai.com/index/atv-big-air-tour",
@@ -372,69 +438,6 @@
       "title": "Expanding OpenAI’s presence in Brazil",
       "abstract": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
       "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Learning never stops: How AI makes learning continuous",
-      "abstract": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "url": "https://openai.com/index/learning-never-stops",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "abstract": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "abstract": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "url": "https://openai.com/index/loveholidays",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "The full stack behind abundant intelligence",
-      "abstract": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "abstract": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "abstract": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "abstract": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "url": "https://openai.com/index/introducing-admin-plugin",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
