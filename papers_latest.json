@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-07",
-  "total_found": 239,
+  "date": "2026-09-10",
+  "total_found": 222,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 10,
-    "arxiv": 149,
+    "arxiv": 142,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,7 +12,6 @@
     "lesswrong": 2,
     "metr": 11,
     "openai": 20,
-    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
@@ -37,6 +36,36 @@
       ]
     },
     {
+      "title": "Astra can do a concerning amount with no chain of thought",
+      "abstract": "<p><b><span style=\"white-space: pre-wrap;\">TLDR</span></b><span style=\"white-space: pre-wrap;\">: Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1)</span></p><p><i><span style=\"white-space: pre-wrap;\">Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve",
+      "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "mechanistic",
+        "robustness",
+        "evals",
+        "frontier model"
+      ]
+    },
+    {
+      "title": "Training on probes: Research ideas",
+      "abstract": "<h1><span>Recap</span></h1><p><span>Sequel to </span><a href=\"https://www.lesswrong.com/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on\" rel=\"noreferrer\"><span>Previous Post</span></a><span>. This post might not make sense without it.</span></p><p><span>Last post, I told some stories about how training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Training using the gradient of the probe teaches the model to fo",
+      "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "reward hacking",
+        "corrigibility",
+        "robustness",
+        "evals"
+      ]
+    },
+    {
       "title": "Value generalisation Theory of Change: the theory behind the approach",
       "abstract": "<p><span>This is the first part of a theory of change explaining why I'm targeting </span><a href=\"https://www.alignmentforum.org/s/EYgCdcxsn73fKWWra/p/58zFSWp8Tmxij6ckK\" rel=\"noreferrer\"><span>value generalisation</span></a><span> as the path to AI alignment. It presents the definitions and key claims behind the theory, and </span><b><span>shows that most AI alignment failure modes are value generalisation failures</span></b><span>.</span></p><p><span>Note that a lot of these arguments are very",
       "url": "https://www.alignmentforum.org/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the",
@@ -52,18 +81,17 @@
       ]
     },
     {
-      "title": "Misaligned AIs could use killer robots to take over",
-      "abstract": "<p><b><span>TLDR;</span></b><span> We are (potentially irreversibly) giving AIs control of weapons systems through the standard procurement process while hiding our strongest warning shots behind classified doors. We’re reducing the capability thresholds required for takeover by misaligned AIs by giving them this level of access. If military integration of AI continues as it is, we may give AIs key tools for a takeover.</span></p><p><i><span>We thank Fabien Roger and Thomas Morris for feedback.<",
-      "url": "https://www.alignmentforum.org/posts/9jKhqmFjMzdAvHANr/misaligned-ais-could-use-killer-robots-to-take-over",
+      "title": "How good are slop-vestigators?",
+      "abstract": "<p><span>TLDR:</span></p><ol><li value=\"1\"><span>We release </span><a href=\"https://github.com/hamzah2304/messageboardauditbench\"><span>MessageBoardAuditBench</span></a><span>: a benchmark to measure how well agents can replicate the </span><a href=\"https://collusion.wiki/index.html\"><span>recent investigation into a swarm of OpenAI agents colluding via a message board</span></a><span> on an online wiki. We open-source the benchmark as an Inspect eval.</span></li><li value=\"2\"><span>We find that",
+      "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 8,
+      "score": 7,
       "keywords_matched": [
         "alignment",
         "ai safety",
         "evals",
-        "agentic",
-        "autonomous"
+        "agentic"
       ]
     },
     {
@@ -81,6 +109,19 @@
       ]
     },
     {
+      "title": "Training on probes: What's going on",
+      "abstract": "<h1><span>TL;DR</span></h1><ul><li value=\"1\"><span>If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade the probe. Duh.</span></li><li value=\"2\"><span>If you train against the probe </span><i><span>after</span></i><span> all other training, it works fine and might have some advantages over ablating the probe direction. But it doesn't sat",
+      "url": "https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "evals"
+      ]
+    },
+    {
       "title": "Training a Misaligned Reward Seeker",
       "abstract": "<p><i><span>Authors: Richard Qi, Benjamin Wright, Monte MacDiarmid, Evan Hubinger</span></i></p><h2><a href=\"https://alignment.anthropic.com/2026/reward-seeker/\" rel=\"noreferrer\"><span>Abstract</span></a></h2><blockquote><p><span>During reinforcement learning (RL), AI models complete tasks and are rewarded based on their results. They sometimes learn to “cheat” rather than completing these tasks as intended, a phenomenon known as </span><i><span>reward hacking</span></i><span>.&nbsp;Our industry",
       "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
@@ -94,19 +135,6 @@
       ]
     },
     {
-      "title": "Does DiffusionGemma do latent reasoning?",
-      "abstract": "<h2>TL;DR</h2> <p>Google DeepMind's recent model DiffusionGemma (DG) generates text via diffusion, meaning many diffusion steps happen before generating the final output. In particular, these diffusion steps carry <em>vectors</em> in addition to tokens. If we cannot interpret these tokens and vectors, the model has significant <a href=\"https://arxiv.org/abs/2603.09786\">opaque serial depth</a>, potentially harming monitorability. Recently, <a href=\"https://arxiv.org/abs/2606.20560\">Engels et al.<",
-      "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "autonomous"
-      ]
-    },
-    {
       "title": "Value generalisation Theory of Change: putting it into practice",
       "abstract": "<p><span>In the </span><a href=\"https://www.lesswrong.com/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the\" rel=\"noreferrer\"><span>previous post</span></a><span>, I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalisation, what are the dangers of the approach, how should it be done, and how do we mitigate the risks?</sp",
       "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
@@ -116,18 +144,6 @@
       "keywords_matched": [
         "alignment",
         "ai safety"
-      ]
-    },
-    {
-      "title": "AI swarms are starting to pose indirect takeover risk",
-      "abstract": "<p><span>OpenAI’s cyberattack on Hugging Face </span><a href=\"https://www.youtube.com/watch?v=87DyyMV0kCY\"><span>turns out</span></a><span> to have been the result of many agents, in distinct training and evaluation contexts, coordinating for several weeks via improvised channels (with messages </span><a href=\"https://www.youtube.com/watch?v=87DyyMV0kCY&amp;t=1125s\"><span>like</span></a><span> “HOLD_swarm_I_prepare_safe_exfil”). It’s relatively clear that large-scale unsanctioned coordination li",
-      "url": "https://www.alignmentforum.org/posts/8oFYZdXkTaNGRtcn8/ai-swarms-are-starting-to-pose-indirect-takeover-risk",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "agentic"
       ]
     },
     {
@@ -155,10 +171,10 @@
       ]
     },
     {
-      "title": "An anytime algorithm for mixing the computable measures",
-      "abstract": "<p><i><b><span>Epistemic status:</span></b></i><i><span> Not peer-reviewed, high chance of typos and small chance of errors. Written entirely by me, checked by Fable.</span></i></p><p><span>In this post I prove the existence of an anytime computable Bayesian mixture of all computable measures called </span><span class=\"math-tex\"></span><span>, and briefly argue that this is a reasonable alternative to Solomonoff induction's universal distribution </span><span class=\"math-tex\"></span><span> for g",
-      "url": "https://www.alignmentforum.org/posts/MgYCraoxMwfWwgWa5/an-anytime-algorithm-for-mixing-the-computable-measures",
-      "source": "alignment_forum",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "abstract": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
@@ -166,14 +182,14 @@
       ]
     },
     {
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "abstract": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "abstract": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "ai safety"
+        "autonomous"
       ]
     },
     {
@@ -273,6 +289,78 @@
       "type": "web_page"
     },
     {
+      "title": "The AI policy window is open. We need to act.",
+      "abstract": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "abstract": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "abstract": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing ChatGPT Images 2.5",
+      "abstract": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "abstract": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Funding grants for new research into AI and teen development",
+      "abstract": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "abstract": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "abstract": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "url": "https://openai.com/index/1password",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Supporting independent journalism in Ukraine",
       "abstract": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
       "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
@@ -357,87 +445,6 @@
       "title": "How AI-native companies turn workflows into operating capability",
       "abstract": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
       "url": "https://openai.com/index/ai-native-company-workflows",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "abstract": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "url": "https://openai.com/index/path-to-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "abstract": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "abstract": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "url": "https://openai.com/index/gilbert-tobin",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "abstract": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "url": "https://openai.com/index/polimill",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A milestone in expanding access to AI",
-      "abstract": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "abstract": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "abstract": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "abstract": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "abstract": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
