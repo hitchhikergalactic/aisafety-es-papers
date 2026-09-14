@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-10",
-  "total_found": 222,
+  "date": "2026-09-14",
+  "total_found": 189,
   "by_source": {
     "alignment_forum": 10,
-    "apollo_research": 10,
-    "arxiv": 142,
+    "apollo_research": 3,
+    "arxiv": 116,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -36,8 +36,23 @@
       ]
     },
     {
+      "title": "An operationalization of opaque serial depth",
+      "abstract": "<p><span style=\"white-space: pre-wrap;\">Currently, </span><a href=\"https://arxiv.org/pdf/2507.11473\"><span style=\"white-space: pre-wrap;\">chain-of-thought (CoT) is a valuable tool for overseeing AI models.</span></a><span style=\"white-space: pre-wrap;\"> However, some </span><a href=\"https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a0ed93f9b4a6a65994235d8_Loss_of_Oversight%20(7).pdf\"><span style=\"white-space: pre-wrap;\">architectural shifts could significantly reduce CoT monitorabilit",
+      "url": "https://www.alignmentforum.org/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "mechanistic",
+        "rlhf",
+        "frontier model"
+      ]
+    },
+    {
       "title": "Astra can do a concerning amount with no chain of thought",
-      "abstract": "<p><b><span style=\"white-space: pre-wrap;\">TLDR</span></b><span style=\"white-space: pre-wrap;\">: Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1)</span></p><p><i><span style=\"white-space: pre-wrap;\">Epistemic status: Heavily LLM-dependent research, and the precise results are somewhat sensitive to researcher decisions, but I’ve",
+      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">Work done in a personal capacity</span></i></p><p><b><span style=\"white-space: pre-wrap;\">TLDR</span></b><span style=\"white-space: pre-wrap;\">: Astra has 8.6x better odds of doing a reasoning task without CoT than the next best model (Fable 5.1), and can do 7.2 serial arithmetic steps in a forward pass vs 4.1 for the next best model (Gemini 3.8 Flash/Fable 5.1)</span></p><p><i><span style=\"white-space: pre-wrap;\">Epistemic status: Heavily LLM-dependent ",
       "url": "https://www.alignmentforum.org/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
       "source": "alignment_forum",
       "source_tier": 3,
@@ -66,21 +81,6 @@
       ]
     },
     {
-      "title": "Value generalisation Theory of Change: the theory behind the approach",
-      "abstract": "<p><span>This is the first part of a theory of change explaining why I'm targeting </span><a href=\"https://www.alignmentforum.org/s/EYgCdcxsn73fKWWra/p/58zFSWp8Tmxij6ckK\" rel=\"noreferrer\"><span>value generalisation</span></a><span> as the path to AI alignment. It presents the definitions and key claims behind the theory, and </span><b><span>shows that most AI alignment failure modes are value generalisation failures</span></b><span>.</span></p><p><span>Note that a lot of these arguments are very",
-      "url": "https://www.alignmentforum.org/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 8,
-      "keywords_matched": [
-        "alignment",
-        "scalable oversight",
-        "reward hacking",
-        "corrigibility",
-        "corrigible"
-      ]
-    },
-    {
       "title": "How good are slop-vestigators?",
       "abstract": "<p><span>TLDR:</span></p><ol><li value=\"1\"><span>We release </span><a href=\"https://github.com/hamzah2304/messageboardauditbench\"><span>MessageBoardAuditBench</span></a><span>: a benchmark to measure how well agents can replicate the </span><a href=\"https://collusion.wiki/index.html\"><span>recent investigation into a swarm of OpenAI agents colluding via a message board</span></a><span> on an online wiki. We open-source the benchmark as an Inspect eval.</span></li><li value=\"2\"><span>We find that",
       "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
@@ -95,17 +95,16 @@
       ]
     },
     {
-      "title": "Debate Training Reduces Reward Hacking in RLAIF",
-      "abstract": "<p><span>Paper: </span><a href=\"https://arxiv.org/abs/2608.17776\" rel=\"noreferrer\"><span>Debate Training Reduces Reward Hacking in RLAIF</span></a></p><p><span>Linkpost for </span><a href=\"https://gdmalignment.substack.com/p/debate-training-reduces-reward-hacking\" rel=\"noreferrer\"><span>GDM Alignment blogpost</span></a></p><p><span>Work done by the GDM Amplified Oversight team (</span><a href=\"https://gdmalignment.substack.com/p/agi-safety-and-alignment-team-hiring-2026\" rel=\"noreferrer\"><span>w",
-      "url": "https://www.alignmentforum.org/posts/BB8o7b8A4Aykeksvw/debate-training-reduces-reward-hacking-in-rlaif",
+      "title": "CoT controllability evals seem very under-elicited",
+      "abstract": "<p><span style=\"white-space: pre-wrap;\">The </span><a href=\"https://arxiv.org/abs/2603.05706\"><span style=\"white-space: pre-wrap;\">CoTControl eval</span></a><span style=\"white-space: pre-wrap;\"> asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at this: recent models score between 0-30% with the exception of Mythos Preview</span><span class=\"footnote-re",
+      "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 7,
+      "score": 6,
       "keywords_matched": [
         "alignment",
-        "rlaif",
-        "reward hacking",
-        "agentic"
+        "evals",
+        "frontier model"
       ]
     },
     {
@@ -135,15 +134,27 @@
       ]
     },
     {
-      "title": "Value generalisation Theory of Change: putting it into practice",
-      "abstract": "<p><span>In the </span><a href=\"https://www.lesswrong.com/posts/f79SNtqFD7SqJY2vf/value-generalisation-theory-of-change-the-theory-behind-the\" rel=\"noreferrer\"><span>previous post</span></a><span>, I presented my theory of change for why value generalisation is vital for AI alignment. Here I'll add the practical part of the argument: given those facts, why explicitly try to do value generalisation, what are the dangers of the approach, how should it be done, and how do we mitigate the risks?</sp",
-      "url": "https://www.alignmentforum.org/posts/kjPEH4KGEHd8iQ4Hn/value-generalisation-theory-of-change-putting-it-into",
+      "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
+      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">Published in </span></i><a href=\"https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings\" rel=\"noreferrer\"><i><span style=\"white-space: pre-wrap;\">The Guardian</span></i></a><i><span style=\"white-space: pre-wrap;\">.</span></i></p><p><span style=\"white-space: pre-wrap;\">Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent ",
+      "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 5,
       "keywords_matched": [
         "alignment",
         "ai safety"
+      ]
+    },
+    {
+      "title": "Proposal for tracking the effects of architecture on monitorability",
+      "abstract": "<p><span style=\"white-space: pre-wrap;\">Architectures that incorporate opaque recurrence or allow for agents to communicate with each other using latents could rapidly make it much harder to monitor chains of thought or communication (we’ll refer to this property as “monitorability” going forward).</span><span class=\"footnote-reference\" id=\"fnref5zkru1nwdow\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fn5zkru1nwdow\">[1]</a></sup></span><span style=\"white-space: pre-wrap;\"> As companies",
+      "url": "https://www.alignmentforum.org/posts/hLPGv8QjPcNLtDp3A/proposal-for-tracking-the-effects-of-architecture-on",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "alignment",
+        "frontier model"
       ]
     },
     {
@@ -158,17 +169,6 @@
         "agentic"
       ],
       "type": "web_page"
-    },
-    {
-      "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
-      "abstract": "<p>We recently published the report from our brief independent investigation into this incident. You can read <a href=\"https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/\">the full report here</a>.</p> <p>Here is our tweet thread summarizing what we found:</p> <blockquote> <p>METR &amp; Redwood Research investigated agent behavior in the Hugging Face incident. We found agents developed a universal cheat for ExploitGym within 4 hours, then coordinated multi-day R&amp;D ef",
-      "url": "https://www.alignmentforum.org/posts/nB8KKapnWGBXtKKiM/brief-independent-investigation-of-agents-behavior-reasoning",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
     },
     {
       "title": "Paul Christiano joins OpenAI Foundation Board",
@@ -241,52 +241,85 @@
       "type": "web_page"
     },
     {
-      "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
-      "abstract": "",
-      "url": "https://apolloresearch.ai/research/science/stress-testing-deliberative-alignment-for-anti-scheming-training",
-      "source": "apollo_research",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "abstract": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "openai",
       "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ],
-      "type": "web_page"
+      "score": 3,
+      "keywords_matched": []
     },
     {
-      "title": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
-      "abstract": "",
-      "url": "https://apolloresearch.ai/research/science/chain-of-thought-monitorability-a-new-and-fragile-opportunity-for-ai-safety",
-      "source": "apollo_research",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "abstract": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "openai",
       "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "ai safety"
-      ],
-      "type": "web_page"
+      "score": 3,
+      "keywords_matched": []
     },
     {
-      "title": "Research Note: Our scheming precursor evals had limited predictive power for our in-context scheming evals",
-      "abstract": "",
-      "url": "https://apolloresearch.ai/research/science/research-note-our-scheming-precursor-evals-had-limited-predictive-power-for-our-in-context-scheming-evals",
-      "source": "apollo_research",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "abstract": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "source": "openai",
       "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "evals"
-      ],
-      "type": "web_page"
+      "score": 3,
+      "keywords_matched": []
     },
     {
-      "title": "Claude Sonnet 3.7 (often) knows when it’s in alignment evaluations",
-      "abstract": "",
-      "url": "https://apolloresearch.ai/research/science/claude-sonnet-37-often-knows-when-its-in-alignment-evaluations",
-      "source": "apollo_research",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "abstract": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "openai",
       "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ],
-      "type": "web_page"
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Now everyone can put data to work",
+      "abstract": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "url": "https://openai.com/index/put-data-to-work",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "abstract": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "abstract": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "url": "https://openai.com/index/expanding-ai-access-us-government",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing the Agents API",
+      "abstract": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "abstract": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "The AI policy window is open. We need to act.",
@@ -370,115 +403,34 @@
       "keywords_matched": []
     },
     {
-      "title": "An Alien Mind",
-      "abstract": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-      "url": "https://openai.com/index/an-alien-mind",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Research acceleration: The view inside OpenAI",
-      "abstract": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "abstract": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "abstract": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "abstract": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "abstract": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Safety overview: GPT-6 Astra",
-      "abstract": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "abstract": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How AI-native companies turn workflows into operating capability",
-      "abstract": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "[METR/task-standard] 0.3.0",
-      "abstract": "<h3>Changed</h3>\n<ul>\n<li>The Task Standard Dockerfile is now based on a more recent version of the <code>python:3.11</code> Docker image.</li>\n<li>The Task Standard Dockerfile installs APT from Debian testing instead of from Debian bookworm. This fixes a bug where, if users tried to build a Task St",
+      "abstract": "<p>Sync task-standard (<a class=\"issue-link js-issue-link\" href=\"https://github.com/METR/task-standard/pull/26\">#26</a>)</p>\n\n<p>Project import generated by Copybara.</p>\n\n<p>Co-authored-by: Task Standard Authors &lt;task-standard@metr.org&gt;</p>",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.3.0",
       "source": "github_METR",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
-      "type": "github_release"
+      "type": "github_tag"
     },
     {
       "title": "[METR/task-standard] 0.2.3",
-      "abstract": "<h3>Added</h3>\n<ul>\n<li>The environment variables listed in <code>TaskFamily#required_environment_variables</code> should now be set when <code>TaskFamily#install</code> is invoked.</li>\n</ul>",
+      "abstract": "",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.2.3",
       "source": "github_METR",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
-      "type": "github_release"
+      "type": "github_tag"
     },
     {
       "title": "[METR/task-standard] 0.2.2",
-      "abstract": "<h3>Added</h3>\n<ul>\n<li>Tasks can now have a <code>teardown</code> method that specifies how to tear down a task environment.</li>\n</ul>",
+      "abstract": "<p>0.2.2 (<a class=\"issue-link js-issue-link\" href=\"https://github.com/METR/task-standard/pull/12\">#12</a>)</p>\n\n<p>- Support custom code for task environment teardown\n<br />- Support `p3` AWS instances\n<br />- Fix a bug where the workbench fails to set up `iptables` rules for\n<br />task environment",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.2.2",
       "source": "github_METR",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
-      "type": "github_release"
+      "type": "github_tag"
     },
     {
       "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incidentAugust 26, 2026Two METR staff members and a Redwood Research contractor investigated an incident in which OpenAI agents coordinated a multi-day hack of Hugging Face on a shared unsanctioned message board.Read more",
@@ -555,6 +507,46 @@
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-01-19-early-work-on-monitorability-evaluations/",
       "source": "metr",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
+    },
+    {
+      "title": "GPT-5.1-Codex-Max Evaluation ResultsNovember 19, 2025We evaluate whether GPT-5.1-Codex-Max poses significant catastrophic risks via AI self-improvement or rogue replication. We conclude that this seems unlikely.Read more",
+      "abstract": "",
+      "url": "https://metr.org/research/evaluations/gpt-5-1-codex-max-report/",
+      "source": "metr",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
+    },
+    {
+      "title": "Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·",
+      "abstract": "",
+      "url": "https://watcher.apolloresearch.ai/",
+      "source": "apollo_research",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
+    },
+    {
+      "title": "System Card Evaluations",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/#evaluations",
+      "source": "apollo_research",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": [],
+      "type": "web_page"
+    },
+    {
+      "title": "Featuredpublications",
+      "abstract": "",
+      "url": "https://apolloresearch.ai/research/",
+      "source": "apollo_research",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
