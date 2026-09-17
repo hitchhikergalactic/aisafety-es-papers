@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-14",
-  "total_found": 189,
+  "date": "2026-09-17",
+  "total_found": 234,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 3,
-    "arxiv": 116,
+    "arxiv": 161,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -15,26 +15,6 @@
     "uk_dsit": 17
   },
   "papers": [
-    {
-      "title": "The Alignment Journal: Organization, Personnel, and Scope",
-      "abstract": "<p><i><span>[Cross-posted from the </span></i><a href=\"https://blog.alignmentjournal.org/scope-and-personnel/\" rel=\"noreferrer\"><i><span>Alignment Journal's blog</span></i></a><i><span>]</span></i></p><p><span>The </span><i><span>Alignment Journal</span></i><span> is beginning to invite the authors of select papers to submit their work for review. If you are interested in participating as an action editor or a reviewer, </span><b><span>make an account</span></b><span> on our </span><a href=\"http",
-      "url": "https://www.alignmentforum.org/posts/9vm2wtAtb34pEkjje/the-alignment-journal-organization-personnel-and-scope",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 13,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "interpretability",
-        "scalable oversight",
-        "rlhf",
-        "reward hacking",
-        "deceptive alignment",
-        "ai governance",
-        "robustness",
-        "capability evaluation"
-      ]
-    },
     {
       "title": "An operationalization of opaque serial depth",
       "abstract": "<p><span style=\"white-space: pre-wrap;\">Currently, </span><a href=\"https://arxiv.org/pdf/2507.11473\"><span style=\"white-space: pre-wrap;\">chain-of-thought (CoT) is a valuable tool for overseeing AI models.</span></a><span style=\"white-space: pre-wrap;\"> However, some </span><a href=\"https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a0ed93f9b4a6a65994235d8_Loss_of_Oversight%20(7).pdf\"><span style=\"white-space: pre-wrap;\">architectural shifts could significantly reduce CoT monitorabilit",
@@ -95,6 +75,33 @@
       ]
     },
     {
+      "title": "A Conceptual Framework for Reasoning about Exploration Hacking",
+      "abstract": "<p><b><span>This is the second of two posts resulting from a recent Astra/MATS research project investigating exploration hacking in AI debate. They are designed to be standalone, but we encourage interested readers to read both. </span></b><a href=\"https://www.lesswrong.com/posts/xjwtNid2xjqSJWB7z\" rel=\"noreferrer\"><b><span>The first focuses on our empirical results</span></b></a><b><span>, this post focuses on a new conceptual framework.</span></b></p><h2><span>Authors</span></h2><p><span>Jaso",
+      "url": "https://www.alignmentforum.org/posts/am5w2t9LzJB4sRhKw/a-conceptual-framework-for-reasoning-about-exploration",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "reward hacking",
+        "evals"
+      ]
+    },
+    {
+      "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
+      "abstract": "<p><span style=\"white-space: pre-wrap;\">It would be useful if we had the ability to modify a model’s beliefs. For example, this could facilitate honeypots and better monitoring</span><span class=\"footnote-reference\" id=\"fnrefu8usxxxwepr\"><sup><a href=\"https://www.alignmentforum.org/feed.xml#fnu8usxxxwepr\">[1]</a></sup></span><span style=\"white-space: pre-wrap;\">, help us do better science on current models</span><span class=\"footnote-reference\" id=\"fnrefz1wnmjjo3e\"><sup><a href=\"https://www.alig",
+      "url": "https://www.alignmentforum.org/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "reward hacking",
+        "agentic"
+      ]
+    },
+    {
       "title": "CoT controllability evals seem very under-elicited",
       "abstract": "<p><span style=\"white-space: pre-wrap;\">The </span><a href=\"https://arxiv.org/abs/2603.05706\"><span style=\"white-space: pre-wrap;\">CoTControl eval</span></a><span style=\"white-space: pre-wrap;\"> asks reasoning models to follow formatting constraints in their chain-of-thought (e.g. write in all lowercase, avoid a specific word) while solving questions. Models seem to mostly be pretty bad at this: recent models score between 0-30% with the exception of Mythos Preview</span><span class=\"footnote-re",
       "url": "https://www.alignmentforum.org/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited",
@@ -108,29 +115,16 @@
       ]
     },
     {
-      "title": "Training on probes: What's going on",
-      "abstract": "<h1><span>TL;DR</span></h1><ul><li value=\"1\"><span>If you train a probe for some property (like \"honesty\") and do gradient descent against this probe while continuing training that incentivizes dishonesty, the model will change its internal representation to evade the probe. Duh.</span></li><li value=\"2\"><span>If you train against the probe </span><i><span>after</span></i><span> all other training, it works fine and might have some advantages over ablating the probe direction. But it doesn't sat",
-      "url": "https://www.alignmentforum.org/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on",
+      "title": "Exploration Hacking in AI Debate: Initial Empirics and Generalisation Splitting",
+      "abstract": "<p><b><span>This is the first of two posts resulting from a recent Astra/MATS research project investigating exploration hacking in AI debate. They are designed to be standalone, but we encourage interested readers to read both. This post focuses on our empirical results, </span></b><a href=\"https://www.lesswrong.com/posts/am5w2t9LzJB4sRhKw\" rel=\"noreferrer\"><b><span>the second focuses on a new conceptual framework</span></b></a><b><span>.</span></b></p><h2><span>Authors</span></h2><p><span>Jaso",
+      "url": "https://www.alignmentforum.org/posts/xjwtNid2xjqSJWB7z/exploration-hacking-in-ai-debate-initial-empirics-and",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 6,
       "keywords_matched": [
         "alignment",
-        "interpretability",
-        "evals"
-      ]
-    },
-    {
-      "title": "Training a Misaligned Reward Seeker",
-      "abstract": "<p><i><span>Authors: Richard Qi, Benjamin Wright, Monte MacDiarmid, Evan Hubinger</span></i></p><h2><a href=\"https://alignment.anthropic.com/2026/reward-seeker/\" rel=\"noreferrer\"><span>Abstract</span></a></h2><blockquote><p><span>During reinforcement learning (RL), AI models complete tasks and are rewarded based on their results. They sometimes learn to “cheat” rather than completing these tasks as intended, a phenomenon known as </span><i><span>reward hacking</span></i><span>.&nbsp;Our industry",
-      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "reward hacking",
-        "evals"
+        "scalable oversight",
+        "autonomous"
       ]
     },
     {
@@ -169,6 +163,17 @@
         "agentic"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "abstract": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
     },
     {
       "title": "Paul Christiano joins OpenAI Foundation Board",
@@ -239,6 +244,51 @@
         "alignment"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Helping older adults use AI in everyday life",
+      "abstract": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Reimagining advertising with AI",
+      "abstract": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "abstract": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How workers are unlocking new ways of working",
+      "abstract": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "abstract": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "url": "https://openai.com/index/fyxer",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -349,88 +399,34 @@
       "keywords_matched": []
     },
     {
-      "title": "Introducing ChatGPT Images 2.5",
-      "abstract": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "On the Navier–Stokes Millennium Prize Problem",
-      "abstract": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Funding grants for new research into AI and teen development",
-      "abstract": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "abstract": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "abstract": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "url": "https://openai.com/index/1password",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "abstract": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "[METR/task-standard] 0.3.0",
-      "abstract": "<p>Sync task-standard (<a class=\"issue-link js-issue-link\" href=\"https://github.com/METR/task-standard/pull/26\">#26</a>)</p>\n\n<p>Project import generated by Copybara.</p>\n\n<p>Co-authored-by: Task Standard Authors &lt;task-standard@metr.org&gt;</p>",
+      "abstract": "<h3>Changed</h3>\n<ul>\n<li>The Task Standard Dockerfile is now based on a more recent version of the <code>python:3.11</code> Docker image.</li>\n<li>The Task Standard Dockerfile installs APT from Debian testing instead of from Debian bookworm. This fixes a bug where, if users tried to build a Task St",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.3.0",
       "source": "github_METR",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
-      "type": "github_tag"
+      "type": "github_release"
     },
     {
       "title": "[METR/task-standard] 0.2.3",
-      "abstract": "",
+      "abstract": "<h3>Added</h3>\n<ul>\n<li>The environment variables listed in <code>TaskFamily#required_environment_variables</code> should now be set when <code>TaskFamily#install</code> is invoked.</li>\n</ul>",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.2.3",
       "source": "github_METR",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
-      "type": "github_tag"
+      "type": "github_release"
     },
     {
       "title": "[METR/task-standard] 0.2.2",
-      "abstract": "<p>0.2.2 (<a class=\"issue-link js-issue-link\" href=\"https://github.com/METR/task-standard/pull/12\">#12</a>)</p>\n\n<p>- Support custom code for task environment teardown\n<br />- Support `p3` AWS instances\n<br />- Fix a bug where the workbench fails to set up `iptables` rules for\n<br />task environment",
+      "abstract": "<h3>Added</h3>\n<ul>\n<li>Tasks can now have a <code>teardown</code> method that specifies how to tear down a task environment.</li>\n</ul>",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.2.2",
       "source": "github_METR",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": [],
-      "type": "github_tag"
+      "type": "github_release"
     },
     {
       "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incidentAugust 26, 2026Two METR staff members and a Redwood Research contractor investigated an incident in which OpenAI agents coordinated a multi-day hack of Hugging Face on a shared unsanctioned message board.Read more",
