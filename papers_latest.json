@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-17",
-  "total_found": 234,
+  "date": "2026-09-21",
+  "total_found": 208,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 3,
-    "arxiv": 161,
+    "arxiv": 133,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,9 +12,25 @@
     "lesswrong": 2,
     "metr": 11,
     "openai": 20,
+    "semantic_scholar": 2,
     "uk_dsit": 17
   },
   "papers": [
+    {
+      "title": "A Defense of Gradual Disempowerment",
+      "abstract": "<h3><span style=\"white-space: pre-wrap;\">(Or: Why </span><a href=\"https://substack.com/@benthamsbulldog\"><span style=\"white-space: pre-wrap;\">Bentham's Bulldog</span></a><span style=\"white-space: pre-wrap;\"> and </span><a href=\"https://substack.com/@nosology\"><span style=\"white-space: pre-wrap;\">John Halstead</span></a><span style=\"white-space: pre-wrap;\"> are wrong in </span><a href=\"https://benthams.substack.com/p/a-critique-of-gradual-disempowerment\" rel=\"noreferrer\"><span style=\"white-space:",
+      "url": "https://www.alignmentforum.org/posts/jXBmrEQj7zKGgiaYh/a-defense-of-gradual-disempowerment",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "corrigibility",
+        "existential risk",
+        "corrigible"
+      ]
+    },
     {
       "title": "An operationalization of opaque serial depth",
       "abstract": "<p><span style=\"white-space: pre-wrap;\">Currently, </span><a href=\"https://arxiv.org/pdf/2507.11473\"><span style=\"white-space: pre-wrap;\">chain-of-thought (CoT) is a valuable tool for overseeing AI models.</span></a><span style=\"white-space: pre-wrap;\"> However, some </span><a href=\"https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a0ed93f9b4a6a65994235d8_Loss_of_Oversight%20(7).pdf\"><span style=\"white-space: pre-wrap;\">architectural shifts could significantly reduce CoT monitorabilit",
@@ -43,21 +59,6 @@
         "robustness",
         "evals",
         "frontier model"
-      ]
-    },
-    {
-      "title": "Training on probes: Research ideas",
-      "abstract": "<h1><span>Recap</span></h1><p><span>Sequel to </span><a href=\"https://www.lesswrong.com/posts/gHFCgrvfxQtaEnJye/training-on-probes-what-s-going-on\" rel=\"noreferrer\"><span>Previous Post</span></a><span>. This post might not make sense without it.</span></p><p><span>Last post, I told some stories about how training on probes might let our judgments on easy domains generalize to harder domains by leveraging an AI's model of the world. Training using the gradient of the probe teaches the model to fo",
-      "url": "https://www.alignmentforum.org/posts/HGfMBEFnsXYkKvbRo/training-on-probes-research-ideas",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 8,
-      "keywords_matched": [
-        "alignment",
-        "reward hacking",
-        "corrigibility",
-        "robustness",
-        "evals"
       ]
     },
     {
@@ -115,19 +116,6 @@
       ]
     },
     {
-      "title": "Exploration Hacking in AI Debate: Initial Empirics and Generalisation Splitting",
-      "abstract": "<p><b><span>This is the first of two posts resulting from a recent Astra/MATS research project investigating exploration hacking in AI debate. They are designed to be standalone, but we encourage interested readers to read both. This post focuses on our empirical results, </span></b><a href=\"https://www.lesswrong.com/posts/am5w2t9LzJB4sRhKw\" rel=\"noreferrer\"><b><span>the second focuses on a new conceptual framework</span></b></a><b><span>.</span></b></p><h2><span>Authors</span></h2><p><span>Jaso",
-      "url": "https://www.alignmentforum.org/posts/xjwtNid2xjqSJWB7z/exploration-hacking-in-ai-debate-initial-empirics-and",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "scalable oversight",
-        "autonomous"
-      ]
-    },
-    {
       "title": "Op-Ed: I Worked at Google DeepMind. You Should Listen to the Warnings About AI",
       "abstract": "<p><i><span style=\"white-space: pre-wrap;\">Published in </span></i><a href=\"https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings\" rel=\"noreferrer\"><i><span style=\"white-space: pre-wrap;\">The Guardian</span></i></a><i><span style=\"white-space: pre-wrap;\">.</span></i></p><p><span style=\"white-space: pre-wrap;\">Major AI lab CEOs recently advocated for pacing AI development. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent ",
       "url": "https://www.alignmentforum.org/posts/YGTWfyZb9oE5EQPu6/op-ed-i-worked-at-google-deepmind-you-should-listen-to-the",
@@ -165,6 +153,17 @@
       "type": "web_page"
     },
     {
+      "title": "[Paper] Stringological sequence prediction III",
+      "abstract": "<p><b><span style=\"white-space: pre-wrap;\">Abstract:</span></b><span style=\"white-space: pre-wrap;\"> </span><i><span style=\"white-space: pre-wrap;\">In previous papers (Kosoy 2026a,b), we began the study of sequence prediction algorithms adapted to stringological word complexity measures. In particular, we defined a complexity measure called Arithmetic Repetition Complexity (ARC) which admits a polynomial-time prediction algorithm with a mistake bound quasilinear in the complexity. Here, we show ",
+      "url": "https://www.alignmentforum.org/posts/virawHQekJsozwotz/paper-stringological-sequence-prediction-iii",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
+    },
+    {
       "title": "Our framework for reporting model misalignment",
       "abstract": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
@@ -173,28 +172,6 @@
       "score": 4,
       "keywords_matched": [
         "alignment"
-      ]
-    },
-    {
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "abstract": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "abstract": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "autonomous"
       ]
     },
     {
@@ -246,6 +223,42 @@
       "type": "web_page"
     },
     {
+      "title": "How V7 gives AI agents institutional memory",
+      "abstract": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "url": "https://openai.com/index/v7",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "abstract": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "abstract": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "abstract": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "url": "https://openai.com/index/astra-for-law",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Helping older adults use AI in everyday life",
       "abstract": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
@@ -258,6 +271,15 @@
       "title": "Reimagining advertising with AI",
       "abstract": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "abstract": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "url": "https://openai.com/index/hex-gpt-6-astra",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -366,33 +388,6 @@
       "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "abstract": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "The AI policy window is open. We need to act.",
-      "abstract": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "url": "https://openai.com/index/ai-policy-window",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "abstract": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "The Work Now Within Reach",
-      "abstract": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "url": "https://openai.com/index/the-work-now-within-reach",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
