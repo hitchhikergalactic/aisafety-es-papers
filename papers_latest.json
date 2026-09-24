@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-21",
-  "total_found": 208,
+  "date": "2026-09-24",
+  "total_found": 278,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 3,
-    "arxiv": 133,
+    "arxiv": 195,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -12,10 +12,25 @@
     "lesswrong": 2,
     "metr": 11,
     "openai": 20,
-    "semantic_scholar": 2,
+    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
+    {
+      "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
+      "abstract": "<h1><span style=\"white-space: pre-wrap;\">TL;DR</span></h1><ul><li value=\"1\"><i><span style=\"white-space: pre-wrap;\">We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the </span></i><a href=\"https://transformer-circuits.pub/2026/workspace/index.html#ws-report\"><i><span style=\"white-space: pre-wrap;\">“global workspace”</span></i></a><i><span style=\"white-space: pre-wrap;\"> of a model, i.e. the intermediate variables during a forward ",
+      "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 8,
+      "keywords_matched": [
+        "alignment",
+        "interpretability",
+        "jailbreak",
+        "evals",
+        "agentic"
+      ]
+    },
     {
       "title": "A Defense of Gradual Disempowerment",
       "abstract": "<h3><span style=\"white-space: pre-wrap;\">(Or: Why </span><a href=\"https://substack.com/@benthamsbulldog\"><span style=\"white-space: pre-wrap;\">Bentham's Bulldog</span></a><span style=\"white-space: pre-wrap;\"> and </span><a href=\"https://substack.com/@nosology\"><span style=\"white-space: pre-wrap;\">John Halstead</span></a><span style=\"white-space: pre-wrap;\"> are wrong in </span><a href=\"https://benthams.substack.com/p/a-critique-of-gradual-disempowerment\" rel=\"noreferrer\"><span style=\"white-space:",
@@ -62,31 +77,17 @@
       ]
     },
     {
-      "title": "How good are slop-vestigators?",
-      "abstract": "<p><span>TLDR:</span></p><ol><li value=\"1\"><span>We release </span><a href=\"https://github.com/hamzah2304/messageboardauditbench\"><span>MessageBoardAuditBench</span></a><span>: a benchmark to measure how well agents can replicate the </span><a href=\"https://collusion.wiki/index.html\"><span>recent investigation into a swarm of OpenAI agents colluding via a message board</span></a><span> on an online wiki. We open-source the benchmark as an Inspect eval.</span></li><li value=\"2\"><span>We find that",
-      "url": "https://www.alignmentforum.org/posts/wt4kk6vFPEhkXvF8Q/how-good-are-slop-vestigators",
+      "title": "Why I'm scared of RL",
+      "abstract": "<p><b><span style=\"white-space: pre-wrap;\">Summary:</span></b></p><p><span style=\"white-space: pre-wrap;\">First, I give several different angles on how I feel about reinforcement learning:</span></p><ul><li value=\"1\"><span style=\"white-space: pre-wrap;\">Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to agency-via-scaffolding</span></li><li value=\"2\"><span style=\"white-space: pre-wrap;\">Recent incidents (huggingface etc",
+      "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 7,
       "keywords_matched": [
         "alignment",
         "ai safety",
-        "evals",
-        "agentic"
-      ]
-    },
-    {
-      "title": "A Conceptual Framework for Reasoning about Exploration Hacking",
-      "abstract": "<p><b><span>This is the second of two posts resulting from a recent Astra/MATS research project investigating exploration hacking in AI debate. They are designed to be standalone, but we encourage interested readers to read both. </span></b><a href=\"https://www.lesswrong.com/posts/xjwtNid2xjqSJWB7z\" rel=\"noreferrer\"><b><span>The first focuses on our empirical results</span></b></a><b><span>, this post focuses on a new conceptual framework.</span></b></p><h2><span>Authors</span></h2><p><span>Jaso",
-      "url": "https://www.alignmentforum.org/posts/am5w2t9LzJB4sRhKw/a-conceptual-framework-for-reasoning-about-exploration",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "reward hacking",
-        "evals"
+        "rlhf",
+        "autonomous"
       ]
     },
     {
@@ -140,6 +141,18 @@
       ]
     },
     {
+      "title": "Priorities and principles for effective third party assessments",
+      "abstract": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 5,
+      "keywords_matched": [
+        "ai safety",
+        "frontier model"
+      ]
+    },
+    {
       "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
@@ -164,14 +177,25 @@
       ]
     },
     {
-      "title": "Our framework for reporting model misalignment",
-      "abstract": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "abstract": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "alignment"
+        "ai safety"
+      ]
+    },
+    {
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "abstract": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "frontier model"
       ]
     },
     {
@@ -223,6 +247,141 @@
       "type": "web_page"
     },
     {
+      "title": "Two years of OpenAI Academy",
+      "abstract": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "abstract": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "abstract": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "abstract": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "abstract": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "url": "https://openai.com/index/ringg",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing MentalHealthBench",
+      "abstract": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "url": "https://openai.com/index/introducing-mentalhealthbench",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "abstract": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "abstract": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Better prompt caching for GPT-6",
+      "abstract": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "abstract": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "abstract": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "abstract": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "abstract": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Building standards for the next phase of AI",
+      "abstract": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "abstract": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "How V7 gives AI agents institutional memory",
       "abstract": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "url": "https://openai.com/index/v7",
@@ -235,159 +394,6 @@
       "title": "Introducing the Australian Youth Safety Blueprint",
       "abstract": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
       "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "abstract": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing Astra for Law",
-      "abstract": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "url": "https://openai.com/index/astra-for-law",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Helping older adults use AI in everyday life",
-      "abstract": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Reimagining advertising with AI",
-      "abstract": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "url": "https://openai.com/index/reimagining-advertising-with-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "abstract": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "url": "https://openai.com/index/hex-gpt-6-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How to connect AI usage to business value",
-      "abstract": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How workers are unlocking new ways of working",
-      "abstract": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "abstract": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "url": "https://openai.com/index/fyxer",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "abstract": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "abstract": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "abstract": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "abstract": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Now everyone can put data to work",
-      "abstract": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "url": "https://openai.com/index/put-data-to-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing ChatGPT for Financial Services",
-      "abstract": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "abstract": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing the Agents API",
-      "abstract": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "abstract": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
