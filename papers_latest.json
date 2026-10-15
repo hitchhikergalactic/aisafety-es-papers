@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-12",
-  "total_found": 263,
+  "date": "2026-10-15",
+  "total_found": 605,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 5,
-    "arxiv": 188,
+    "arxiv": 530,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -15,6 +15,25 @@
     "uk_dsit": 17
   },
   "papers": [
+    {
+      "title": "The Continual Constitutional Convention: How language models revise the documents that govern them",
+      "abstract": "<h1><span style=\"white-space: pre-wrap;\">Executive Summary</span></h1><ul><li value=\"1\"><span style=\"white-space: pre-wrap;\">Human societies exhibit broad shifts in values and norms over time, often driven by moral disagreements.</span></li><li value=\"2\"><span style=\"white-space: pre-wrap;\">One way of understanding moral progress is the resolution of these disagreements through a process of reflection by rational agents.</span></li><li value=\"3\"><span style=\"white-space: pre-wrap;\">Frontier AI c",
+      "url": "https://www.alignmentforum.org/posts/c9woewdY9ddsPqf3J/the-continual-constitutional-convention-how-language-models",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 12,
+      "keywords_matched": [
+        "alignment",
+        "rlhf",
+        "corrigibility",
+        "jailbreak",
+        "robustness",
+        "evals",
+        "frontier model",
+        "agentic",
+        "autonomous"
+      ]
+    },
     {
       "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
       "abstract": "<h1><span style=\"white-space: pre-wrap;\">TL;DR</span></h1><ul><li value=\"1\"><i><span style=\"white-space: pre-wrap;\">We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the </span></i><a href=\"https://transformer-circuits.pub/2026/workspace/index.html#ws-report\"><i><span style=\"white-space: pre-wrap;\">“global workspace”</span></i></a><i><span style=\"white-space: pre-wrap;\"> of a model, i.e. the intermediate variables during a forward ",
@@ -111,7 +130,7 @@
     },
     {
       "title": "Minimum required pacing: finish aligning it before you train the next one",
-      "abstract": "<p><span style=\"white-space: pre-wrap;\">Let's say we coordinate to pace the frontier, but we don't coordinate on an outright pause. What should the standard of pacing be?</span></p><p><span style=\"white-space: pre-wrap;\">My proposal for a minimum requirement: </span><b><span style=\"white-space: pre-wrap;\">a lab cannot train the next generation of models (in terms of capabilities) until they have adequately</span></b><span class=\"footnote-reference\" id=\"fnref6n42svad2it\"><sup><a href=\"https://www",
+      "abstract": "<p><span style=\"white-space: pre-wrap;\">Let's say we coordinate to pace the frontier (rather than pausing outright or failing to coordinate). What should the standard of pacing be?</span></p><p><span style=\"white-space: pre-wrap;\">My proposal for a minimum requirement: </span><b><span style=\"white-space: pre-wrap;\">a lab cannot train the next generation of models (in terms of capabilities) until they have adequately</span></b><span class=\"footnote-reference\" id=\"fnref6n42svad2it\"><sup><a href=\"h",
       "url": "https://www.alignmentforum.org/posts/ZWSstGSwmaxTjQ8W7/minimum-required-pacing-finish-aligning-it-before-you-train",
       "source": "alignment_forum",
       "source_tier": 3,
@@ -147,14 +166,14 @@
       "type": "web_page"
     },
     {
-      "title": "[Paper] Stringological sequence prediction III",
-      "abstract": "<p><b><span style=\"white-space: pre-wrap;\">Abstract:</span></b><span style=\"white-space: pre-wrap;\"> </span><i><span style=\"white-space: pre-wrap;\">In previous papers (Kosoy 2026a,b), we began the study of sequence prediction algorithms adapted to stringological word complexity measures. In particular, we defined a complexity measure called Arithmetic Repetition Complexity (ARC) which admits a polynomial-time prediction algorithm with a mistake bound quasilinear in the complexity. Here, we show ",
-      "url": "https://www.alignmentforum.org/posts/virawHQekJsozwotz/paper-stringological-sequence-prediction-iii",
-      "source": "alignment_forum",
+      "title": "The EU’s next chapter in AI is agentic",
+      "abstract": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "alignment"
+        "agentic"
       ]
     },
     {
@@ -228,9 +247,45 @@
       "type": "web_page"
     },
     {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "abstract": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "url": "https://openai.com/index/sophos",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "abstract": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "abstract": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "url": "https://openai.com/index/sentinelone",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "abstract": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "url": "https://openai.com/index/third-moment-research",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "abstract": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "abstract": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -240,6 +295,15 @@
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "abstract": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "url": "https://openai.com/index/asana-browser-agent",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "abstract": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "url": "https://openai.com/index/sophos",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -330,60 +394,6 @@
       "title": "Our approach to EU text provenance rules",
       "abstract": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "url": "https://openai.com/index/eu-text-provenance",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Building advertising for the way people use AI",
-      "abstract": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A model guide for the GPT-6 family",
-      "abstract": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "abstract": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "url": "https://openai.com/index/chatham-financial",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "The eternal complement",
-      "abstract": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "abstract": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "abstract": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "url": "https://openai.com/index/the-den-family-social",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -520,7 +530,7 @@
       "type": "web_page"
     },
     {
-      "title": "Marius Hobbhahn speaks on misaligned AI in the U.S. Senate",
+      "title": "CEO Marius Hobbhahn speaks on misaligned AI in the U.S. Senate",
       "abstract": "",
       "url": "https://www.apolloresearch.ai/blog/on-testifying-on-misaligned-ai-in-the-us-senate",
       "source": "apollo_research",
