@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-15",
-  "total_found": 605,
+  "date": "2026-10-19",
+  "total_found": 206,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 5,
-    "arxiv": 530,
+    "arxiv": 130,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
     "github_openai": 3,
     "lesswrong": 2,
-    "metr": 11,
+    "metr": 12,
     "openai": 20,
     "uk_dsit": 17
   },
@@ -35,46 +35,47 @@
       ]
     },
     {
-      "title": "WorkspaceBench: Evaluating Interpretability Methods for the Global Workspace",
-      "abstract": "<h1><span style=\"white-space: pre-wrap;\">TL;DR</span></h1><ul><li value=\"1\"><i><span style=\"white-space: pre-wrap;\">We introduce WorkspaceBench, a set of evaluations for how well an activation-to-text tool can read the contents of the </span></i><a href=\"https://transformer-circuits.pub/2026/workspace/index.html#ws-report\"><i><span style=\"white-space: pre-wrap;\">“global workspace”</span></i></a><i><span style=\"white-space: pre-wrap;\"> of a model, i.e. the intermediate variables during a forward ",
-      "url": "https://www.alignmentforum.org/posts/Zeg2JztbdhguL48uH/workspacebench-evaluating-interpretability-methods-for-the",
+      "title": "Deconfusing Corrigibility",
+      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations.</span></i></p><h1><span style=\"white-space: pre-wrap;\">Introduction</span></h1><p><span style=\"white-space: pre-wrap;\">Despite the central place of </span><b><span style=\"white-space: pre-wrap;\">corrigibility</span></b><span style=\"white-space: pre-wrap;\"> to theoretical AI al",
+      "url": "https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 8,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "jailbreak",
-        "evals",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Latent reasoning architectures would likely undermine CoT, our strongest oversight tool",
-      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">Edited </span></i><span style=\"white-space: pre-wrap;\">2026-09-29</span><i><span style=\"white-space: pre-wrap;\">; see note at the start of the </span></i><a href=\"https://www.alignmentforum.org/feed.xml#Conclusion\" rel=\"noreferrer\"><i><span style=\"white-space: pre-wrap;\">conclusion</span></i></a><i><span style=\"white-space: pre-wrap;\">.</span></i></p><p><i><span style=\"white-space: pre-wrap;\">Summary:</span></i><span style=\"white-space: pre-wrap;\"> Curr",
-      "url": "https://www.alignmentforum.org/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-likely-undermine-cot",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
-      "keywords_matched": [
-        "alignment",
-        "interpretability",
-        "robustness",
-        "frontier model"
-      ]
-    },
-    {
-      "title": "Why I'm scared of RL",
-      "abstract": "<p><b><span style=\"white-space: pre-wrap;\">Summary:</span></b></p><p><span style=\"white-space: pre-wrap;\">First, I give several different angles on how I feel about reinforcement learning:</span></p><ul><li value=\"1\"><span style=\"white-space: pre-wrap;\">Theoretical case: RL is a black-box source of agency — this should give us classic misalignment worries, especially compared to agency-via-scaffolding</span></li><li value=\"2\"><span style=\"white-space: pre-wrap;\">Recent incidents (huggingface etc",
-      "url": "https://www.alignmentforum.org/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 7,
+      "score": 11,
       "keywords_matched": [
         "alignment",
         "ai safety",
         "rlhf",
+        "corrigibility",
+        "robustness",
+        "constitutional ai",
+        "corrigible",
         "autonomous"
+      ]
+    },
+    {
+      "title": "A Simpler and Better Debate Protocol for Scalable Oversight",
+      "abstract": "<p><span style=\"white-space: pre-wrap;\">Linkpost to arXiv: </span><a href=\"https://arxiv.org/abs/2610.02557\"><span style=\"white-space: pre-wrap;\">https://arxiv.org/abs/2610.02557</span></a></p><p><b><span style=\"white-space: pre-wrap;\">Summary:</span></b><span style=\"white-space: pre-wrap;\"> One promising approach to scalable oversight is </span><a href=\"https://arxiv.org/abs/1805.00899\"><span style=\"white-space: pre-wrap;\">AI debate</span></a><span style=\"white-space: pre-wrap;\">, which seeks t",
+      "url": "https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "scalable oversight",
+        "autonomous"
+      ]
+    },
+    {
+      "title": "Preface to the Computational Agent Theory and ASI Alignment Sequence",
+      "abstract": "<p>The idea of “artificial superintelligence<span class=\"footnote-reference\" id=\"fnref-xjTQqf6yndAw2qETs-1\">       <sup><a class=\"\" href=\"https://www.alignmentforum.org/feed.xml#fn-xjTQqf6yndAw2qETs-1\">[1]</a></sup>     </span>” (ASI) has recently crossed from the realm of science fiction (in the mainstream perception) to the realm of near-term technological goals openly pursued by most leading commercial organizations in the field of AI. Unfortunately, ASI poses a grave existential risk to the ",
+      "url": "https://www.alignmentforum.org/posts/NQLCdfeNsQHZaJ8iC/preface-to-the-computational-agent-theory-and-asi-alignment",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "existential risk",
+        "robustness"
       ]
     },
     {
@@ -104,16 +105,15 @@
       ]
     },
     {
-      "title": "Continual learning might make your blocking monitors nearly useless",
-      "abstract": "<p><span style=\"white-space: pre-wrap;\">Many control protocols work by intervening on an untrusted AI's actions during deployment. For example, you might set up a monitor that scores each action's suspiciousness and blocks actions above a threshold, replacing them with actions from a weaker \"trusted\" model (a defer-to-trusted protocol). Interventions like this cost usefulness: the protocol sometimes replaces good actions with worse ones.</span></p><p><span style=\"white-space: pre-wrap;\">Continua",
-      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
+      "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
+      "abstract": "<p><strong>TLDR:</strong> I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine learning theory, ideas from analytic philosophy, and views that originated in the Machine Intelligence Research Institute / LessWrong.</p> <h1>Minimal Viable Safety</h1> <h2>The Task</h2> <p>The problem of making AI safe is underspecified if we haven't decide",
+      "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 6,
+      "score": 5,
       "keywords_matched": [
         "alignment",
-        "corrigibility",
-        "robustness"
+        "mesa-optimization"
       ]
     },
     {
@@ -177,28 +177,6 @@
       ]
     },
     {
-      "title": "Sharing AI progress in mathematics",
-      "abstract": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "frontier model"
-      ]
-    },
-    {
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "abstract": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "frontier model"
-      ]
-    },
-    {
       "title": "[openai/evals] Release 3.0.1 (#1525)",
       "abstract": "<p>Release 3.0.1</p>",
       "url": "https://github.com/openai/evals/releases/tag/3.0.1",
@@ -245,6 +223,72 @@
         "alignment"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Forecasting the Impacts of AI R&D Acceleration: Results of a Pilot StudyAugust 20, 2025AI agents are improving rapidly at autonomous software development and machine learning tasks, and, if recent trends hold, may match human researchers at challenging months-long research projects in under a decade. Some economic models predict that automation of AI research by AI agents could increase the pace of further progress dramatically, with many years of progress at the current rate being compressed into months. AI developers have identified this as a key capability to monitor and prepare for, since the national security implications and societal impacts of such rapid progress could be enormous.Read more",
+      "abstract": "",
+      "url": "https://metr.org/research/blog/2025-08-20-forecasting-impacts-of-ai-acceleration/",
+      "source": "metr",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "autonomous"
+      ],
+      "type": "web_page"
+    },
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "abstract": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "abstract": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "abstract": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "abstract": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Teaching students to think and learn through questions",
+      "abstract": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "abstract": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
     },
     {
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
@@ -364,42 +408,6 @@
       "keywords_matched": []
     },
     {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "abstract": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "abstract": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "url": "https://openai.com/index/jump-trading",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Advancing computer use with Ironclad",
-      "abstract": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Our approach to EU text provenance rules",
-      "abstract": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
       "title": "[METR/task-standard] 0.3.0",
       "abstract": "<h3>Changed</h3>\n<ul>\n<li>The Task Standard Dockerfile is now based on a more recent version of the <code>python:3.11</code> Docker image.</li>\n<li>The Task Standard Dockerfile installs APT from Debian testing instead of from Debian bookworm. This fixes a bug where, if users tried to build a Task St",
       "url": "https://github.com/METR/task-standard/releases/tag/v0.3.0",
@@ -492,7 +500,7 @@
     {
       "title": "Time Horizon 1.1January 29, 2026We’re releasing a new version of our time horizon estimates (TH1.1), using more tasks and a new eval infrastructure.Read more",
       "abstract": "",
-      "url": "https://metr.org/research/blog/2026-1-29-time-horizon-1-1/",
+      "url": "https://metr.org/research/blog/2026-01-29-time-horizon-1-1/",
       "source": "metr",
       "source_tier": 3,
       "score": 3,
@@ -533,16 +541,6 @@
       "title": "CEO Marius Hobbhahn speaks on misaligned AI in the U.S. Senate",
       "abstract": "",
       "url": "https://www.apolloresearch.ai/blog/on-testifying-on-misaligned-ai-in-the-us-senate",
-      "source": "apollo_research",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": [],
-      "type": "web_page"
-    },
-    {
-      "title": "Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·Try Watcher ·",
-      "abstract": "",
-      "url": "https://watcher.apolloresearch.ai/",
       "source": "apollo_research",
       "source_tier": 3,
       "score": 3,
