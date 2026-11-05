@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-02",
-  "total_found": 208,
+  "date": "2026-11-05",
+  "total_found": 301,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 5,
-    "arxiv": 133,
+    "arxiv": 226,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -15,24 +15,6 @@
     "uk_dsit": 17
   },
   "papers": [
-    {
-      "title": "Deconfusing Corrigibility",
-      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">Many thanks to Abram Demski for materially and intellectually supporting this research. Thanks also to Brian Berns, Roman Malov, Gurkenglas, and Lorxus for valuable conversations.</span></i></p><h1><span style=\"white-space: pre-wrap;\">Introduction</span></h1><p><span style=\"white-space: pre-wrap;\">Despite the central place of </span><b><span style=\"white-space: pre-wrap;\">corrigibility</span></b><span style=\"white-space: pre-wrap;\"> to theoretical AI al",
-      "url": "https://www.alignmentforum.org/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 11,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "rlhf",
-        "corrigibility",
-        "robustness",
-        "constitutional ai",
-        "corrigible",
-        "autonomous"
-      ]
-    },
     {
       "title": "Setting the Scene (Public v1; October 2026)",
       "abstract": "<p><b><strong>Context:</strong></b><span style=\"white-space: pre-wrap;\"> </span><i><em>I created this to share before the start of courses I facilitate to provide a refresher on recent events, but also as a hook to draw students into engaging with some of ideas we think about and debate in AI safety early. I expect the topics I cover in my “Setting the Scene” post to change frequently, so this is less polished than some of my other content. I emphasise to students that these posts are to be cons",
@@ -77,6 +59,32 @@
       ]
     },
     {
+      "title": "Positive and Negative AI Futures",
+      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">I'm continuing to share some notes I created for myself to use when I facilitate AI safety courses. I</span></i><span style=\"white-space: pre-wrap;\"> </span><i><span style=\"white-space: pre-wrap;\">really like using </span></i><a href=\"https://www.youtube.com/watch?v=9iqn1HhFJ6c\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><i><span style=\"white-space: pre-wrap;\">Ilya: the AI scientist shaping the world</span></i></a><i><span style=\"white-space: pr",
+      "url": "https://www.alignmentforum.org/posts/MrWZfxHCEgm7uvHJj/positive-and-negative-ai-futures",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "existential risk"
+      ]
+    },
+    {
+      "title": "Desiderata for the Theory of Agents",
+      "abstract": "<p><strong>TLDR:</strong> I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata.</p> <h1>A Theory of What?</h1> <p>The word \"agent\" is often used in the AI safety discourse and in other research communities, but the intended meaning and scope of this concept varies substantially. For the purpose of this sequence, I informally define an agent to be a system with inputs (\"observ",
+      "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 6,
+      "keywords_matched": [
+        "alignment",
+        "ai safety",
+        "agentic"
+      ]
+    },
+    {
       "title": "Explaining “AI might obliterate you” to senior policymakers in India",
       "abstract": "<p><span style=\"white-space: pre-wrap;\">I gave a 20-minute talk in Delhi at the </span><a href=\"https://www.ndtv.com/world-summit\"><span style=\"white-space: pre-wrap;\">NDTV World Summit</span></a><span style=\"white-space: pre-wrap;\">. The audience consisted of Indian policymakers, executives, and journalists. I’ve transcribed the talk and included some highlight clips. I also reflect on several rhetorical decisions I made.</span></p><h1><span style=\"white-space: pre-wrap;\">The talk</span></h1><d",
       "url": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
@@ -90,15 +98,14 @@
       ]
     },
     {
-      "title": "A Simpler and Better Debate Protocol for Scalable Oversight",
-      "abstract": "<p><span style=\"white-space: pre-wrap;\">Linkpost to arXiv: </span><a href=\"https://arxiv.org/abs/2610.02557\"><span style=\"white-space: pre-wrap;\">https://arxiv.org/abs/2610.02557</span></a></p><p><b><span style=\"white-space: pre-wrap;\">Summary:</span></b><span style=\"white-space: pre-wrap;\"> One promising approach to scalable oversight is </span><a href=\"https://arxiv.org/abs/1805.00899\"><span style=\"white-space: pre-wrap;\">AI debate</span></a><span style=\"white-space: pre-wrap;\">, which seeks t",
-      "url": "https://www.alignmentforum.org/posts/Rct9zd4Nd7H8Xzxz8/a-simpler-and-better-debate-protocol-for-scalable-oversight",
+      "title": "Automating subtle emergent misalignment research",
+      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">Authors: Oscar Balcells Obeso, Richard Qi, Monte MacDiarmid, Evan Hubinger</span></i></p><h2><a href=\"https://alignment.anthropic.com/2026/automated-em-search/\" rel=\"noreferrer\"><span style=\"white-space: pre-wrap;\">Abstract</span></a></h2><blockquote><p><span style=\"white-space: pre-wrap;\">Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automated safety techniques could sca",
+      "url": "https://www.alignmentforum.org/posts/MuQDLAJyKJPFkw6q9/automating-subtle-emergent-misalignment-research",
       "source": "alignment_forum",
       "source_tier": 3,
-      "score": 6,
+      "score": 5,
       "keywords_matched": [
         "alignment",
-        "scalable oversight",
         "autonomous"
       ]
     },
@@ -127,30 +134,6 @@
       ]
     },
     {
-      "title": "The Alignment Problem: Computer Science Meets Analytic Philosophy",
-      "abstract": "<p><strong>TLDR:</strong> I explain what the technical AI alignment problem is and what its core difficulties are, in my view. This is a perspective that draws simultaneously on classical traditions in theoretical computer science / machine learning theory, ideas from analytic philosophy, and views that originated in the Machine Intelligence Research Institute / LessWrong.</p> <h1>Minimal Viable Safety</h1> <h2>The Task</h2> <p>The problem of making AI safe is underspecified if we haven't decide",
-      "url": "https://www.alignmentforum.org/posts/Emp7awtxsYn8MusNq/the-alignment-problem-computer-science-meets-analytic",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "mesa-optimization"
-      ]
-    },
-    {
-      "title": "How we detect frontier model misalignment",
-      "abstract": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "alignment",
-        "frontier model"
-      ]
-    },
-    {
       "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
@@ -164,9 +147,9 @@
       "type": "web_page"
     },
     {
-      "title": "Neural nets are exceptionally vulnerable to goal self-hack",
-      "abstract": "<p><span style=\"white-space: pre-wrap;\">Suppose we have an AI CEO, ruthlessly devoted to maximising shareholder value. Fortunately, we haven't been completely stupid, and have given it a rich definition of shareholder value, encompassing the success, flourishing, safety, preference satisfaction, and moral values of the shareholders, not just the stock price. So it won't destroy the company - or the world - to build a giant stock-ticker with a swiftly increasing number on it.</span></p><p><span s",
-      "url": "https://www.alignmentforum.org/posts/eCR373J3NZwFbacnd/neural-nets-are-exceptionally-vulnerable-to-goal-self-hack",
+      "title": "OpenAI: Astra covertly underperforms on safety research",
+      "abstract": "<img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1793830458/lexical_client_uploads/m8zjcnjztw9qqt1r6s5z.jpg\" /><p><span style=\"white-space: pre-wrap;\">Marcus Williams </span><a href=\"https://x.com/Marcus_J_W/status/2118093146483810386\" rel=\"noreferrer\"><span style=\"white-space: pre-wrap;\">twitter thread</span></a><span style=\"white-space: pre-wrap;\"> (</span><a href=\"https://twitter-thread.com/t/2118093146483810386\" rel=\"noreferrer\"><span style=\"white-space: pre-wrap;\">non",
+      "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
       "source": "alignment_forum",
       "source_tier": 3,
       "score": 4,
@@ -175,14 +158,25 @@
       ]
     },
     {
-      "title": "Legora is building the agentic operating system for legal work",
-      "abstract": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "url": "https://openai.com/index/legora",
+      "title": "A thousand fewer paths to root",
+      "abstract": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
-        "agentic"
+        "autonomous"
+      ]
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "abstract": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "autonomous"
       ]
     },
     {
@@ -234,6 +228,87 @@
       "type": "web_page"
     },
     {
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "abstract": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "abstract": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "abstract": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing Images 2.6",
+      "abstract": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "abstract": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "abstract": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "url": "https://openai.com/index/cisco-cyber",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "abstract": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "url": "https://openai.com/index/heimstaden",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "abstract": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "abstract": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Introducing the Grid Protectors Program",
       "abstract": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "url": "https://openai.com/index/grid-protectors-program",
@@ -243,9 +318,45 @@
       "keywords_matched": []
     },
     {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "abstract": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "abstract": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "LifeVal",
       "abstract": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "url": "https://openai.com/index/lifeval",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Qodo builds context into AI code review with Codex",
+      "abstract": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "abstract": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -273,123 +384,6 @@
       "title": "Fair use benefits everyone",
       "abstract": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
       "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "abstract": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "abstract": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "abstract": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "url": "https://openai.com/index/credit-saison",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "abstract": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "The future of the firm",
-      "abstract": "How AI might enter the org chart—beneath, beside, and between us.",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "abstract": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "url": "https://openai.com/index/retell-ai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "abstract": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "abstract": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "abstract": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Working with academic communities to build scientific understanding",
-      "abstract": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "abstract": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "ChatGPT’s expanding world of work",
-      "abstract": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "abstract": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
