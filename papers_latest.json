@@ -1,18 +1,17 @@
 {
-  "date": "2026-11-16",
-  "total_found": 205,
+  "date": "2026-11-19",
+  "total_found": 252,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 5,
-    "arxiv": 120,
+    "arxiv": 176,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
     "github_openai": 3,
-    "lesswrong": 2,
+    "lesswrong": 3,
     "metr": 11,
     "openai": 20,
-    "semantic_scholar": 10,
     "uk_dsit": 17
   },
   "papers": [
@@ -113,19 +112,6 @@
       ]
     },
     {
-      "title": "Desiderata for the Theory of Agents",
-      "abstract": "<p><strong>TLDR:</strong> I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata.</p> <h1>A Theory of What?</h1> <p>The word \"agent\" is often used in the AI safety discourse and in other research communities, but the intended meaning and scope of this concept varies substantially. For the purpose of this sequence, I informally define an agent to be a system with inputs (\"observ",
-      "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "agentic"
-      ]
-    },
-    {
       "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
@@ -137,6 +123,17 @@
         "agentic"
       ],
       "type": "web_page"
+    },
+    {
+      "title": "Solomonoff induction with reflective oracles",
+      "abstract": "<p><span style=\"white-space: pre-wrap;\">Linkpost for </span><a href=\"https://arxiv.org/html/2611.14454v1\"><span style=\"white-space: pre-wrap;\">https://arxiv.org/html/2611.14454v1</span></a></p><p><span style=\"white-space: pre-wrap;\">Our PIBBSS fellow Damini Kusum wrote an </span><a href=\"https://arxiv.org/html/2611.14454v1\" rel=\"noreferrer\"><span style=\"white-space: pre-wrap;\">excellent paper</span></a><span style=\"white-space: pre-wrap;\"> on prediction with reflective oracle Solomonoff Inductio",
+      "url": "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
     },
     {
       "title": "Ajeya: AI is dramatically accelerating AI research right now",
@@ -154,6 +151,17 @@
       "abstract": "<img alt=\"\" src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1793830458/lexical_client_uploads/m8zjcnjztw9qqt1r6s5z.jpg\" /><p><span style=\"white-space: pre-wrap;\">Marcus Williams </span><a href=\"https://x.com/Marcus_J_W/status/2118093146483810386\" rel=\"noreferrer\"><span style=\"white-space: pre-wrap;\">twitter thread</span></a><span style=\"white-space: pre-wrap;\"> (</span><a href=\"https://twitter-thread.com/t/2118093146483810386\" rel=\"noreferrer\"><span style=\"white-space: pre-wrap;\">non",
       "url": "https://www.alignmentforum.org/posts/eKe7fky8kSt9DCJxZ/openai-astra-covertly-underperforms-on-safety-research",
       "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "alignment"
+      ]
+    },
+    {
+      "title": "Managing frontier AI risk: From training to deployment",
+      "abstract": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "source": "openai",
       "source_tier": 3,
       "score": 4,
       "keywords_matched": [
@@ -180,17 +188,6 @@
       "score": 4,
       "keywords_matched": [
         "alignment"
-      ]
-    },
-    {
-      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "abstract": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-      "url": "https://openai.com/index/jiostar-vijay-seshadri",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "evals"
       ]
     },
     {
@@ -242,6 +239,105 @@
       "type": "web_page"
     },
     {
+      "title": "The Silent Consensus",
+      "abstract": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "abstract": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "abstract": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Inside the Codex sandbox",
+      "abstract": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "abstract": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Advancing chip design with OpenAI models",
+      "abstract": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "abstract": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "abstract": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing ChatGPT for Sales",
+      "abstract": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Astra for Law leads in legal intelligence",
+      "abstract": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Introducing OpenAI for Chile",
+      "abstract": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Strengthening the fight against online child sexual abuse with new tools and support",
       "abstract": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "url": "https://openai.com/index/strengthening-online-child-safety",
@@ -260,18 +356,18 @@
       "keywords_matched": []
     },
     {
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "abstract": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "abstract": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "url": "https://openai.com/business/customer-stories/revolut",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "Advancing computer-use agents for healthcare teams",
-      "abstract": "",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "abstract": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -287,108 +383,9 @@
       "keywords_matched": []
     },
     {
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "abstract": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "A step toward defining the Standard Model on a lattice",
-      "abstract": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Our new blog for science",
-      "abstract": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-      "url": "https://openai.com/index/our-new-blog-for-science",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing ChatGPT Wallet",
-      "abstract": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "abstract": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "abstract": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "abstract": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "abstract": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Supporting research on AI and children’s safety",
-      "abstract": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "url": "https://openai.com/index/children-first-declaration",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "abstract": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "abstract": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Helping caregivers use AI in everyday life",
-      "abstract": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "abstract": "",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -515,9 +512,9 @@
       "type": "web_page"
     },
     {
-      "title": "Apollo Research on the importance of embedded evaluators",
+      "title": "Announcing a pilot towards embedded evaluations with OpenAI",
       "abstract": "",
-      "url": "https://www.apolloresearch.ai/blog/embedded-evaluators-are-necessary-for-meaningful-external-testing",
+      "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
       "source": "apollo_research",
       "source_tier": 3,
       "score": 3,
