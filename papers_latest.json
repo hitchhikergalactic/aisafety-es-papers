@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-19",
-  "total_found": 252,
+  "date": "2026-11-23",
+  "total_found": 224,
   "by_source": {
     "alignment_forum": 10,
     "apollo_research": 5,
-    "arxiv": 176,
+    "arxiv": 148,
     "github_EleutherAI": 3,
     "github_METR": 3,
     "github_deepseek-ai": 1,
@@ -29,6 +29,20 @@
         "evals",
         "frontier model",
         "autonomous"
+      ]
+    },
+    {
+      "title": "Looping a transformer increases no-CoT capabilities more than general capabilities",
+      "abstract": "<p><a href=\"https://www.lesswrong.com/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-likely-undermine-cot\"><span style=\"white-space: pre-wrap;\">Some researchers worry</span></a><span style=\"white-space: pre-wrap;\"> that looping (as in </span><a href=\"https://sebastianraschka.com/llm-architecture-gallery/looped-depth-sharing/\"><span style=\"white-space: pre-wrap;\">looped transformers</span></a><span style=\"white-space: pre-wrap;\">) is a particularly scary way to make AI models more c",
+      "url": "https://www.alignmentforum.org/posts/uxsDuWWHNTpKrsF6P/looping-a-transformer-increases-no-cot-capabilities-more",
+      "source": "alignment_forum",
+      "source_tier": 3,
+      "score": 7,
+      "keywords_matched": [
+        "alignment",
+        "reward hacking",
+        "frontier model",
+        "agentic"
       ]
     },
     {
@@ -99,32 +113,6 @@
       ]
     },
     {
-      "title": "Positive and Negative AI Futures",
-      "abstract": "<p><i><span style=\"white-space: pre-wrap;\">I'm continuing to share some notes I created for myself to use when I facilitate AI safety courses. I</span></i><span style=\"white-space: pre-wrap;\"> </span><i><span style=\"white-space: pre-wrap;\">really like using </span></i><a href=\"https://www.youtube.com/watch?v=9iqn1HhFJ6c\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"><i><span style=\"white-space: pre-wrap;\">Ilya: the AI scientist shaping the world</span></i></a><i><span style=\"white-space: pr",
-      "url": "https://www.alignmentforum.org/posts/MrWZfxHCEgm7uvHJj/positive-and-negative-ai-futures",
-      "source": "alignment_forum",
-      "source_tier": 3,
-      "score": 6,
-      "keywords_matched": [
-        "alignment",
-        "ai safety",
-        "existential risk"
-      ]
-    },
-    {
-      "title": "MALT: A Dataset of Natural and Prompted Behaviors That Threaten Eval IntegrityOctober 14, 2025MALT (Manually-reviewed Agentic Labeled Transcripts) is a dataset of natural and prompted examples of behaviors that threaten evaluation integrity (like generalized reward hacking or sandbagging).Read more",
-      "abstract": "",
-      "url": "https://metr.org/research/blog/2025-10-14-malt-dataset-of-natural-and-prompted-behaviors/",
-      "source": "metr",
-      "source_tier": 3,
-      "score": 5,
-      "keywords_matched": [
-        "reward hacking",
-        "agentic"
-      ],
-      "type": "web_page"
-    },
-    {
       "title": "Solomonoff induction with reflective oracles",
       "abstract": "<p><span style=\"white-space: pre-wrap;\">Linkpost for </span><a href=\"https://arxiv.org/html/2611.14454v1\"><span style=\"white-space: pre-wrap;\">https://arxiv.org/html/2611.14454v1</span></a></p><p><span style=\"white-space: pre-wrap;\">Our PIBBSS fellow Damini Kusum wrote an </span><a href=\"https://arxiv.org/html/2611.14454v1\" rel=\"noreferrer\"><span style=\"white-space: pre-wrap;\">excellent paper</span></a><span style=\"white-space: pre-wrap;\"> on prediction with reflective oracle Solomonoff Inductio",
       "url": "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
@@ -169,28 +157,6 @@
       ]
     },
     {
-      "title": "Broadening access to AI for scientists",
-      "abstract": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "frontier model"
-      ]
-    },
-    {
-      "title": "Our first phase of embedded assessments",
-      "abstract": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 4,
-      "keywords_matched": [
-        "alignment"
-      ]
-    },
-    {
       "title": "[openai/evals] Release 3.0.1 (#1525)",
       "abstract": "<p>Release 3.0.1</p>",
       "url": "https://github.com/openai/evals/releases/tag/3.0.1",
@@ -227,6 +193,18 @@
       "type": "github_release"
     },
     {
+      "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measureNovember 20, 2026This post presents evidence from our capability evaluations of public models relevant to AI R&D accelerationRead more",
+      "abstract": "",
+      "url": "https://metr.org/research/blog/2026-11-20-q4-2026-capability-update/",
+      "source": "metr",
+      "source_tier": 3,
+      "score": 4,
+      "keywords_matched": [
+        "capability evaluation"
+      ],
+      "type": "web_page"
+    },
+    {
       "title": "Frontier Risk Report (February to March 2026)May 19, 2026A pilot assessment of rogue deployment risk at frontier AI companies. Starting in February 2026, METR conducted a pilot exercise to assess misalignment risks from AI agents used inside frontier AI developers, with participation from Anthropic, Google, Meta, and OpenAI.Read more",
       "abstract": "",
       "url": "https://metr.org/research/blog/2026-05-19-frontier-risk-report/",
@@ -239,18 +217,99 @@
       "type": "web_page"
     },
     {
-      "title": "The Silent Consensus",
-      "abstract": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "url": "https://openai.com/index/the-silent-consensus",
+      "title": "Connected intelligence for in-house legal",
+      "abstract": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "Research acceleration: The jagged frontier",
-      "abstract": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "title": "Perplexity and Intelligence",
+      "abstract": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "abstract": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "abstract": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "abstract": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "abstract": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Explore the Codex Security Plugin",
+      "abstract": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "See PR scans in action",
+      "abstract": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Deploying Daybreak Red",
+      "abstract": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "Get started with Daybreak Blue",
+      "abstract": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
+      "title": "The Silent Consensus",
+      "abstract": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "url": "https://openai.com/index/the-silent-consensus",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -266,6 +325,15 @@
       "keywords_matched": []
     },
     {
+      "title": "Research acceleration: The jagged frontier",
+      "abstract": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "openai",
+      "source_tier": 3,
+      "score": 3,
+      "keywords_matched": []
+    },
+    {
       "title": "Inside the Codex sandbox",
       "abstract": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
       "url": "https://openai.com/index/inside-the-codex-sandbox",
@@ -275,18 +343,18 @@
       "keywords_matched": []
     },
     {
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "abstract": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "title": "Advancing chip design with OpenAI models",
+      "abstract": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
       "keywords_matched": []
     },
     {
-      "title": "Advancing chip design with OpenAI models",
-      "abstract": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "abstract": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -314,78 +382,6 @@
       "title": "Introducing ChatGPT for Sales",
       "abstract": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
       "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Astra for Law leads in legal intelligence",
-      "abstract": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Introducing OpenAI for Chile",
-      "abstract": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "abstract": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "abstract": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "How Revolut raises ambition without lowering the bar",
-      "abstract": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "url": "https://openai.com/business/customer-stories/revolut",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "abstract": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "abstract": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "source": "openai",
-      "source_tier": 3,
-      "score": 3,
-      "keywords_matched": []
-    },
-    {
-      "title": "Advancing computer-use agents for healthcare teams",
-      "abstract": "",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "source": "openai",
       "source_tier": 3,
       "score": 3,
@@ -514,7 +510,7 @@
     {
       "title": "Announcing a pilot towards embedded evaluations with OpenAI",
       "abstract": "",
-      "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
+      "url": "https://apolloresearch.ai/research/blog/pilot-towards-embedded-evaluations",
       "source": "apollo_research",
       "source_tier": 3,
       "score": 3,
@@ -524,7 +520,7 @@
     {
       "title": "CEO Marius Hobbhahn speaks on misaligned AI in the U.S. Senate",
       "abstract": "",
-      "url": "https://www.apolloresearch.ai/blog/on-testifying-on-misaligned-ai-in-the-us-senate",
+      "url": "https://apolloresearch.ai/research/blog/on-testifying-on-misaligned-ai-in-the-us-senate",
       "source": "apollo_research",
       "source_tier": 3,
       "score": 3,
